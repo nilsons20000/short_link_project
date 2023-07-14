@@ -320,3 +320,3495 @@ Processing by LinksController#index as HTML
 Completed 200 OK in 13ms (Views: 11.1ms | Allocations: 2822)
 
 
+Started GET "/" for 127.0.0.1 at 2023-07-14 19:11:53 +0300
+Processing by LinksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering links/index.html.erb within layouts/application
+  Rendered links/index.html.erb within layouts/application (Duration: 43.0ms | Allocations: 653)
+  Rendered layout layouts/application.html.erb (Duration: 790.1ms | Allocations: 37810)
+Completed 200 OK in 1213ms (Views: 916.9ms | ActiveRecord: 0.0ms | Allocations: 45182)
+
+
+Started GET "/" for 127.0.0.1 at 2023-07-14 19:26:38 +0300
+Processing by LinksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering links/index.html.erb within layouts/application
+  Rendered links/index.html.erb within layouts/application (Duration: 1.1ms | Allocations: 321)
+  Rendered layout layouts/application.html.erb (Duration: 13.9ms | Allocations: 3299)
+Completed 200 OK in 27ms (Views: 23.4ms | Allocations: 4580)
+
+
+Started GET "/" for 127.0.0.1 at 2023-07-14 19:32:39 +0300
+Processing by LinksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering links/index.html.erb within layouts/application
+  Rendered links/index.html.erb within layouts/application (Duration: 38.5ms | Allocations: 5217)
+  Rendered layout layouts/application.html.erb (Duration: 39.4ms | Allocations: 5305)
+Completed 500 Internal Server Error in 51ms (Allocations: 6595)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `get_random' for #<ActionView::Base:0x0000000000e998>):
+    17: } %>
+    18: 
+    19: 
+    20:  <%= get_random.inspect %>
+  
+app/views/links/index.html.erb:20
+Started GET "/" for 127.0.0.1 at 2023-07-14 19:33:27 +0300
+Processing by LinksController#index as HTML
+Completed 500 Internal Server Error in 3ms (Allocations: 971)
+
+
+  
+NoMethodError (undefined method `has_key?' for nil:NilClass):
+  
+app/controllers/links_controller.rb:30:in `get_random'
+app/controllers/links_controller.rb:8:in `index'
+Started GET "/" for 127.0.0.1 at 2023-07-14 19:37:35 +0300
+Processing by LinksController#index as HTML
+Completed 500 Internal Server Error in 3ms (Allocations: 943)
+
+
+  
+NoMethodError (undefined method `has_key?' for nil:NilClass):
+  
+app/controllers/links_controller.rb:33:in `get_random'
+app/controllers/links_controller.rb:9:in `index'
+Started GET "/" for 127.0.0.1 at 2023-07-14 19:37:37 +0300
+Processing by LinksController#index as HTML
+Completed 500 Internal Server Error in 2ms (Allocations: 925)
+
+
+  
+NoMethodError (undefined method `has_key?' for nil:NilClass):
+  
+app/controllers/links_controller.rb:33:in `get_random'
+app/controllers/links_controller.rb:9:in `index'
+Started GET "/" for 127.0.0.1 at 2023-07-14 19:39:33 +0300
+Processing by LinksController#index as HTML
+Completed 500 Internal Server Error in 2ms (Allocations: 493)
+
+
+  
+ArgumentError (wrong number of arguments (given 0, expected 1)):
+  
+app/controllers/links_controller.rb:31:in `get_random'
+app/controllers/links_controller.rb:9:in `index'
+Started GET "/" for 127.0.0.1 at 2023-07-14 19:39:34 +0300
+Processing by LinksController#index as HTML
+Completed 500 Internal Server Error in 2ms (Allocations: 480)
+
+
+  
+ArgumentError (wrong number of arguments (given 0, expected 1)):
+  
+app/controllers/links_controller.rb:31:in `get_random'
+app/controllers/links_controller.rb:9:in `index'
+Started GET "/" for 127.0.0.1 at 2023-07-14 19:40:11 +0300
+Processing by LinksController#index as HTML
+Completed 500 Internal Server Error in 3ms (Allocations: 487)
+
+
+  
+ArgumentError (wrong number of arguments (given 0, expected 1)):
+  
+app/controllers/links_controller.rb:31:in `get_random'
+app/controllers/links_controller.rb:9:in `index'
+Started GET "/" for 127.0.0.1 at 2023-07-14 19:41:22 +0300
+Processing by LinksController#index as HTML
+Completed 500 Internal Server Error in 2ms (Allocations: 487)
+
+
+  
+ArgumentError (wrong number of arguments (given 0, expected 1)):
+  
+app/controllers/links_controller.rb:32:in `get_random'
+app/controllers/links_controller.rb:9:in `index'
+Started GET "/" for 127.0.0.1 at 2023-07-14 19:41:38 +0300
+Processing by LinksController#index as HTML
+Completed 500 Internal Server Error in 2ms (Allocations: 540)
+
+
+  
+ArgumentError (wrong number of arguments (given 0, expected 1)):
+  
+app/controllers/links_controller.rb:35:in `get_random'
+app/controllers/links_controller.rb:12:in `index'
+Started GET "/" for 127.0.0.1 at 2023-07-14 19:43:14 +0300
+Processing by LinksController#index as HTML
+Completed 500 Internal Server Error in 9ms (Allocations: 3065)
+
+
+  
+NameError (undefined local variable or method `generate_short_url' for #<LinksController:0x00000000029a68>
+Did you mean?  generate_csrf_token):
+  
+app/controllers/links_controller.rb:3:in `index'
+Started GET "/" for 127.0.0.1 at 2023-07-14 19:44:25 +0300
+Processing by LinksController#index as HTML
+Completed 500 Internal Server Error in 11ms (Allocations: 3064)
+
+
+  
+NameError (undefined local variable or method `generate_short_url' for #<LinksController:0x0000000002d848>
+Did you mean?  generate_csrf_token):
+  
+app/controllers/links_controller.rb:4:in `index'
+Started GET "/" for 127.0.0.1 at 2023-07-14 19:45:25 +0300
+Processing by LinksController#index as HTML
+Completed 500 Internal Server Error in 10ms (Allocations: 3060)
+
+
+  
+NameError (undefined local variable or method `generate_short_url' for #<LinksController:0x00000000031650>
+Did you mean?  generate_csrf_token):
+  
+app/controllers/links_controller.rb:4:in `index'
+Started GET "/" for 127.0.0.1 at 2023-07-14 19:46:31 +0300
+Processing by LinksController#index as HTML
+Completed 500 Internal Server Error in 11ms (Allocations: 3060)
+
+
+  
+NameError (undefined local variable or method `generate_short_url' for #<LinksController:0x00000000035480>
+Did you mean?  generate_csrf_token):
+  
+app/controllers/links_controller.rb:5:in `index'
+Started GET "/" for 127.0.0.1 at 2023-07-14 19:46:32 +0300
+Processing by LinksController#index as HTML
+Completed 500 Internal Server Error in 13ms (Allocations: 3042)
+
+
+  
+NameError (undefined local variable or method `generate_short_url' for #<LinksController:0x00000000035840>
+Did you mean?  generate_csrf_token):
+  
+app/controllers/links_controller.rb:5:in `index'
+Started GET "/" for 127.0.0.1 at 2023-07-14 19:46:33 +0300
+Processing by LinksController#index as HTML
+Completed 500 Internal Server Error in 8ms (Allocations: 3042)
+
+
+  
+NameError (undefined local variable or method `generate_short_url' for #<LinksController:0x00000000035bd8>
+Did you mean?  generate_csrf_token):
+  
+app/controllers/links_controller.rb:5:in `index'
+Started GET "/" for 127.0.0.1 at 2023-07-14 19:46:47 +0300
+Processing by LinksController#index as HTML
+Completed 500 Internal Server Error in 2ms (Allocations: 518)
+
+
+  
+ArgumentError (wrong number of arguments (given 1, expected 0)):
+  
+app/controllers/links_controller.rb:11:in `get_random'
+app/controllers/links_controller.rb:7:in `index'
+Started GET "/" for 127.0.0.1 at 2023-07-14 19:48:00 +0300
+Processing by LinksController#index as HTML
+Completed 500 Internal Server Error in 3ms (Allocations: 465)
+
+
+  
+ArgumentError (wrong number of arguments (given 1, expected 0)):
+  
+app/controllers/links_controller.rb:10:in `get_random'
+app/controllers/links_controller.rb:6:in `index'
+Started GET "/" for 127.0.0.1 at 2023-07-14 19:48:56 +0300
+Processing by LinksController#index as HTML
+Completed 500 Internal Server Error in 7ms (Allocations: 465)
+
+
+  
+ArgumentError (wrong number of arguments (given 1, expected 0)):
+  
+app/controllers/links_controller.rb:10:in `get_random'
+app/controllers/links_controller.rb:6:in `index'
+Started GET "/" for 127.0.0.1 at 2023-07-14 19:49:28 +0300
+Processing by LinksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering links/index.html.erb within layouts/application
+  Rendered links/index.html.erb within layouts/application (Duration: 6.6ms | Allocations: 4298)
+  Rendered layout layouts/application.html.erb (Duration: 7.6ms | Allocations: 4376)
+Completed 500 Internal Server Error in 16ms (Allocations: 5615)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `links_hash' for #<ActionView::Base:0x00000000045538>
+Did you mean?  links_index_path):
+     7: } %>
+     8: 
+     9: 
+    10:  <%= links_hash.inspect %>
+  
+app/views/links/index.html.erb:10
+Started GET "/" for 127.0.0.1 at 2023-07-14 19:50:10 +0300
+Processing by LinksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering links/index.html.erb within layouts/application
+  Rendered links/index.html.erb within layouts/application (Duration: 5.0ms | Allocations: 4246)
+  Rendered layout layouts/application.html.erb (Duration: 5.6ms | Allocations: 4324)
+Completed 500 Internal Server Error in 15ms (Allocations: 5600)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `variable' for #<ActionView::Base:0x000000000494f8>):
+     7: } %>
+     8: 
+     9: 
+    10:  <%= variable.inspect %>
+  
+app/views/links/index.html.erb:10
+Started GET "/" for 127.0.0.1 at 2023-07-14 19:50:27 +0300
+Processing by LinksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering links/index.html.erb within layouts/application
+  Rendered links/index.html.erb within layouts/application (Duration: 6.0ms | Allocations: 4112)
+  Rendered layout layouts/application.html.erb (Duration: 7.0ms | Allocations: 4190)
+Completed 500 Internal Server Error in 12ms (Allocations: 5055)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `variable' for #<ActionView::Base:0x0000000004d378>
+Did you mean?  @variable):
+     7: } %>
+     8: 
+     9: 
+    10:  <%= variable.inspect %>
+  
+app/views/links/index.html.erb:10
+Started GET "/" for 127.0.0.1 at 2023-07-14 19:50:34 +0300
+Processing by LinksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering links/index.html.erb within layouts/application
+  Rendered links/index.html.erb within layouts/application (Duration: 2.9ms | Allocations: 229)
+  Rendered layout layouts/application.html.erb (Duration: 54.3ms | Allocations: 14920)
+Completed 200 OK in 66ms (Views: 62.3ms | Allocations: 16148)
+
+
+Started GET "/" for 127.0.0.1 at 2023-07-14 19:50:38 +0300
+Processing by LinksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering links/index.html.erb within layouts/application
+  Rendered links/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 17)
+  Rendered layout layouts/application.html.erb (Duration: 31.7ms | Allocations: 14389)
+Completed 200 OK in 36ms (Views: 34.1ms | Allocations: 15285)
+
+
+Started GET "/" for 127.0.0.1 at 2023-07-14 19:51:48 +0300
+Processing by LinksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering links/index.html.erb within layouts/application
+  Rendered links/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 18)
+  Rendered layout layouts/application.html.erb (Duration: 38.8ms | Allocations: 14479)
+Completed 200 OK in 43ms (Views: 40.8ms | Allocations: 15377)
+
+
+Started GET "/" for 127.0.0.1 at 2023-07-14 19:52:03 +0300
+  
+SyntaxError (C:/wamp/www/link/app/controllers/links_controller.rb:7: syntax error, unexpected '}', expecting =>
+...   @@links_hash[link] = { link}
+...                              ^
+):
+  
+app/controllers/links_controller.rb:7: syntax error, unexpected '}', expecting =>
+app/controllers/links_controller.rb:7: syntax error, unexpected '}', expecting =>
+app/controllers/links_controller.rb:7: syntax error, unexpected '}', expecting =>
+Started GET "/" for 127.0.0.1 at 2023-07-14 19:52:22 +0300
+Processing by LinksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering links/index.html.erb within layouts/application
+  Rendered links/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 18)
+  Rendered layout layouts/application.html.erb (Duration: 37.7ms | Allocations: 14430)
+Completed 200 OK in 44ms (Views: 40.1ms | Allocations: 15328)
+
+
+Started GET "/" for 127.0.0.1 at 2023-07-14 19:53:53 +0300
+Processing by LinksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering links/index.html.erb within layouts/application
+  Rendered links/index.html.erb within layouts/application (Duration: 1.1ms | Allocations: 230)
+  Rendered layout layouts/application.html.erb (Duration: 31.5ms | Allocations: 14894)
+Completed 200 OK in 41ms (Views: 37.9ms | Allocations: 16208)
+
+
+Started GET "/" for 127.0.0.1 at 2023-07-14 19:53:55 +0300
+Processing by LinksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering links/index.html.erb within layouts/application
+  Rendered links/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 12)
+  Rendered layout layouts/application.html.erb (Duration: 7.7ms | Allocations: 2456)
+Completed 200 OK in 12ms (Views: 10.0ms | Allocations: 2825)
+
+
+Started GET "/" for 127.0.0.1 at 2023-07-14 19:53:57 +0300
+Processing by LinksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering links/index.html.erb within layouts/application
+  Rendered links/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 12)
+  Rendered layout layouts/application.html.erb (Duration: 7.6ms | Allocations: 2461)
+Completed 200 OK in 11ms (Views: 9.0ms | Allocations: 2815)
+
+
+Started GET "/" for 127.0.0.1 at 2023-07-14 19:54:04 +0300
+Processing by LinksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering links/index.html.erb within layouts/application
+  Rendered links/index.html.erb within layouts/application (Duration: 1.2ms | Allocations: 211)
+  Rendered layout layouts/application.html.erb (Duration: 11.6ms | Allocations: 3170)
+Completed 200 OK in 24ms (Views: 20.2ms | Allocations: 4387)
+
+
+Started GET "/" for 127.0.0.1 at 2023-07-14 19:54:22 +0300
+Processing by LinksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering links/index.html.erb within layouts/application
+  Rendered links/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 19)
+  Rendered layout layouts/application.html.erb (Duration: 34.2ms | Allocations: 14492)
+Completed 200 OK in 40ms (Views: 37.2ms | Allocations: 15393)
+
+
+Started GET "/" for 127.0.0.1 at 2023-07-14 19:54:52 +0300
+Processing by LinksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering links/index.html.erb within layouts/application
+  Rendered links/index.html.erb within layouts/application (Duration: 5.3ms | Allocations: 2879)
+  Rendered layout layouts/application.html.erb (Duration: 6.1ms | Allocations: 2957)
+Completed 500 Internal Server Error in 19ms (Allocations: 4236)
+
+
+  
+ActionView::Template::Error (uninitialized class variable @@links_hash in #<Class:0x000001d348db2cd0>):
+    6: } %>
+    7: 
+    8: 
+    9:  <%=  @@links_hash.inspect %>
+  
+app/views/links/index.html.erb:9
+Started GET "/" for 127.0.0.1 at 2023-07-14 19:54:57 +0300
+Processing by LinksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering links/index.html.erb within layouts/application
+  Rendered links/index.html.erb within layouts/application (Duration: 1.0ms | Allocations: 209)
+  Rendered layout layouts/application.html.erb (Duration: 42.7ms | Allocations: 14964)
+Completed 200 OK in 60ms (Views: 53.0ms | Allocations: 16192)
+
+
+Started GET "/" for 127.0.0.1 at 2023-07-14 19:56:00 +0300
+Processing by LinksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering links/index.html.erb within layouts/application
+  Rendered links/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 16)
+  Rendered layout layouts/application.html.erb (Duration: 33.9ms | Allocations: 14445)
+Completed 200 OK in 38ms (Views: 36.3ms | Allocations: 15312)
+
+
+Started GET "/" for 127.0.0.1 at 2023-07-14 19:56:01 +0300
+Processing by LinksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering links/index.html.erb within layouts/application
+  Rendered links/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 10)
+  Rendered layout layouts/application.html.erb (Duration: 7.9ms | Allocations: 2449)
+Completed 200 OK in 12ms (Views: 9.0ms | Allocations: 2794)
+
+
+Started GET "/" for 127.0.0.1 at 2023-07-14 19:56:13 +0300
+Processing by LinksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering links/index.html.erb within layouts/application
+  Rendered links/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 16)
+  Rendered layout layouts/application.html.erb (Duration: 37.9ms | Allocations: 14404)
+Completed 200 OK in 44ms (Views: 40.8ms | Allocations: 15271)
+
+
+Started GET "/" for 127.0.0.1 at 2023-07-14 19:56:26 +0300
+Processing by LinksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering links/index.html.erb within layouts/application
+  Rendered links/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 16)
+  Rendered layout layouts/application.html.erb (Duration: 39.9ms | Allocations: 14395)
+Completed 200 OK in 44ms (Views: 41.8ms | Allocations: 15262)
+
+
+Started GET "/" for 127.0.0.1 at 2023-07-14 19:57:03 +0300
+Processing by LinksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering links/index.html.erb within layouts/application
+  Rendered links/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 16)
+  Rendered layout layouts/application.html.erb (Duration: 27.1ms | Allocations: 14390)
+Completed 200 OK in 32ms (Views: 29.7ms | Allocations: 15288)
+
+
+Started GET "/" for 127.0.0.1 at 2023-07-14 19:57:12 +0300
+Processing by LinksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering links/index.html.erb within layouts/application
+  Rendered links/index.html.erb within layouts/application (Duration: 1.0ms | Allocations: 217)
+  Rendered layout layouts/application.html.erb (Duration: 20.4ms | Allocations: 3163)
+Completed 200 OK in 33ms (Views: 29.1ms | Allocations: 4415)
+
+
+Started GET "/" for 127.0.0.1 at 2023-07-14 19:58:01 +0300
+Processing by LinksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering links/index.html.erb within layouts/application
+  Rendered links/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 22)
+  Rendered layout layouts/application.html.erb (Duration: 10.3ms | Allocations: 2467)
+Completed 200 OK in 13ms (Views: 11.6ms | Allocations: 2834)
+
+
+Started GET "/" for 127.0.0.1 at 2023-07-14 19:58:02 +0300
+Processing by LinksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering links/index.html.erb within layouts/application
+  Rendered links/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 26)
+  Rendered layout layouts/application.html.erb (Duration: 8.9ms | Allocations: 2474)
+Completed 200 OK in 12ms (Views: 10.2ms | Allocations: 2825)
+
+
+Started GET "/" for 127.0.0.1 at 2023-07-14 19:58:03 +0300
+Processing by LinksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering links/index.html.erb within layouts/application
+  Rendered links/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 30)
+  Rendered layout layouts/application.html.erb (Duration: 9.9ms | Allocations: 2476)
+Completed 200 OK in 14ms (Views: 11.2ms | Allocations: 2827)
+
+
+Started GET "/" for 127.0.0.1 at 2023-07-14 19:58:04 +0300
+Processing by LinksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering links/index.html.erb within layouts/application
+  Rendered links/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 34)
+  Rendered layout layouts/application.html.erb (Duration: 10.1ms | Allocations: 2498)
+Completed 200 OK in 14ms (Views: 11.8ms | Allocations: 2849)
+
+
+Started GET "/" for 127.0.0.1 at 2023-07-14 19:58:04 +0300
+Processing by LinksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering links/index.html.erb within layouts/application
+  Rendered links/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 38)
+  Rendered layout layouts/application.html.erb (Duration: 6.5ms | Allocations: 2483)
+Completed 200 OK in 10ms (Views: 7.7ms | Allocations: 2834)
+
+
+Started GET "/" for 127.0.0.1 at 2023-07-14 19:58:05 +0300
+Processing by LinksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering links/index.html.erb within layouts/application
+  Rendered links/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 6.4ms | Allocations: 2497)
+Completed 200 OK in 9ms (Views: 7.6ms | Allocations: 2848)
+
+
+Started GET "/" for 127.0.0.1 at 2023-07-14 19:58:05 +0300
+Processing by LinksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering links/index.html.erb within layouts/application
+  Rendered links/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 46)
+  Rendered layout layouts/application.html.erb (Duration: 8.4ms | Allocations: 2495)
+Completed 200 OK in 12ms (Views: 9.8ms | Allocations: 2846)
+
+
+Started GET "/" for 127.0.0.1 at 2023-07-14 19:58:06 +0300
+Processing by LinksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering links/index.html.erb within layouts/application
+  Rendered links/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 50)
+  Rendered layout layouts/application.html.erb (Duration: 10.0ms | Allocations: 2489)
+Completed 200 OK in 14ms (Views: 11.5ms | Allocations: 2840)
+
+
+Started GET "/" for 127.0.0.1 at 2023-07-14 19:58:06 +0300
+Processing by LinksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering links/index.html.erb within layouts/application
+  Rendered links/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 54)
+  Rendered layout layouts/application.html.erb (Duration: 7.1ms | Allocations: 2501)
+Completed 200 OK in 10ms (Views: 8.3ms | Allocations: 2852)
+
+
+Started GET "/" for 127.0.0.1 at 2023-07-14 19:58:06 +0300
+Processing by LinksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering links/index.html.erb within layouts/application
+  Rendered links/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 58)
+  Rendered layout layouts/application.html.erb (Duration: 6.7ms | Allocations: 2507)
+Completed 200 OK in 10ms (Views: 8.2ms | Allocations: 2858)
+
+
+Started GET "/" for 127.0.0.1 at 2023-07-14 19:58:07 +0300
+Processing by LinksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering links/index.html.erb within layouts/application
+  Rendered links/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 62)
+  Rendered layout layouts/application.html.erb (Duration: 8.9ms | Allocations: 2501)
+Completed 200 OK in 13ms (Views: 10.3ms | Allocations: 2852)
+
+
+Started GET "/" for 127.0.0.1 at 2023-07-14 19:58:07 +0300
+Processing by LinksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering links/index.html.erb within layouts/application
+  Rendered links/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 66)
+  Rendered layout layouts/application.html.erb (Duration: 7.9ms | Allocations: 2505)
+Completed 200 OK in 12ms (Views: 9.5ms | Allocations: 2856)
+
+
+Started GET "/" for 127.0.0.1 at 2023-07-14 19:58:07 +0300
+Processing by LinksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering links/index.html.erb within layouts/application
+  Rendered links/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 70)
+  Rendered layout layouts/application.html.erb (Duration: 7.8ms | Allocations: 2523)
+Completed 200 OK in 11ms (Views: 9.1ms | Allocations: 2874)
+
+
+Started GET "/" for 127.0.0.1 at 2023-07-14 19:58:08 +0300
+Processing by LinksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering links/index.html.erb within layouts/application
+  Rendered links/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 74)
+  Rendered layout layouts/application.html.erb (Duration: 9.0ms | Allocations: 2520)
+Completed 200 OK in 13ms (Views: 10.5ms | Allocations: 2871)
+
+
+Started GET "/" for 127.0.0.1 at 2023-07-14 19:58:08 +0300
+Processing by LinksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering links/index.html.erb within layouts/application
+  Rendered links/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 78)
+  Rendered layout layouts/application.html.erb (Duration: 9.3ms | Allocations: 2521)
+Completed 200 OK in 12ms (Views: 10.5ms | Allocations: 2872)
+
+
+Started GET "/" for 127.0.0.1 at 2023-07-14 19:58:08 +0300
+Processing by LinksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering links/index.html.erb within layouts/application
+  Rendered links/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 82)
+  Rendered layout layouts/application.html.erb (Duration: 6.9ms | Allocations: 2537)
+Completed 200 OK in 10ms (Views: 8.2ms | Allocations: 2888)
+
+
+Started GET "/" for 127.0.0.1 at 2023-07-14 19:58:08 +0300
+Processing by LinksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering links/index.html.erb within layouts/application
+  Rendered links/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 86)
+  Rendered layout layouts/application.html.erb (Duration: 8.5ms | Allocations: 2527)
+Completed 200 OK in 11ms (Views: 9.7ms | Allocations: 2878)
+
+
+Started GET "/" for 127.0.0.1 at 2023-07-14 19:58:09 +0300
+Processing by LinksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering links/index.html.erb within layouts/application
+  Rendered links/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 90)
+  Rendered layout layouts/application.html.erb (Duration: 8.0ms | Allocations: 2547)
+Completed 200 OK in 12ms (Views: 9.6ms | Allocations: 2898)
+
+
+Started GET "/" for 127.0.0.1 at 2023-07-14 19:58:09 +0300
+Processing by LinksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering links/index.html.erb within layouts/application
+  Rendered links/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 94)
+  Rendered layout layouts/application.html.erb (Duration: 7.2ms | Allocations: 2537)
+Completed 200 OK in 11ms (Views: 9.1ms | Allocations: 2888)
+
+
+Started GET "/" for 127.0.0.1 at 2023-07-14 20:03:41 +0300
+Processing by LinksController#index as HTML
+Completed 500 Internal Server Error in 7ms (Allocations: 3000)
+
+
+  
+NameError (undefined local variable or method `get_random' for #<LinksController:0x0000000007c1f0>):
+  
+app/controllers/links_controller.rb:6:in `index'
+Started GET "/" for 127.0.0.1 at 2023-07-14 20:03:49 +0300
+Processing by LinksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering links/index.html.erb within layouts/application
+  Rendered links/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 19)
+  Rendered layout layouts/application.html.erb (Duration: 47.8ms | Allocations: 14493)
+Completed 200 OK in 52ms (Views: 50.3ms | Allocations: 15371)
+
+
+Started GET "/" for 127.0.0.1 at 2023-07-14 20:07:20 +0300
+Processing by LinksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering links/index.html.erb within layouts/application
+  Rendered links/index.html.erb within layouts/application (Duration: 1.1ms | Allocations: 181)
+  Rendered layout layouts/application.html.erb (Duration: 49.2ms | Allocations: 14790)
+Completed 200 OK in 62ms (Views: 58.3ms | Allocations: 16078)
+
+
+Started GET "/" for 127.0.0.1 at 2023-07-14 20:10:59 +0300
+Processing by LinksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering links/index.html.erb within layouts/application
+  Rendered links/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 17)
+  Rendered layout layouts/application.html.erb (Duration: 8.9ms | Allocations: 2458)
+Completed 200 OK in 13ms (Views: 10.3ms | Allocations: 2810)
+
+
+Started GET "/" for 127.0.0.1 at 2023-07-14 20:35:48 +0300
+Processing by LinksController#index as HTML
+Completed 500 Internal Server Error in 7ms (Allocations: 3009)
+
+
+  
+NameError (undefined local variable or method `short_link' for #<LinksController:0x00000000087dc0>):
+  
+app/controllers/links_controller.rb:21:in `get_random_short_symbol'
+app/controllers/links_controller.rb:6:in `index'
+Started GET "/" for 127.0.0.1 at 2023-07-14 20:36:21 +0300
+Processing by LinksController#index as HTML
+Completed 500 Internal Server Error in 7ms (Allocations: 3056)
+
+
+  
+NameError (undefined local variable or method `link' for #<LinksController:0x0000000008bee8>):
+  
+app/controllers/links_controller.rb:7:in `index'
+Started GET "/" for 127.0.0.1 at 2023-07-14 20:36:36 +0300
+Processing by LinksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering links/index.html.erb within layouts/application
+  Rendered links/index.html.erb within layouts/application (Duration: 5.0ms | Allocations: 2916)
+  Rendered layout layouts/application.html.erb (Duration: 6.3ms | Allocations: 2994)
+Completed 500 Internal Server Error in 19ms (Allocations: 4221)
+
+
+  
+ActionView::Template::Error (uninitialized class variable @@long_link in #<Class:0x000001d3489fbe98>):
+    2: 
+    3: 
+    4:  <%=  @variable.inspect %>
+    5:  <%=  @@long_link.inspect %>
+  
+app/views/links/index.html.erb:5
+Started GET "/" for 127.0.0.1 at 2023-07-14 20:36:42 +0300
+Processing by LinksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering links/index.html.erb within layouts/application
+  Rendered links/index.html.erb within layouts/application (Duration: 1.2ms | Allocations: 204)
+  Rendered layout layouts/application.html.erb (Duration: 99.5ms | Allocations: 14891)
+Completed 200 OK in 109ms (Views: 105.7ms | Allocations: 16103)
+
+
+Started GET "/" for 127.0.0.1 at 2023-07-14 20:36:58 +0300
+Processing by LinksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering links/index.html.erb within layouts/application
+  Rendered links/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 22)
+  Rendered layout layouts/application.html.erb (Duration: 33.3ms | Allocations: 14394)
+Completed 200 OK in 39ms (Views: 36.1ms | Allocations: 15278)
+
+
+Started GET "/" for 127.0.0.1 at 2023-07-14 20:37:01 +0300
+Processing by LinksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering links/index.html.erb within layouts/application
+  Rendered links/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 20)
+  Rendered layout layouts/application.html.erb (Duration: 7.1ms | Allocations: 2469)
+Completed 200 OK in 11ms (Views: 8.7ms | Allocations: 2826)
+
+
+Started GET "/" for 127.0.0.1 at 2023-07-14 20:37:02 +0300
+Processing by LinksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering links/index.html.erb within layouts/application
+  Rendered links/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 24)
+  Rendered layout layouts/application.html.erb (Duration: 9.0ms | Allocations: 2473)
+Completed 200 OK in 13ms (Views: 10.2ms | Allocations: 2815)
+
+
+Started GET "/" for 127.0.0.1 at 2023-07-14 20:37:02 +0300
+Processing by LinksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering links/index.html.erb within layouts/application
+  Rendered links/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 28)
+  Rendered layout layouts/application.html.erb (Duration: 6.8ms | Allocations: 2475)
+Completed 200 OK in 11ms (Views: 8.0ms | Allocations: 2817)
+
+
+Started GET "/" for 127.0.0.1 at 2023-07-14 20:37:12 +0300
+Processing by LinksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering links/index.html.erb within layouts/application
+  Rendered links/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 22)
+  Rendered layout layouts/application.html.erb (Duration: 39.4ms | Allocations: 14406)
+Completed 200 OK in 44ms (Views: 41.6ms | Allocations: 15288)
+
+
+Started GET "/" for 127.0.0.1 at 2023-07-14 20:37:16 +0300
+Processing by LinksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering links/index.html.erb within layouts/application
+  Rendered links/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 22)
+  Rendered layout layouts/application.html.erb (Duration: 42.9ms | Allocations: 14520)
+Completed 200 OK in 49ms (Views: 45.2ms | Allocations: 15403)
+
+
+Started GET "/" for 127.0.0.1 at 2023-07-14 20:37:26 +0300
+Processing by LinksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering links/index.html.erb within layouts/application
+  Rendered links/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 20)
+  Rendered layout layouts/application.html.erb (Duration: 9.0ms | Allocations: 2471)
+Completed 200 OK in 13ms (Views: 10.0ms | Allocations: 2828)
+
+
+Started GET "/" for 127.0.0.1 at 2023-07-14 20:37:44 +0300
+Processing by LinksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering links/index.html.erb within layouts/application
+  Rendered links/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 22)
+  Rendered layout layouts/application.html.erb (Duration: 32.9ms | Allocations: 14461)
+Completed 200 OK in 37ms (Views: 35.2ms | Allocations: 15343)
+
+
+Started GET "/" for 127.0.0.1 at 2023-07-14 20:37:45 +0300
+Processing by LinksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering links/index.html.erb within layouts/application
+  Rendered links/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 20)
+  Rendered layout layouts/application.html.erb (Duration: 10.7ms | Allocations: 2483)
+Completed 200 OK in 14ms (Views: 11.9ms | Allocations: 2839)
+
+
+Started GET "/" for 127.0.0.1 at 2023-07-14 20:37:46 +0300
+Processing by LinksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering links/index.html.erb within layouts/application
+  Rendered links/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 24)
+  Rendered layout layouts/application.html.erb (Duration: 6.6ms | Allocations: 2473)
+Completed 200 OK in 9ms (Views: 7.6ms | Allocations: 2814)
+
+
+Started GET "/" for 127.0.0.1 at 2023-07-14 20:38:08 +0300
+Processing by LinksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering links/index.html.erb within layouts/application
+  Rendered links/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 22)
+  Rendered layout layouts/application.html.erb (Duration: 45.1ms | Allocations: 14391)
+Completed 200 OK in 51ms (Views: 47.9ms | Allocations: 15271)
+
+
+Started GET "/" for 127.0.0.1 at 2023-07-14 20:38:15 +0300
+Processing by LinksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering links/index.html.erb within layouts/application
+  Rendered links/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 22)
+  Rendered layout layouts/application.html.erb (Duration: 29.6ms | Allocations: 14494)
+Completed 200 OK in 35ms (Views: 31.8ms | Allocations: 15375)
+
+
+Started GET "/" for 127.0.0.1 at 2023-07-14 20:38:24 +0300
+Processing by LinksController#index as HTML
+Completed 500 Internal Server Error in 6ms (Allocations: 3125)
+
+
+  
+NameError (undefined local variable or method `link' for #<LinksController:0x000000000ab9a0>):
+  
+app/controllers/links_controller.rb:33:in `encode'
+app/controllers/links_controller.rb:12:in `index'
+Started GET "/" for 127.0.0.1 at 2023-07-14 20:38:48 +0300
+Processing by LinksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering links/index.html.erb within layouts/application
+  Rendered links/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 23)
+  Rendered layout layouts/application.html.erb (Duration: 31.8ms | Allocations: 14504)
+Completed 200 OK in 38ms (Views: 34.4ms | Allocations: 15385)
+
+
+Started GET "/" for 127.0.0.1 at 2023-07-14 20:44:30 +0300
+Processing by LinksController#index as HTML
+Completed 500 Internal Server Error in 8ms (Allocations: 2986)
+
+
+  
+NameError (undefined local variable or method `short_link' for #<LinksController:0x000000000b3c90>):
+  
+app/controllers/links_controller.rb:28:in `decode'
+app/controllers/links_controller.rb:14:in `index'
+Started GET "/" for 127.0.0.1 at 2023-07-14 20:44:36 +0300
+Processing by LinksController#index as HTML
+Completed 500 Internal Server Error in 7ms (Allocations: 3040)
+
+
+  
+NameError (undefined local variable or method `short_link' for #<LinksController:0x000000000b8100>):
+  
+app/controllers/links_controller.rb:29:in `decode'
+app/controllers/links_controller.rb:14:in `index'
+Started GET "/" for 127.0.0.1 at 2023-07-14 20:44:50 +0300
+Processing by LinksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering links/index.html.erb within layouts/application
+  Rendered links/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 24)
+  Rendered layout layouts/application.html.erb (Duration: 42.7ms | Allocations: 14488)
+Completed 200 OK in 49ms (Views: 46.7ms | Allocations: 15369)
+
+
+Started GET "/" for 127.0.0.1 at 2023-07-14 20:45:25 +0300
+Processing by LinksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering links/index.html.erb within layouts/application
+  Rendered links/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 24)
+  Rendered layout layouts/application.html.erb (Duration: 35.7ms | Allocations: 14390)
+Completed 200 OK in 41ms (Views: 38.3ms | Allocations: 15271)
+
+
+Started GET "/" for 127.0.0.1 at 2023-07-14 20:45:46 +0300
+Processing by LinksController#index as HTML
+Completed 500 Internal Server Error in 10ms (Allocations: 3029)
+
+
+  
+NameError (undefined local variable or method `links_hash_array' for #<LinksController:0x000000000c0440>
+Did you mean?  @@links_hash_array):
+  
+app/controllers/links_controller.rb:22:in `get_random_short_symbol'
+app/controllers/links_controller.rb:7:in `index'
+Started GET "/" for 127.0.0.1 at 2023-07-14 20:45:50 +0300
+Processing by LinksController#index as HTML
+Completed 500 Internal Server Error in 9ms (Allocations: 2998)
+
+
+  
+NameError (undefined local variable or method `links_hash_array' for #<LinksController:0x000000000c07d8>
+Did you mean?  @@links_hash_array):
+  
+app/controllers/links_controller.rb:22:in `get_random_short_symbol'
+app/controllers/links_controller.rb:7:in `index'
+Started GET "/" for 127.0.0.1 at 2023-07-14 20:45:59 +0300
+Processing by LinksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering links/index.html.erb within layouts/application
+  Rendered links/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 24)
+  Rendered layout layouts/application.html.erb (Duration: 38.3ms | Allocations: 14495)
+Completed 200 OK in 43ms (Views: 40.7ms | Allocations: 15376)
+
+
+Started GET "/" for 127.0.0.1 at 2023-07-14 20:46:00 +0300
+Processing by LinksController#index as HTML
+Completed 500 Internal Server Error in 9ms (Allocations: 3028)
+
+
+  
+NameError (undefined local variable or method `links_hash_array' for #<LinksController:0x000000000c4ab8>
+Did you mean?  @@links_hash_array):
+  
+app/controllers/links_controller.rb:22:in `get_random_short_symbol'
+app/controllers/links_controller.rb:7:in `index'
+Started GET "/" for 127.0.0.1 at 2023-07-14 20:46:14 +0300
+Processing by LinksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering links/index.html.erb within layouts/application
+  Rendered links/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 24)
+  Rendered layout layouts/application.html.erb (Duration: 28.5ms | Allocations: 14396)
+Completed 200 OK in 33ms (Views: 30.6ms | Allocations: 15277)
+
+
+Started GET "/" for 127.0.0.1 at 2023-07-14 20:46:14 +0300
+Processing by LinksController#index as HTML
+Completed 500 Internal Server Error in 8ms (Allocations: 3032)
+
+
+  
+NameError (undefined local variable or method `links_hash_array' for #<LinksController:0x000000000c8d70>
+Did you mean?  @@links_hash_array):
+  
+app/controllers/links_controller.rb:22:in `get_random_short_symbol'
+app/controllers/links_controller.rb:7:in `index'
+Started GET "/" for 127.0.0.1 at 2023-07-14 20:46:15 +0300
+Processing by LinksController#index as HTML
+Completed 500 Internal Server Error in 8ms (Allocations: 3002)
+
+
+  
+NameError (undefined local variable or method `links_hash_array' for #<LinksController:0x000000000c9108>
+Did you mean?  @@links_hash_array):
+  
+app/controllers/links_controller.rb:22:in `get_random_short_symbol'
+app/controllers/links_controller.rb:7:in `index'
+Started GET "/" for 127.0.0.1 at 2023-07-14 20:46:15 +0300
+Processing by LinksController#index as HTML
+Completed 500 Internal Server Error in 8ms (Allocations: 3002)
+
+
+  
+NameError (undefined local variable or method `links_hash_array' for #<LinksController:0x000000000c9450>
+Did you mean?  @@links_hash_array):
+  
+app/controllers/links_controller.rb:22:in `get_random_short_symbol'
+app/controllers/links_controller.rb:7:in `index'
+Started GET "/" for 127.0.0.1 at 2023-07-14 20:46:15 +0300
+Processing by LinksController#index as HTML
+Completed 500 Internal Server Error in 8ms (Allocations: 3002)
+
+
+  
+NameError (undefined local variable or method `links_hash_array' for #<LinksController:0x000000000c9798>
+Did you mean?  @@links_hash_array):
+  
+app/controllers/links_controller.rb:22:in `get_random_short_symbol'
+app/controllers/links_controller.rb:7:in `index'
+Started GET "/" for 127.0.0.1 at 2023-07-14 20:46:16 +0300
+Processing by LinksController#index as HTML
+Completed 500 Internal Server Error in 8ms (Allocations: 3000)
+
+
+  
+NameError (undefined local variable or method `links_hash_array' for #<LinksController:0x000000000c9ab8>
+Did you mean?  @@links_hash_array):
+  
+app/controllers/links_controller.rb:22:in `get_random_short_symbol'
+app/controllers/links_controller.rb:7:in `index'
+Started GET "/" for 127.0.0.1 at 2023-07-14 20:46:16 +0300
+Processing by LinksController#index as HTML
+Completed 500 Internal Server Error in 8ms (Allocations: 3000)
+
+
+  
+NameError (undefined local variable or method `links_hash_array' for #<LinksController:0x000000000c9e00>
+Did you mean?  @@links_hash_array):
+  
+app/controllers/links_controller.rb:22:in `get_random_short_symbol'
+app/controllers/links_controller.rb:7:in `index'
+Started GET "/" for 127.0.0.1 at 2023-07-14 20:46:16 +0300
+Processing by LinksController#index as HTML
+Completed 500 Internal Server Error in 8ms (Allocations: 3000)
+
+
+  
+NameError (undefined local variable or method `links_hash_array' for #<LinksController:0x000000000ca120>
+Did you mean?  @@links_hash_array):
+  
+app/controllers/links_controller.rb:22:in `get_random_short_symbol'
+app/controllers/links_controller.rb:7:in `index'
+Started GET "/" for 127.0.0.1 at 2023-07-14 20:46:17 +0300
+Processing by LinksController#index as HTML
+Completed 500 Internal Server Error in 8ms (Allocations: 3000)
+
+
+  
+NameError (undefined local variable or method `links_hash_array' for #<LinksController:0x000000000ca440>
+Did you mean?  @@links_hash_array):
+  
+app/controllers/links_controller.rb:22:in `get_random_short_symbol'
+app/controllers/links_controller.rb:7:in `index'
+Started GET "/" for 127.0.0.1 at 2023-07-14 20:46:17 +0300
+Processing by LinksController#index as HTML
+Completed 500 Internal Server Error in 9ms (Allocations: 3000)
+
+
+  
+NameError (undefined local variable or method `links_hash_array' for #<LinksController:0x000000000ca760>
+Did you mean?  @@links_hash_array):
+  
+app/controllers/links_controller.rb:22:in `get_random_short_symbol'
+app/controllers/links_controller.rb:7:in `index'
+Started GET "/" for 127.0.0.1 at 2023-07-14 20:46:17 +0300
+Processing by LinksController#index as HTML
+Completed 500 Internal Server Error in 8ms (Allocations: 3000)
+
+
+  
+NameError (undefined local variable or method `links_hash_array' for #<LinksController:0x000000000caa80>
+Did you mean?  @@links_hash_array):
+  
+app/controllers/links_controller.rb:22:in `get_random_short_symbol'
+app/controllers/links_controller.rb:7:in `index'
+Started GET "/" for 127.0.0.1 at 2023-07-14 20:46:17 +0300
+Processing by LinksController#index as HTML
+Completed 500 Internal Server Error in 10ms (Allocations: 3002)
+
+
+  
+NameError (undefined local variable or method `links_hash_array' for #<LinksController:0x000000000cadf0>
+Did you mean?  @@links_hash_array):
+  
+app/controllers/links_controller.rb:22:in `get_random_short_symbol'
+app/controllers/links_controller.rb:7:in `index'
+Started GET "/" for 127.0.0.1 at 2023-07-14 20:46:18 +0300
+Processing by LinksController#index as HTML
+Completed 500 Internal Server Error in 11ms (Allocations: 3000)
+
+
+  
+NameError (undefined local variable or method `links_hash_array' for #<LinksController:0x000000000cb110>
+Did you mean?  @@links_hash_array):
+  
+app/controllers/links_controller.rb:22:in `get_random_short_symbol'
+app/controllers/links_controller.rb:7:in `index'
+Started GET "/" for 127.0.0.1 at 2023-07-14 20:46:18 +0300
+Processing by LinksController#index as HTML
+Completed 500 Internal Server Error in 8ms (Allocations: 3000)
+
+
+  
+NameError (undefined local variable or method `links_hash_array' for #<LinksController:0x000000000cb430>
+Did you mean?  @@links_hash_array):
+  
+app/controllers/links_controller.rb:22:in `get_random_short_symbol'
+app/controllers/links_controller.rb:7:in `index'
+Started GET "/" for 127.0.0.1 at 2023-07-14 20:46:18 +0300
+Processing by LinksController#index as HTML
+Completed 500 Internal Server Error in 8ms (Allocations: 3002)
+
+
+  
+NameError (undefined local variable or method `links_hash_array' for #<LinksController:0x000000000cb7a0>
+Did you mean?  @@links_hash_array):
+  
+app/controllers/links_controller.rb:22:in `get_random_short_symbol'
+app/controllers/links_controller.rb:7:in `index'
+Started GET "/" for 127.0.0.1 at 2023-07-14 20:46:18 +0300
+Processing by LinksController#index as HTML
+Completed 500 Internal Server Error in 8ms (Allocations: 3002)
+
+
+  
+NameError (undefined local variable or method `links_hash_array' for #<LinksController:0x000000000cbb10>
+Did you mean?  @@links_hash_array):
+  
+app/controllers/links_controller.rb:22:in `get_random_short_symbol'
+app/controllers/links_controller.rb:7:in `index'
+Started GET "/" for 127.0.0.1 at 2023-07-14 20:46:18 +0300
+Processing by LinksController#index as HTML
+Completed 500 Internal Server Error in 8ms (Allocations: 3002)
+
+
+  
+NameError (undefined local variable or method `links_hash_array' for #<LinksController:0x000000000cbe80>
+Did you mean?  @@links_hash_array):
+  
+app/controllers/links_controller.rb:22:in `get_random_short_symbol'
+app/controllers/links_controller.rb:7:in `index'
+Started GET "/" for 127.0.0.1 at 2023-07-14 20:46:18 +0300
+Processing by LinksController#index as HTML
+Completed 500 Internal Server Error in 9ms (Allocations: 3002)
+
+
+  
+NameError (undefined local variable or method `links_hash_array' for #<LinksController:0x000000000cc1f0>
+Did you mean?  @@links_hash_array):
+  
+app/controllers/links_controller.rb:22:in `get_random_short_symbol'
+app/controllers/links_controller.rb:7:in `index'
+Started GET "/" for 127.0.0.1 at 2023-07-14 20:46:19 +0300
+Processing by LinksController#index as HTML
+Completed 500 Internal Server Error in 8ms (Allocations: 3002)
+
+
+  
+NameError (undefined local variable or method `links_hash_array' for #<LinksController:0x000000000cc560>
+Did you mean?  @@links_hash_array):
+  
+app/controllers/links_controller.rb:22:in `get_random_short_symbol'
+app/controllers/links_controller.rb:7:in `index'
+Started GET "/" for 127.0.0.1 at 2023-07-14 20:46:19 +0300
+Processing by LinksController#index as HTML
+Completed 500 Internal Server Error in 9ms (Allocations: 3002)
+
+
+  
+NameError (undefined local variable or method `links_hash_array' for #<LinksController:0x000000000cc8d0>
+Did you mean?  @@links_hash_array):
+  
+app/controllers/links_controller.rb:22:in `get_random_short_symbol'
+app/controllers/links_controller.rb:7:in `index'
+Started GET "/" for 127.0.0.1 at 2023-07-14 20:46:19 +0300
+Processing by LinksController#index as HTML
+Completed 500 Internal Server Error in 9ms (Allocations: 3002)
+
+
+  
+NameError (undefined local variable or method `links_hash_array' for #<LinksController:0x000000000ccc40>
+Did you mean?  @@links_hash_array):
+  
+app/controllers/links_controller.rb:22:in `get_random_short_symbol'
+app/controllers/links_controller.rb:7:in `index'
+Started GET "/" for 127.0.0.1 at 2023-07-14 20:46:19 +0300
+Processing by LinksController#index as HTML
+Completed 500 Internal Server Error in 9ms (Allocations: 3002)
+
+
+  
+NameError (undefined local variable or method `links_hash_array' for #<LinksController:0x000000000ccfb0>
+Did you mean?  @@links_hash_array):
+  
+app/controllers/links_controller.rb:22:in `get_random_short_symbol'
+app/controllers/links_controller.rb:7:in `index'
+Started GET "/" for 127.0.0.1 at 2023-07-14 20:46:19 +0300
+Processing by LinksController#index as HTML
+Completed 500 Internal Server Error in 8ms (Allocations: 3002)
+
+
+  
+NameError (undefined local variable or method `links_hash_array' for #<LinksController:0x000000000cd320>
+Did you mean?  @@links_hash_array):
+  
+app/controllers/links_controller.rb:22:in `get_random_short_symbol'
+app/controllers/links_controller.rb:7:in `index'
+Started GET "/" for 127.0.0.1 at 2023-07-14 20:46:19 +0300
+Processing by LinksController#index as HTML
+Completed 500 Internal Server Error in 12ms (Allocations: 3002)
+
+
+  
+NameError (undefined local variable or method `links_hash_array' for #<LinksController:0x000000000cd690>
+Did you mean?  @@links_hash_array):
+  
+app/controllers/links_controller.rb:22:in `get_random_short_symbol'
+app/controllers/links_controller.rb:7:in `index'
+Started GET "/" for 127.0.0.1 at 2023-07-14 20:46:20 +0300
+Processing by LinksController#index as HTML
+Completed 500 Internal Server Error in 10ms (Allocations: 3002)
+
+
+  
+NameError (undefined local variable or method `links_hash_array' for #<LinksController:0x000000000cda00>
+Did you mean?  @@links_hash_array):
+  
+app/controllers/links_controller.rb:22:in `get_random_short_symbol'
+app/controllers/links_controller.rb:7:in `index'
+Started GET "/" for 127.0.0.1 at 2023-07-14 20:46:20 +0300
+Processing by LinksController#index as HTML
+Completed 500 Internal Server Error in 12ms (Allocations: 3498)
+
+
+  
+NameError (undefined local variable or method `links_hash_array' for #<LinksController:0x000000000cdc08>
+Did you mean?  @@links_hash_array):
+  
+app/controllers/links_controller.rb:22:in `get_random_short_symbol'
+app/controllers/links_controller.rb:7:in `index'
+Started GET "/" for 127.0.0.1 at 2023-07-14 20:46:20 +0300
+Processing by LinksController#index as HTML
+Completed 500 Internal Server Error in 13ms (Allocations: 4855)
+
+
+  
+NameError (undefined local variable or method `links_hash_array' for #<LinksController:0x000000000cdf78>
+Did you mean?  @@links_hash_array):
+  
+app/controllers/links_controller.rb:22:in `get_random_short_symbol'
+app/controllers/links_controller.rb:7:in `index'
+Started GET "/" for 127.0.0.1 at 2023-07-14 20:46:45 +0300
+Processing by LinksController#index as HTML
+Completed 500 Internal Server Error in 11ms (Allocations: 2987)
+
+
+  
+NameError (undefined local variable or method `short_link' for #<LinksController:0x000000000d2438>):
+  
+app/controllers/links_controller.rb:28:in `decode'
+app/controllers/links_controller.rb:14:in `index'
+Started GET "/" for 127.0.0.1 at 2023-07-14 20:46:55 +0300
+Processing by LinksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering links/index.html.erb within layouts/application
+  Rendered links/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 24)
+  Rendered layout layouts/application.html.erb (Duration: 38.0ms | Allocations: 14498)
+Completed 200 OK in 44ms (Views: 40.8ms | Allocations: 15379)
+
+
+Started GET "/" for 127.0.0.1 at 2023-07-14 20:46:56 +0300
+Processing by LinksController#index as HTML
+Completed 500 Internal Server Error in 9ms (Allocations: 3028)
+
+
+  
+NameError (undefined local variable or method `links_hash_array' for #<LinksController:0x000000000d67b8>
+Did you mean?  @@links_hash_array):
+  
+app/controllers/links_controller.rb:22:in `get_random_short_symbol'
+app/controllers/links_controller.rb:7:in `index'
+Started GET "/" for 127.0.0.1 at 2023-07-14 20:46:57 +0300
+Processing by LinksController#index as HTML
+Completed 500 Internal Server Error in 12ms (Allocations: 2998)
+
+
+  
+NameError (undefined local variable or method `links_hash_array' for #<LinksController:0x000000000d6b00>
+Did you mean?  @@links_hash_array):
+  
+app/controllers/links_controller.rb:22:in `get_random_short_symbol'
+app/controllers/links_controller.rb:7:in `index'
+Started GET "/" for 127.0.0.1 at 2023-07-14 20:46:58 +0300
+Processing by LinksController#index as HTML
+Completed 500 Internal Server Error in 9ms (Allocations: 2998)
+
+
+  
+NameError (undefined local variable or method `links_hash_array' for #<LinksController:0x000000000d6e98>
+Did you mean?  @@links_hash_array):
+  
+app/controllers/links_controller.rb:22:in `get_random_short_symbol'
+app/controllers/links_controller.rb:7:in `index'
+Started GET "/" for 127.0.0.1 at 2023-07-14 20:46:59 +0300
+Processing by LinksController#index as HTML
+Completed 500 Internal Server Error in 9ms (Allocations: 2998)
+
+
+  
+NameError (undefined local variable or method `links_hash_array' for #<LinksController:0x000000000d71e0>
+Did you mean?  @@links_hash_array):
+  
+app/controllers/links_controller.rb:22:in `get_random_short_symbol'
+app/controllers/links_controller.rb:7:in `index'
+Started GET "/" for 127.0.0.1 at 2023-07-14 20:47:07 +0300
+Processing by LinksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering links/index.html.erb within layouts/application
+  Rendered links/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 24)
+  Rendered layout layouts/application.html.erb (Duration: 38.4ms | Allocations: 14502)
+Completed 200 OK in 44ms (Views: 41.1ms | Allocations: 15383)
+
+
+Started GET "/" for 127.0.0.1 at 2023-07-14 20:47:09 +0300
+Processing by LinksController#index as HTML
+Completed 500 Internal Server Error in 7ms (Allocations: 2861)
+
+
+  
+NoMethodError (undefined method `get_random' for #<LinksController:0x000000000db560>):
+  
+app/controllers/links_controller.rb:22:in `get_random_short_symbol'
+app/controllers/links_controller.rb:7:in `index'
+Started GET "/" for 127.0.0.1 at 2023-07-14 20:47:18 +0300
+Processing by LinksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering links/index.html.erb within layouts/application
+  Rendered links/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 24)
+  Rendered layout layouts/application.html.erb (Duration: 28.7ms | Allocations: 14532)
+Completed 200 OK in 34ms (Views: 30.6ms | Allocations: 15413)
+
+
+Started GET "/" for 127.0.0.1 at 2023-07-14 20:47:35 +0300
+Processing by LinksController#index as HTML
+Completed 500 Internal Server Error in 10ms (Allocations: 3028)
+
+
+  
+NameError (undefined local variable or method `links_hash_array' for #<LinksController:0x000000000df9a8>
+Did you mean?  @@links_hash_array):
+  
+app/controllers/links_controller.rb:22:in `get_random_short_symbol'
+app/controllers/links_controller.rb:7:in `index'
+Started GET "/" for 127.0.0.1 at 2023-07-14 20:47:38 +0300
+Processing by LinksController#index as HTML
+Completed 500 Internal Server Error in 9ms (Allocations: 2998)
+
+
+  
+NameError (undefined local variable or method `links_hash_array' for #<LinksController:0x000000000dfd68>
+Did you mean?  @@links_hash_array):
+  
+app/controllers/links_controller.rb:22:in `get_random_short_symbol'
+app/controllers/links_controller.rb:7:in `index'
+Started GET "/" for 127.0.0.1 at 2023-07-14 20:47:40 +0300
+Processing by LinksController#index as HTML
+Completed 500 Internal Server Error in 9ms (Allocations: 2998)
+
+
+  
+NameError (undefined local variable or method `links_hash_array' for #<LinksController:0x000000000e0128>
+Did you mean?  @@links_hash_array):
+  
+app/controllers/links_controller.rb:22:in `get_random_short_symbol'
+app/controllers/links_controller.rb:7:in `index'
+Started GET "/" for 127.0.0.1 at 2023-07-14 20:47:53 +0300
+Processing by LinksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering links/index.html.erb within layouts/application
+  Rendered links/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 180)
+  Rendered layout layouts/application.html.erb (Duration: 35.3ms | Allocations: 14869)
+Completed 200 OK in 46ms (Views: 41.7ms | Allocations: 16125)
+
+
+Started GET "/" for 127.0.0.1 at 2023-07-14 20:47:54 +0300
+Processing by LinksController#index as HTML
+Completed 500 Internal Server Error in 2ms (Allocations: 486)
+
+
+  
+ArgumentError (wrong number of arguments (given 1, expected 0)):
+  
+app/controllers/links_controller.rb:18:in `get_random_short_symbol'
+app/controllers/links_controller.rb:22:in `get_random_short_symbol'
+app/controllers/links_controller.rb:7:in `index'
+Started GET "/" for 127.0.0.1 at 2023-07-14 20:47:54 +0300
+Processing by LinksController#index as HTML
+Completed 500 Internal Server Error in 2ms (Allocations: 472)
+
+
+  
+ArgumentError (wrong number of arguments (given 1, expected 0)):
+  
+app/controllers/links_controller.rb:18:in `get_random_short_symbol'
+app/controllers/links_controller.rb:22:in `get_random_short_symbol'
+app/controllers/links_controller.rb:7:in `index'
+Started GET "/" for 127.0.0.1 at 2023-07-14 20:47:55 +0300
+Processing by LinksController#index as HTML
+Completed 500 Internal Server Error in 3ms (Allocations: 472)
+
+
+  
+ArgumentError (wrong number of arguments (given 1, expected 0)):
+  
+app/controllers/links_controller.rb:18:in `get_random_short_symbol'
+app/controllers/links_controller.rb:22:in `get_random_short_symbol'
+app/controllers/links_controller.rb:7:in `index'
+Started GET "/" for 127.0.0.1 at 2023-07-14 20:47:56 +0300
+Processing by LinksController#index as HTML
+Completed 500 Internal Server Error in 2ms (Allocations: 472)
+
+
+  
+ArgumentError (wrong number of arguments (given 1, expected 0)):
+  
+app/controllers/links_controller.rb:18:in `get_random_short_symbol'
+app/controllers/links_controller.rb:22:in `get_random_short_symbol'
+app/controllers/links_controller.rb:7:in `index'
+Started GET "/" for 127.0.0.1 at 2023-07-14 20:47:58 +0300
+Processing by LinksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering links/index.html.erb within layouts/application
+  Rendered links/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 16)
+  Rendered layout layouts/application.html.erb (Duration: 28.7ms | Allocations: 14484)
+Completed 200 OK in 35ms (Views: 32.0ms | Allocations: 15365)
+
+
+Started GET "/" for 127.0.0.1 at 2023-07-14 20:48:03 +0300
+Processing by LinksController#index as HTML
+Completed 500 Internal Server Error in 11ms (Allocations: 3028)
+
+
+  
+NameError (undefined local variable or method `links_hash_array' for #<LinksController:0x000000000e93b8>
+Did you mean?  @@links_hash_array):
+  
+app/controllers/links_controller.rb:22:in `get_random_short_symbol'
+app/controllers/links_controller.rb:7:in `index'
+Started GET "/" for 127.0.0.1 at 2023-07-14 20:48:13 +0300
+Processing by LinksController#index as HTML
+Completed 500 Internal Server Error in 8ms (Allocations: 2998)
+
+
+  
+NameError (undefined local variable or method `links_hash_array' for #<LinksController:0x000000000e9750>
+Did you mean?  @@links_hash_array):
+  
+app/controllers/links_controller.rb:22:in `get_random_short_symbol'
+app/controllers/links_controller.rb:7:in `index'
+Started GET "/" for 127.0.0.1 at 2023-07-14 20:48:14 +0300
+Processing by LinksController#index as HTML
+Completed 500 Internal Server Error in 9ms (Allocations: 2998)
+
+
+  
+NameError (undefined local variable or method `links_hash_array' for #<LinksController:0x000000000e9ac0>
+Did you mean?  @@links_hash_array):
+  
+app/controllers/links_controller.rb:22:in `get_random_short_symbol'
+app/controllers/links_controller.rb:7:in `index'
+Started GET "/" for 127.0.0.1 at 2023-07-14 20:48:14 +0300
+Processing by LinksController#index as HTML
+Completed 500 Internal Server Error in 24ms (Allocations: 2998)
+
+
+  
+NameError (undefined local variable or method `links_hash_array' for #<LinksController:0x000000000e9e08>
+Did you mean?  @@links_hash_array):
+  
+app/controllers/links_controller.rb:22:in `get_random_short_symbol'
+app/controllers/links_controller.rb:7:in `index'
+Started GET "/" for 127.0.0.1 at 2023-07-14 20:48:14 +0300
+Processing by LinksController#index as HTML
+Completed 500 Internal Server Error in 10ms (Allocations: 2996)
+
+
+  
+NameError (undefined local variable or method `links_hash_array' for #<LinksController:0x000000000ea178>
+Did you mean?  @@links_hash_array):
+  
+app/controllers/links_controller.rb:22:in `get_random_short_symbol'
+app/controllers/links_controller.rb:7:in `index'
+Started GET "/" for 127.0.0.1 at 2023-07-14 20:48:15 +0300
+Processing by LinksController#index as HTML
+Completed 500 Internal Server Error in 9ms (Allocations: 2998)
+
+
+  
+NameError (undefined local variable or method `links_hash_array' for #<LinksController:0x000000000ea560>
+Did you mean?  @@links_hash_array):
+  
+app/controllers/links_controller.rb:22:in `get_random_short_symbol'
+app/controllers/links_controller.rb:7:in `index'
+Started GET "/" for 127.0.0.1 at 2023-07-14 20:48:15 +0300
+Processing by LinksController#index as HTML
+Completed 500 Internal Server Error in 8ms (Allocations: 2998)
+
+
+  
+NameError (undefined local variable or method `links_hash_array' for #<LinksController:0x000000000ea8d0>
+Did you mean?  @@links_hash_array):
+  
+app/controllers/links_controller.rb:22:in `get_random_short_symbol'
+app/controllers/links_controller.rb:7:in `index'
+Started GET "/" for 127.0.0.1 at 2023-07-14 20:48:15 +0300
+Processing by LinksController#index as HTML
+Completed 500 Internal Server Error in 13ms (Allocations: 4394)
+
+
+  
+NameError (undefined local variable or method `links_hash_array' for #<LinksController:0x000000000eaab0>
+Did you mean?  @@links_hash_array):
+  
+app/controllers/links_controller.rb:22:in `get_random_short_symbol'
+app/controllers/links_controller.rb:7:in `index'
+Started GET "/" for 127.0.0.1 at 2023-07-14 20:48:15 +0300
+Processing by LinksController#index as HTML
+Completed 500 Internal Server Error in 12ms (Allocations: 5170)
+
+
+  
+NameError (undefined local variable or method `links_hash_array' for #<LinksController:0x000000000eadf8>
+Did you mean?  @@links_hash_array):
+  
+app/controllers/links_controller.rb:22:in `get_random_short_symbol'
+app/controllers/links_controller.rb:7:in `index'
+Started GET "/" for 127.0.0.1 at 2023-07-14 20:48:15 +0300
+Processing by LinksController#index as HTML
+Completed 500 Internal Server Error in 12ms (Allocations: 4439)
+
+
+  
+NameError (undefined local variable or method `links_hash_array' for #<LinksController:0x000000000eb1b8>
+Did you mean?  @@links_hash_array):
+  
+app/controllers/links_controller.rb:22:in `get_random_short_symbol'
+app/controllers/links_controller.rb:7:in `index'
+Started GET "/" for 127.0.0.1 at 2023-07-14 20:48:15 +0300
+Processing by LinksController#index as HTML
+Completed 500 Internal Server Error in 10ms (Allocations: 3539)
+
+
+  
+NameError (undefined local variable or method `links_hash_array' for #<LinksController:0x000000000eb3e8>
+Did you mean?  @@links_hash_array):
+  
+app/controllers/links_controller.rb:22:in `get_random_short_symbol'
+app/controllers/links_controller.rb:7:in `index'
+Started GET "/" for 127.0.0.1 at 2023-07-14 20:48:15 +0300
+Processing by LinksController#index as HTML
+Completed 500 Internal Server Error in 11ms (Allocations: 3696)
+
+
+  
+NameError (undefined local variable or method `links_hash_array' for #<LinksController:0x000000000eb7f8>
+Did you mean?  @@links_hash_array):
+  
+app/controllers/links_controller.rb:22:in `get_random_short_symbol'
+app/controllers/links_controller.rb:7:in `index'
+Started GET "/" for 127.0.0.1 at 2023-07-14 20:48:16 +0300
+Processing by LinksController#index as HTML
+Completed 500 Internal Server Error in 11ms (Allocations: 6239)
+
+
+  
+NameError (undefined local variable or method `links_hash_array' for #<LinksController:0x000000000ebb90>
+Did you mean?  @@links_hash_array):
+  
+app/controllers/links_controller.rb:22:in `get_random_short_symbol'
+app/controllers/links_controller.rb:7:in `index'
+Started GET "/" for 127.0.0.1 at 2023-07-14 20:48:16 +0300
+Started GET "/" for 127.0.0.1 at 2023-07-14 20:48:16 +0300
+Processing by LinksController#index as HTML
+Completed 500 Internal Server Error in 12ms (Allocations: 3567)
+
+
+  
+NameError (undefined local variable or method `links_hash_array' for #<LinksController:0x000000000ebeb0>
+Did you mean?  @@links_hash_array):
+  
+app/controllers/links_controller.rb:22:in `get_random_short_symbol'
+app/controllers/links_controller.rb:7:in `index'
+Processing by LinksController#index as HTML
+Completed 500 Internal Server Error in 10ms (Allocations: 3818)
+
+
+  
+NameError (undefined local variable or method `links_hash_array' for #<LinksController:0x000000000ec090>
+Did you mean?  @@links_hash_array):
+  
+app/controllers/links_controller.rb:22:in `get_random_short_symbol'
+app/controllers/links_controller.rb:7:in `index'
+Started GET "/" for 127.0.0.1 at 2023-07-14 20:48:16 +0300
+Processing by LinksController#index as HTML
+Completed 500 Internal Server Error in 12ms (Allocations: 5149)
+
+
+  
+NameError (undefined local variable or method `links_hash_array' for #<LinksController:0x000000000ec400>
+Did you mean?  @@links_hash_array):
+  
+app/controllers/links_controller.rb:22:in `get_random_short_symbol'
+app/controllers/links_controller.rb:7:in `index'
+Started GET "/" for 127.0.0.1 at 2023-07-14 20:48:16 +0300
+Processing by LinksController#index as HTML
+Completed 500 Internal Server Error in 9ms (Allocations: 3586)
+
+
+  
+NameError (undefined local variable or method `links_hash_array' for #<LinksController:0x000000000ecae0>
+Did you mean?  @@links_hash_array):
+  
+app/controllers/links_controller.rb:22:in `get_random_short_symbol'
+app/controllers/links_controller.rb:7:in `index'
+Started GET "/" for 127.0.0.1 at 2023-07-14 20:48:51 +0300
+Processing by LinksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering links/index.html.erb within layouts/application
+  Rendered links/index.html.erb within layouts/application (Duration: 1.0ms | Allocations: 201)
+  Rendered layout layouts/application.html.erb (Duration: 36.0ms | Allocations: 14897)
+Completed 200 OK in 47ms (Views: 43.1ms | Allocations: 16149)
+
+
+Started GET "/" for 127.0.0.1 at 2023-07-14 20:48:52 +0300
+Processing by LinksController#index as HTML
+Completed 500 Internal Server Error in 10ms (Allocations: 3031)
+
+
+  
+NameError (undefined local variable or method `links_hash_array' for #<LinksController:0x000000000f0f78>
+Did you mean?  @@links_hash_array):
+  
+app/controllers/links_controller.rb:20:in `get_random_short_symbol'
+app/controllers/links_controller.rb:6:in `index'
+Started GET "/" for 127.0.0.1 at 2023-07-14 20:48:53 +0300
+Processing by LinksController#index as HTML
+Completed 500 Internal Server Error in 9ms (Allocations: 3001)
+
+
+  
+NameError (undefined local variable or method `links_hash_array' for #<LinksController:0x000000000f12c0>
+Did you mean?  @@links_hash_array):
+  
+app/controllers/links_controller.rb:20:in `get_random_short_symbol'
+app/controllers/links_controller.rb:6:in `index'
+Started GET "/" for 127.0.0.1 at 2023-07-14 20:48:53 +0300
+Processing by LinksController#index as HTML
+Completed 500 Internal Server Error in 8ms (Allocations: 3001)
+
+
+  
+NameError (undefined local variable or method `links_hash_array' for #<LinksController:0x000000000f1608>
+Did you mean?  @@links_hash_array):
+  
+app/controllers/links_controller.rb:20:in `get_random_short_symbol'
+app/controllers/links_controller.rb:6:in `index'
+Started GET "/" for 127.0.0.1 at 2023-07-14 20:48:53 +0300
+Processing by LinksController#index as HTML
+Completed 500 Internal Server Error in 10ms (Allocations: 2999)
+
+
+  
+NameError (undefined local variable or method `links_hash_array' for #<LinksController:0x000000000f1928>
+Did you mean?  @@links_hash_array):
+  
+app/controllers/links_controller.rb:20:in `get_random_short_symbol'
+app/controllers/links_controller.rb:6:in `index'
+Started GET "/" for 127.0.0.1 at 2023-07-14 20:48:54 +0300
+Processing by LinksController#index as HTML
+Completed 500 Internal Server Error in 8ms (Allocations: 3001)
+
+
+  
+NameError (undefined local variable or method `links_hash_array' for #<LinksController:0x000000000f1c98>
+Did you mean?  @@links_hash_array):
+  
+app/controllers/links_controller.rb:20:in `get_random_short_symbol'
+app/controllers/links_controller.rb:6:in `index'
+Started GET "/" for 127.0.0.1 at 2023-07-14 20:48:54 +0300
+Processing by LinksController#index as HTML
+Completed 500 Internal Server Error in 8ms (Allocations: 3001)
+
+
+  
+NameError (undefined local variable or method `links_hash_array' for #<LinksController:0x000000000f2008>
+Did you mean?  @@links_hash_array):
+  
+app/controllers/links_controller.rb:20:in `get_random_short_symbol'
+app/controllers/links_controller.rb:6:in `index'
+Started GET "/" for 127.0.0.1 at 2023-07-14 20:49:00 +0300
+Processing by LinksController#index as HTML
+Completed 500 Internal Server Error in 7ms (Allocations: 3061)
+
+
+  
+NameError (undefined local variable or method `short_link' for #<LinksController:0x000000000f6400>):
+  
+app/controllers/links_controller.rb:20:in `get_random_short_symbol'
+app/controllers/links_controller.rb:6:in `index'
+Started GET "/" for 127.0.0.1 at 2023-07-14 20:49:14 +0300
+Processing by LinksController#index as HTML
+Completed 500 Internal Server Error in 6ms (Allocations: 2708)
+
+
+  
+NameError (uninitialized class variable @@links_hash in LinksController
+Did you mean?  @@links_hash_array):
+  
+app/controllers/links_controller.rb:15:in `get_random_short_symbol'
+app/controllers/links_controller.rb:6:in `index'
+Started GET "/" for 127.0.0.1 at 2023-07-14 20:49:14 +0300
+Processing by LinksController#index as HTML
+Completed 500 Internal Server Error in 7ms (Allocations: 2632)
+
+
+  
+NameError (uninitialized class variable @@links_hash in LinksController
+Did you mean?  @@links_hash_array):
+  
+app/controllers/links_controller.rb:15:in `get_random_short_symbol'
+app/controllers/links_controller.rb:6:in `index'
+Started GET "/" for 127.0.0.1 at 2023-07-14 20:49:15 +0300
+Processing by LinksController#index as HTML
+Completed 500 Internal Server Error in 5ms (Allocations: 2630)
+
+
+  
+NameError (uninitialized class variable @@links_hash in LinksController
+Did you mean?  @@links_hash_array):
+  
+app/controllers/links_controller.rb:15:in `get_random_short_symbol'
+app/controllers/links_controller.rb:6:in `index'
+Started GET "/" for 127.0.0.1 at 2023-07-14 20:49:32 +0300
+Processing by LinksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering links/index.html.erb within layouts/application
+  Rendered links/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 24)
+  Rendered layout layouts/application.html.erb (Duration: 26.1ms | Allocations: 14488)
+Completed 200 OK in 30ms (Views: 28.0ms | Allocations: 15369)
+
+
+Started GET "/" for 127.0.0.1 at 2023-07-14 20:49:37 +0300
+Processing by LinksController#index as HTML
+Completed 500 Internal Server Error in 9ms (Allocations: 3028)
+
+
+  
+NameError (undefined local variable or method `links_hash_array' for #<LinksController:0x000000000ff410>
+Did you mean?  @@links_hash_array):
+  
+app/controllers/links_controller.rb:22:in `get_random_short_symbol'
+app/controllers/links_controller.rb:7:in `index'
+Started GET "/" for 127.0.0.1 at 2023-07-14 20:49:54 +0300
+Processing by LinksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering links/index.html.erb within layouts/application
+  Rendered links/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 24)
+  Rendered layout layouts/application.html.erb (Duration: 38.2ms | Allocations: 14394)
+Completed 200 OK in 44ms (Views: 41.2ms | Allocations: 15277)
+
+
+Started GET "/" for 127.0.0.1 at 2023-07-14 20:49:55 +0300
+Processing by LinksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering links/index.html.erb within layouts/application
+  Rendered links/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 24)
+  Rendered layout layouts/application.html.erb (Duration: 8.5ms | Allocations: 2469)
+Completed 200 OK in 12ms (Views: 10.0ms | Allocations: 2826)
+
+
+Started GET "/" for 127.0.0.1 at 2023-07-14 20:49:55 +0300
+Processing by LinksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering links/index.html.erb within layouts/application
+  Rendered links/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 31)
+  Rendered layout layouts/application.html.erb (Duration: 10.2ms | Allocations: 2476)
+Completed 200 OK in 14ms (Views: 11.4ms | Allocations: 2818)
+
+
+Started GET "/" for 127.0.0.1 at 2023-07-14 20:49:56 +0300
+Processing by LinksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering links/index.html.erb within layouts/application
+  Rendered links/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 37)
+  Rendered layout layouts/application.html.erb (Duration: 10.1ms | Allocations: 2507)
+Completed 200 OK in 14ms (Views: 12.1ms | Allocations: 2849)
+
+
+Started GET "/" for 127.0.0.1 at 2023-07-14 20:49:56 +0300
+Processing by LinksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering links/index.html.erb within layouts/application
+  Rendered links/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 43)
+  Rendered layout layouts/application.html.erb (Duration: 7.4ms | Allocations: 2488)
+Completed 200 OK in 10ms (Views: 8.4ms | Allocations: 2830)
+
+
+Started GET "/" for 127.0.0.1 at 2023-07-14 20:49:56 +0300
+Processing by LinksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering links/index.html.erb within layouts/application
+  Rendered links/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 49)
+  Rendered layout layouts/application.html.erb (Duration: 8.5ms | Allocations: 2494)
+Completed 200 OK in 12ms (Views: 9.9ms | Allocations: 2836)
+
+
+Started GET "/" for 127.0.0.1 at 2023-07-14 20:49:57 +0300
+Processing by LinksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering links/index.html.erb within layouts/application
+  Rendered links/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 55)
+  Rendered layout layouts/application.html.erb (Duration: 7.9ms | Allocations: 2498)
+Completed 200 OK in 12ms (Views: 9.1ms | Allocations: 2840)
+
+
+Started GET "/" for 127.0.0.1 at 2023-07-14 20:49:57 +0300
+Processing by LinksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering links/index.html.erb within layouts/application
+  Rendered links/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 61)
+  Rendered layout layouts/application.html.erb (Duration: 7.3ms | Allocations: 2510)
+Completed 200 OK in 11ms (Views: 8.8ms | Allocations: 2852)
+
+
+Started GET "/" for 127.0.0.1 at 2023-07-14 20:49:57 +0300
+Processing by LinksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering links/index.html.erb within layouts/application
+  Rendered links/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 67)
+  Rendered layout layouts/application.html.erb (Duration: 9.5ms | Allocations: 2526)
+Completed 200 OK in 14ms (Views: 11.3ms | Allocations: 2868)
+
+
+Started GET "/" for 127.0.0.1 at 2023-07-14 20:49:57 +0300
+Processing by LinksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering links/index.html.erb within layouts/application
+  Rendered links/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 73)
+  Rendered layout layouts/application.html.erb (Duration: 6.1ms | Allocations: 2508)
+Completed 200 OK in 9ms (Views: 7.2ms | Allocations: 2850)
+
+
+Started GET "/" for 127.0.0.1 at 2023-07-14 20:49:58 +0300
+Processing by LinksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering links/index.html.erb within layouts/application
+  Rendered links/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 79)
+  Rendered layout layouts/application.html.erb (Duration: 8.8ms | Allocations: 2524)
+Completed 200 OK in 12ms (Views: 10.1ms | Allocations: 2866)
+
+
+Started GET "/" for 127.0.0.1 at 2023-07-14 20:49:58 +0300
+Processing by LinksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering links/index.html.erb within layouts/application
+  Rendered links/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 85)
+  Rendered layout layouts/application.html.erb (Duration: 7.0ms | Allocations: 2526)
+Completed 200 OK in 11ms (Views: 8.3ms | Allocations: 2868)
+
+
+Started GET "/" for 127.0.0.1 at 2023-07-14 20:49:58 +0300
+Processing by LinksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering links/index.html.erb within layouts/application
+  Rendered links/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 91)
+  Rendered layout layouts/application.html.erb (Duration: 8.8ms | Allocations: 2534)
+Completed 200 OK in 13ms (Views: 10.3ms | Allocations: 2876)
+
+
+Started GET "/" for 127.0.0.1 at 2023-07-14 20:49:58 +0300
+Processing by LinksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering links/index.html.erb within layouts/application
+  Rendered links/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 97)
+  Rendered layout layouts/application.html.erb (Duration: 7.4ms | Allocations: 2532)
+Completed 200 OK in 11ms (Views: 8.7ms | Allocations: 2874)
+
+
+Started GET "/" for 127.0.0.1 at 2023-07-14 20:49:59 +0300
+Processing by LinksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering links/index.html.erb within layouts/application
+  Rendered links/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 103)
+  Rendered layout layouts/application.html.erb (Duration: 5.8ms | Allocations: 2550)
+Completed 200 OK in 9ms (Views: 6.9ms | Allocations: 2892)
+
+
+Started GET "/" for 127.0.0.1 at 2023-07-14 20:49:59 +0300
+Processing by LinksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering links/index.html.erb within layouts/application
+  Rendered links/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 109)
+  Rendered layout layouts/application.html.erb (Duration: 7.5ms | Allocations: 2554)
+Completed 200 OK in 11ms (Views: 8.7ms | Allocations: 2896)
+
+
+Started GET "/" for 127.0.0.1 at 2023-07-14 20:49:59 +0300
+Processing by LinksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering links/index.html.erb within layouts/application
+  Rendered links/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 115)
+  Rendered layout layouts/application.html.erb (Duration: 7.6ms | Allocations: 2552)
+Completed 200 OK in 11ms (Views: 8.9ms | Allocations: 2894)
+
+
+Started GET "/" for 127.0.0.1 at 2023-07-14 20:49:59 +0300
+Processing by LinksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering links/index.html.erb within layouts/application
+  Rendered links/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 121)
+  Rendered layout layouts/application.html.erb (Duration: 9.0ms | Allocations: 2560)
+Completed 200 OK in 13ms (Views: 10.6ms | Allocations: 2902)
+
+
+Started GET "/" for 127.0.0.1 at 2023-07-14 20:49:59 +0300
+Processing by LinksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering links/index.html.erb within layouts/application
+  Rendered links/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 127)
+  Rendered layout layouts/application.html.erb (Duration: 8.2ms | Allocations: 2562)
+Completed 200 OK in 11ms (Views: 9.3ms | Allocations: 2904)
+
+
+Started GET "/" for 127.0.0.1 at 2023-07-14 20:49:59 +0300
+Processing by LinksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering links/index.html.erb within layouts/application
+  Rendered links/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 133)
+  Rendered layout layouts/application.html.erb (Duration: 9.0ms | Allocations: 2580)
+Completed 200 OK in 13ms (Views: 10.6ms | Allocations: 2922)
+
+
+Started GET "/" for 127.0.0.1 at 2023-07-14 20:50:00 +0300
+Processing by LinksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering links/index.html.erb within layouts/application
+  Rendered links/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 139)
+  Rendered layout layouts/application.html.erb (Duration: 8.0ms | Allocations: 2586)
+Completed 200 OK in 12ms (Views: 9.7ms | Allocations: 2928)
+
+
+Started GET "/" for 127.0.0.1 at 2023-07-14 20:50:00 +0300
+Processing by LinksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering links/index.html.erb within layouts/application
+  Rendered links/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 145)
+  Rendered layout layouts/application.html.erb (Duration: 8.1ms | Allocations: 2582)
+Completed 200 OK in 11ms (Views: 9.3ms | Allocations: 2924)
+
+
+Started GET "/" for 127.0.0.1 at 2023-07-14 20:50:00 +0300
+Processing by LinksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering links/index.html.erb within layouts/application
+  Rendered links/index.html.erb within layouts/application (Duration: 1.4ms | Allocations: 151)
+  Rendered layout layouts/application.html.erb (Duration: 9.5ms | Allocations: 2588)
+Completed 200 OK in 14ms (Views: 11.4ms | Allocations: 2930)
+
+
+Started GET "/" for 127.0.0.1 at 2023-07-14 20:50:00 +0300
+Processing by LinksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering links/index.html.erb within layouts/application
+  Rendered links/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 157)
+  Rendered layout layouts/application.html.erb (Duration: 8.9ms | Allocations: 2608)
+Completed 200 OK in 13ms (Views: 10.7ms | Allocations: 2950)
+
+
+Started GET "/" for 127.0.0.1 at 2023-07-14 20:50:00 +0300
+Processing by LinksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering links/index.html.erb within layouts/application
+  Rendered links/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 163)
+  Rendered layout layouts/application.html.erb (Duration: 9.4ms | Allocations: 2608)
+Completed 200 OK in 13ms (Views: 11.1ms | Allocations: 2950)
+
+
+Started GET "/" for 127.0.0.1 at 2023-07-14 20:50:00 +0300
+Processing by LinksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering links/index.html.erb within layouts/application
+  Rendered links/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 169)
+  Rendered layout layouts/application.html.erb (Duration: 7.6ms | Allocations: 2622)
+Completed 200 OK in 11ms (Views: 8.7ms | Allocations: 2964)
+
+
+Started GET "/" for 127.0.0.1 at 2023-07-14 20:50:09 +0300
+Processing by LinksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering links/index.html.erb within layouts/application
+  Rendered links/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 175)
+  Rendered layout layouts/application.html.erb (Duration: 8.7ms | Allocations: 2616)
+Completed 200 OK in 13ms (Views: 10.1ms | Allocations: 2958)
+
+
+Started GET "/" for 127.0.0.1 at 2023-07-14 20:50:11 +0300
+Processing by LinksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering links/index.html.erb within layouts/application
+  Rendered links/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 181)
+  Rendered layout layouts/application.html.erb (Duration: 11.0ms | Allocations: 2636)
+Completed 200 OK in 14ms (Views: 12.2ms | Allocations: 2978)
+
+
+Started GET "/" for 127.0.0.1 at 2023-07-14 20:50:17 +0300
+Processing by LinksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering links/index.html.erb within layouts/application
+  Rendered links/index.html.erb within layouts/application (Duration: 1.3ms | Allocations: 356)
+  Rendered layout layouts/application.html.erb (Duration: 9.7ms | Allocations: 3315)
+Completed 200 OK in 18ms (Views: 15.2ms | Allocations: 4544)
+
+
+Started GET "/" for 127.0.0.1 at 2023-07-14 20:50:18 +0300
+Processing by LinksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering links/index.html.erb within layouts/application
+  Rendered links/index.html.erb within layouts/application (Duration: 1.2ms | Allocations: 190)
+  Rendered layout layouts/application.html.erb (Duration: 8.9ms | Allocations: 2645)
+Completed 200 OK in 14ms (Views: 10.7ms | Allocations: 3003)
+
+
+Started GET "/" for 127.0.0.1 at 2023-07-14 20:50:18 +0300
+Processing by LinksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering links/index.html.erb within layouts/application
+  Rendered links/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 196)
+  Rendered layout layouts/application.html.erb (Duration: 7.0ms | Allocations: 2645)
+Completed 200 OK in 11ms (Views: 8.5ms | Allocations: 2987)
+
+
+Started GET "/" for 127.0.0.1 at 2023-07-14 20:50:19 +0300
+Processing by LinksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering links/index.html.erb within layouts/application
+  Rendered links/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 202)
+  Rendered layout layouts/application.html.erb (Duration: 6.7ms | Allocations: 2651)
+Completed 200 OK in 10ms (Views: 7.8ms | Allocations: 2993)
+
+
+Started GET "/" for 127.0.0.1 at 2023-07-14 20:50:20 +0300
+Processing by LinksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering links/index.html.erb within layouts/application
+  Rendered links/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 208)
+  Rendered layout layouts/application.html.erb (Duration: 9.4ms | Allocations: 2650)
+Completed 200 OK in 14ms (Views: 11.3ms | Allocations: 2992)
+
+
+Started GET "/" for 127.0.0.1 at 2023-07-14 20:50:36 +0300
+Processing by LinksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering links/index.html.erb within layouts/application
+  Rendered links/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 177)
+  Rendered layout layouts/application.html.erb (Duration: 9.4ms | Allocations: 3132)
+Completed 200 OK in 19ms (Views: 15.0ms | Allocations: 4341)
+
+
+Started GET "/" for 127.0.0.1 at 2023-07-14 20:50:36 +0300
+Processing by LinksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering links/index.html.erb within layouts/application
+  Rendered links/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 10)
+  Rendered layout layouts/application.html.erb (Duration: 10.3ms | Allocations: 2459)
+Completed 200 OK in 14ms (Views: 11.7ms | Allocations: 2817)
+
+
+Started GET "/" for 127.0.0.1 at 2023-07-14 20:50:37 +0300
+Processing by LinksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering links/index.html.erb within layouts/application
+  Rendered links/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 10)
+  Rendered layout layouts/application.html.erb (Duration: 7.7ms | Allocations: 2455)
+Completed 200 OK in 11ms (Views: 8.8ms | Allocations: 2797)
+
+
+Started GET "/" for 127.0.0.1 at 2023-07-14 20:51:04 +0300
+Processing by LinksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering links/index.html.erb within layouts/application
+  Rendered links/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 15)
+  Rendered layout layouts/application.html.erb (Duration: 29.1ms | Allocations: 14487)
+Completed 200 OK in 33ms (Views: 31.6ms | Allocations: 15369)
+
+
+Started GET "/" for 127.0.0.1 at 2023-07-14 20:51:05 +0300
+Processing by LinksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering links/index.html.erb within layouts/application
+  Rendered links/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 9)
+  Rendered layout layouts/application.html.erb (Duration: 9.0ms | Allocations: 2448)
+Completed 200 OK in 12ms (Views: 10.6ms | Allocations: 2804)
+
+
+Started GET "/" for 127.0.0.1 at 2023-07-14 20:51:06 +0300
+Processing by LinksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering links/index.html.erb within layouts/application
+  Rendered links/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 9)
+  Rendered layout layouts/application.html.erb (Duration: 8.7ms | Allocations: 2454)
+Completed 200 OK in 12ms (Views: 10.1ms | Allocations: 2795)
+
+
+Started GET "/" for 127.0.0.1 at 2023-07-14 20:51:06 +0300
+Processing by LinksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering links/index.html.erb within layouts/application
+  Rendered links/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 9)
+  Rendered layout layouts/application.html.erb (Duration: 7.7ms | Allocations: 2458)
+Completed 200 OK in 11ms (Views: 9.0ms | Allocations: 2799)
+
+
+Started GET "/" for 127.0.0.1 at 2023-07-14 20:51:06 +0300
+Processing by LinksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering links/index.html.erb within layouts/application
+  Rendered links/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 9)
+  Rendered layout layouts/application.html.erb (Duration: 8.4ms | Allocations: 2452)
+Completed 200 OK in 12ms (Views: 9.8ms | Allocations: 2793)
+
+
+Started GET "/" for 127.0.0.1 at 2023-07-14 20:51:07 +0300
+Processing by LinksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering links/index.html.erb within layouts/application
+  Rendered links/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 9)
+  Rendered layout layouts/application.html.erb (Duration: 8.1ms | Allocations: 2454)
+Completed 200 OK in 11ms (Views: 9.6ms | Allocations: 2795)
+
+
+Started GET "/" for 127.0.0.1 at 2023-07-14 20:51:07 +0300
+Processing by LinksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering links/index.html.erb within layouts/application
+  Rendered links/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 9)
+  Rendered layout layouts/application.html.erb (Duration: 14.4ms | Allocations: 2450)
+Completed 200 OK in 17ms (Views: 15.7ms | Allocations: 2791)
+
+
+Started GET "/" for 127.0.0.1 at 2023-07-14 20:51:07 +0300
+Processing by LinksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering links/index.html.erb within layouts/application
+  Rendered links/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 9)
+  Rendered layout layouts/application.html.erb (Duration: 9.5ms | Allocations: 2464)
+Completed 200 OK in 12ms (Views: 10.8ms | Allocations: 2805)
+
+
+Started GET "/" for 127.0.0.1 at 2023-07-14 20:51:08 +0300
+Processing by LinksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering links/index.html.erb within layouts/application
+  Rendered links/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 9)
+  Rendered layout layouts/application.html.erb (Duration: 9.2ms | Allocations: 2456)
+Completed 200 OK in 12ms (Views: 10.7ms | Allocations: 2797)
+
+
+Started GET "/" for 127.0.0.1 at 2023-07-14 20:51:08 +0300
+Processing by LinksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering links/index.html.erb within layouts/application
+  Rendered links/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 9)
+  Rendered layout layouts/application.html.erb (Duration: 7.6ms | Allocations: 2464)
+Completed 200 OK in 10ms (Views: 8.7ms | Allocations: 2805)
+
+
+Started GET "/" for 127.0.0.1 at 2023-07-14 20:51:08 +0300
+Processing by LinksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering links/index.html.erb within layouts/application
+  Rendered links/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 9)
+  Rendered layout layouts/application.html.erb (Duration: 7.2ms | Allocations: 2466)
+Completed 200 OK in 10ms (Views: 8.5ms | Allocations: 2807)
+
+
+Started GET "/" for 127.0.0.1 at 2023-07-14 20:51:08 +0300
+Processing by LinksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering links/index.html.erb within layouts/application
+  Rendered links/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 9)
+  Rendered layout layouts/application.html.erb (Duration: 8.4ms | Allocations: 2454)
+Completed 200 OK in 12ms (Views: 9.9ms | Allocations: 2795)
+
+
+Started GET "/" for 127.0.0.1 at 2023-07-14 20:59:51 +0300
+Processing by LinksController#index as HTML
+Completed 500 Internal Server Error in 7ms (Allocations: 3002)
+
+
+  
+NameError (undefined local variable or method `short_link' for #<LinksController:0x0000000010c7c8>
+Did you mean?  @short_link):
+  
+app/controllers/links_controller.rb:8:in `index'
+Started GET "/" for 127.0.0.1 at 2023-07-14 21:00:03 +0300
+Processing by LinksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering links/index.html.erb within layouts/application
+  Rendered links/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 16)
+  Rendered layout layouts/application.html.erb (Duration: 34.1ms | Allocations: 14488)
+Completed 200 OK in 39ms (Views: 36.9ms | Allocations: 15368)
+
+
+Started GET "/" for 127.0.0.1 at 2023-07-14 21:00:34 +0300
+Processing by LinksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering links/index.html.erb within layouts/application
+  Rendered links/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 10)
+  Rendered layout layouts/application.html.erb (Duration: 10.1ms | Allocations: 2461)
+Completed 200 OK in 14ms (Views: 11.9ms | Allocations: 2815)
+
+
+Started GET "/" for 127.0.0.1 at 2023-07-14 21:01:20 +0300
+Processing by LinksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering links/index.html.erb within layouts/application
+  Rendered links/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 10)
+  Rendered layout layouts/application.html.erb (Duration: 10.6ms | Allocations: 2455)
+Completed 200 OK in 14ms (Views: 12.1ms | Allocations: 2794)
+
+
+Started GET "/" for 127.0.0.1 at 2023-07-14 21:14:46 +0300
+Processing by LinksController#index as HTML
+Completed 500 Internal Server Error in 3ms (Allocations: 911)
+
+
+  
+NoMethodError (undefined method `[]=' for nil:NilClass):
+  
+app/controllers/links_controller.rb:25:in `encode'
+app/controllers/links_controller.rb:7:in `index'
+Started GET "/" for 127.0.0.1 at 2023-07-14 21:15:16 +0300
+Processing by LinksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering links/index.html.erb within layouts/application
+  Rendered links/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 16)
+  Rendered layout layouts/application.html.erb (Duration: 34.0ms | Allocations: 14502)
+Completed 200 OK in 39ms (Views: 36.6ms | Allocations: 15382)
+
+
+Started GET "/" for 127.0.0.1 at 2023-07-14 21:15:27 +0300
+Processing by LinksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering links/index.html.erb within layouts/application
+  Rendered links/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 16)
+  Rendered layout layouts/application.html.erb (Duration: 28.0ms | Allocations: 14404)
+Completed 200 OK in 33ms (Views: 30.5ms | Allocations: 15285)
+
+
+Started GET "/" for 127.0.0.1 at 2023-07-14 21:15:38 +0300
+Processing by LinksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering links/index.html.erb within layouts/application
+  Rendered links/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 16)
+  Rendered layout layouts/application.html.erb (Duration: 60.8ms | Allocations: 14489)
+Completed 200 OK in 66ms (Views: 62.8ms | Allocations: 15370)
+
+
+Started GET "/" for 127.0.0.1 at 2023-07-14 21:15:56 +0300
+Processing by LinksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering links/index.html.erb within layouts/application
+  Rendered links/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 16)
+  Rendered layout layouts/application.html.erb (Duration: 31.8ms | Allocations: 14441)
+Completed 200 OK in 39ms (Views: 35.6ms | Allocations: 15324)
+
+
+Started GET "/" for 127.0.0.1 at 2023-07-14 21:16:04 +0300
+Processing by LinksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering links/index.html.erb within layouts/application
+  Rendered links/index.html.erb within layouts/application (Duration: 1.1ms | Allocations: 186)
+  Rendered layout layouts/application.html.erb (Duration: 10.1ms | Allocations: 3157)
+Completed 200 OK in 22ms (Views: 16.9ms | Allocations: 4401)
+
+
+Started GET "/" for 127.0.0.1 at 2023-07-14 21:16:07 +0300
+Processing by LinksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering links/index.html.erb within layouts/application
+  Rendered links/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 13)
+  Rendered layout layouts/application.html.erb (Duration: 7.8ms | Allocations: 2462)
+Completed 200 OK in 13ms (Views: 9.3ms | Allocations: 2823)
+
+
+Started GET "/" for 127.0.0.1 at 2023-07-14 21:16:08 +0300
+Processing by LinksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering links/index.html.erb within layouts/application
+  Rendered links/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 13)
+  Rendered layout layouts/application.html.erb (Duration: 7.9ms | Allocations: 2460)
+Completed 200 OK in 13ms (Views: 9.6ms | Allocations: 2802)
+
+
+Started GET "/" for 127.0.0.1 at 2023-07-14 21:16:08 +0300
+Processing by LinksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering links/index.html.erb within layouts/application
+  Rendered links/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 13)
+  Rendered layout layouts/application.html.erb (Duration: 6.8ms | Allocations: 2466)
+Completed 200 OK in 10ms (Views: 7.7ms | Allocations: 2808)
+
+
+Started GET "/" for 127.0.0.1 at 2023-07-14 21:16:08 +0300
+Processing by LinksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering links/index.html.erb within layouts/application
+  Rendered links/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 13)
+  Rendered layout layouts/application.html.erb (Duration: 7.7ms | Allocations: 2462)
+Completed 200 OK in 11ms (Views: 8.8ms | Allocations: 2804)
+
+
+Started GET "/" for 127.0.0.1 at 2023-07-14 21:16:09 +0300
+Processing by LinksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering links/index.html.erb within layouts/application
+  Rendered links/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 13)
+  Rendered layout layouts/application.html.erb (Duration: 7.1ms | Allocations: 2446)
+Completed 200 OK in 11ms (Views: 8.2ms | Allocations: 2788)
+
+
+Started GET "/" for 127.0.0.1 at 2023-07-14 21:16:09 +0300
+Processing by LinksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering links/index.html.erb within layouts/application
+  Rendered links/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 13)
+  Rendered layout layouts/application.html.erb (Duration: 6.9ms | Allocations: 2476)
+Completed 200 OK in 11ms (Views: 7.9ms | Allocations: 2818)
+
+
+Started GET "/" for 127.0.0.1 at 2023-07-14 21:16:09 +0300
+Processing by LinksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering links/index.html.erb within layouts/application
+  Rendered links/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 13)
+  Rendered layout layouts/application.html.erb (Duration: 7.9ms | Allocations: 2458)
+Completed 200 OK in 12ms (Views: 9.3ms | Allocations: 2800)
+
+
+Started GET "/" for 127.0.0.1 at 2023-07-14 21:16:09 +0300
+Processing by LinksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering links/index.html.erb within layouts/application
+  Rendered links/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 13)
+  Rendered layout layouts/application.html.erb (Duration: 10.4ms | Allocations: 2448)
+Completed 200 OK in 15ms (Views: 12.0ms | Allocations: 2790)
+
+
+Started GET "/" for 127.0.0.1 at 2023-07-14 21:16:09 +0300
+Processing by LinksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering links/index.html.erb within layouts/application
+  Rendered links/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 13)
+  Rendered layout layouts/application.html.erb (Duration: 8.0ms | Allocations: 2452)
+Completed 200 OK in 12ms (Views: 9.0ms | Allocations: 2794)
+
+
+Started GET "/" for 127.0.0.1 at 2023-07-14 21:16:10 +0300
+Processing by LinksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering links/index.html.erb within layouts/application
+  Rendered links/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 13)
+  Rendered layout layouts/application.html.erb (Duration: 18.2ms | Allocations: 2460)
+Completed 200 OK in 23ms (Views: 20.1ms | Allocations: 2802)
+
+
+Started GET "/" for 127.0.0.1 at 2023-07-14 21:16:10 +0300
+Processing by LinksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering links/index.html.erb within layouts/application
+  Rendered links/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 13)
+  Rendered layout layouts/application.html.erb (Duration: 8.5ms | Allocations: 2456)
+Completed 200 OK in 12ms (Views: 9.7ms | Allocations: 2798)
+
+
+Started GET "/" for 127.0.0.1 at 2023-07-14 21:16:11 +0300
+Processing by LinksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering links/index.html.erb within layouts/application
+  Rendered links/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 13)
+  Rendered layout layouts/application.html.erb (Duration: 9.4ms | Allocations: 2460)
+Completed 200 OK in 14ms (Views: 10.9ms | Allocations: 2802)
+
+
+Started GET "/" for 127.0.0.1 at 2023-07-14 21:16:13 +0300
+Processing by LinksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering links/index.html.erb within layouts/application
+  Rendered links/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 13)
+  Rendered layout layouts/application.html.erb (Duration: 9.2ms | Allocations: 2450)
+Completed 200 OK in 13ms (Views: 10.4ms | Allocations: 2792)
+
+
+Started GET "/" for 127.0.0.1 at 2023-07-14 21:16:36 +0300
+Processing by LinksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering links/index.html.erb within layouts/application
+  Rendered links/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 13)
+  Rendered layout layouts/application.html.erb (Duration: 9.6ms | Allocations: 2464)
+Completed 200 OK in 14ms (Views: 10.8ms | Allocations: 2806)
+
+
+Started GET "/" for 127.0.0.1 at 2023-07-14 21:16:52 +0300
+Processing by LinksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering links/index.html.erb within layouts/application
+  Rendered links/index.html.erb within layouts/application (Duration: 1.0ms | Allocations: 180)
+  Rendered layout layouts/application.html.erb (Duration: 36.4ms | Allocations: 14810)
+Completed 200 OK in 46ms (Views: 42.0ms | Allocations: 16101)
+
+
+Started GET "/" for 127.0.0.1 at 2023-07-14 21:16:53 +0300
+Processing by LinksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering links/index.html.erb within layouts/application
+  Rendered links/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 13)
+  Rendered layout layouts/application.html.erb (Duration: 9.9ms | Allocations: 2466)
+Completed 200 OK in 14ms (Views: 11.2ms | Allocations: 2821)
+
+
+Started GET "/" for 127.0.0.1 at 2023-07-14 21:16:54 +0300
+Processing by LinksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering links/index.html.erb within layouts/application
+  Rendered links/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 13)
+  Rendered layout layouts/application.html.erb (Duration: 12.0ms | Allocations: 2454)
+Completed 200 OK in 16ms (Views: 13.5ms | Allocations: 2794)
+
+
+Started GET "/" for 127.0.0.1 at 2023-07-14 21:17:58 +0300
+Processing by LinksController#index as HTML
+Completed 500 Internal Server Error in 7ms (Allocations: 3003)
+
+
+  
+NameError (undefined local variable or method `short_link' for #<LinksController:0x0000000012e6e8>
+Did you mean?  @short_link):
+  
+app/controllers/links_controller.rb:22:in `encode'
+app/controllers/links_controller.rb:7:in `index'
+Started GET "/" for 127.0.0.1 at 2023-07-14 21:17:59 +0300
+Processing by LinksController#index as HTML
+Completed 500 Internal Server Error in 7ms (Allocations: 2986)
+
+
+  
+NameError (undefined local variable or method `short_link' for #<LinksController:0x0000000012eaf8>
+Did you mean?  @short_link):
+  
+app/controllers/links_controller.rb:22:in `encode'
+app/controllers/links_controller.rb:7:in `index'
+Started GET "/" for 127.0.0.1 at 2023-07-14 21:18:09 +0300
+Processing by LinksController#index as HTML
+Completed 500 Internal Server Error in 7ms (Allocations: 3057)
+
+
+  
+NameError (undefined local variable or method `short_link' for #<LinksController:0x00000000133120>
+Did you mean?  @short_link):
+  
+app/controllers/links_controller.rb:24:in `encode'
+app/controllers/links_controller.rb:7:in `index'
+Started GET "/" for 127.0.0.1 at 2023-07-14 21:18:09 +0300
+Processing by LinksController#index as HTML
+Completed 500 Internal Server Error in 6ms (Allocations: 2987)
+
+
+  
+NameError (undefined local variable or method `short_link' for #<LinksController:0x000000001334b8>
+Did you mean?  @short_link):
+  
+app/controllers/links_controller.rb:24:in `encode'
+app/controllers/links_controller.rb:7:in `index'
+Started GET "/" for 127.0.0.1 at 2023-07-14 21:18:13 +0300
+Processing by LinksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering links/index.html.erb within layouts/application
+  Rendered links/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 19)
+  Rendered layout layouts/application.html.erb (Duration: 30.0ms | Allocations: 14502)
+Completed 200 OK in 36ms (Views: 32.3ms | Allocations: 15383)
+
+
+Started GET "/" for 127.0.0.1 at 2023-07-14 21:18:14 +0300
+Processing by LinksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering links/index.html.erb within layouts/application
+  Rendered links/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 13)
+  Rendered layout layouts/application.html.erb (Duration: 6.6ms | Allocations: 2458)
+Completed 200 OK in 11ms (Views: 8.1ms | Allocations: 2813)
+
+
+Started GET "/" for 127.0.0.1 at 2023-07-14 21:18:15 +0300
+Processing by LinksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering links/index.html.erb within layouts/application
+  Rendered links/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 13)
+  Rendered layout layouts/application.html.erb (Duration: 10.2ms | Allocations: 2458)
+Completed 200 OK in 16ms (Views: 12.7ms | Allocations: 2798)
+
+
+Started GET "/" for 127.0.0.1 at 2023-07-14 21:20:01 +0300
+Processing by LinksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering links/index.html.erb within layouts/application
+  Rendered links/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 19)
+  Rendered layout layouts/application.html.erb (Duration: 29.3ms | Allocations: 14396)
+Completed 200 OK in 35ms (Views: 32.1ms | Allocations: 15277)
+
+
+Started GET "/" for 127.0.0.1 at 2023-07-14 21:20:02 +0300
+Processing by LinksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering links/index.html.erb within layouts/application
+  Rendered links/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 13)
+  Rendered layout layouts/application.html.erb (Duration: 9.3ms | Allocations: 2450)
+Completed 200 OK in 14ms (Views: 10.9ms | Allocations: 2805)
+
+
+Started GET "/" for 127.0.0.1 at 2023-07-14 21:20:03 +0300
+Processing by LinksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering links/index.html.erb within layouts/application
+  Rendered links/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 13)
+  Rendered layout layouts/application.html.erb (Duration: 8.3ms | Allocations: 2456)
+Completed 200 OK in 12ms (Views: 9.4ms | Allocations: 2796)
+
+
+Started GET "/" for 127.0.0.1 at 2023-07-14 21:20:03 +0300
+Processing by LinksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering links/index.html.erb within layouts/application
+  Rendered links/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 13)
+  Rendered layout layouts/application.html.erb (Duration: 6.7ms | Allocations: 2466)
+Completed 200 OK in 11ms (Views: 8.4ms | Allocations: 2806)
+
+
+Started GET "/" for 127.0.0.1 at 2023-07-14 21:20:03 +0300
+Processing by LinksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering links/index.html.erb within layouts/application
+  Rendered links/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 13)
+  Rendered layout layouts/application.html.erb (Duration: 6.0ms | Allocations: 2462)
+Completed 200 OK in 9ms (Views: 6.9ms | Allocations: 2802)
+
+
+Started POST "/encode" for ::1 at 2023-07-14 21:35:59 +0300
+  
+ArgumentError ('LinksController' is not a supported controller name. This can lead to potential routing problems. See https://guides.rubyonrails.org/routing.html#specifying-a-controller-to-use):
+  
+config/routes.rb:10:in `block in <main>'
+config/routes.rb:1:in `<main>'
+Started POST "/encode" for 127.0.0.1 at 2023-07-14 21:36:43 +0300
+  
+ActionController::RoutingError (No route matches [POST] "/encode"):
+  
+Started POST "/encode" for 127.0.0.1 at 2023-07-14 21:37:15 +0300
+  
+ArgumentError ('LinksController' is not a supported controller name. This can lead to potential routing problems. See https://guides.rubyonrails.org/routing.html#specifying-a-controller-to-use):
+  
+config/routes.rb:10:in `block in <main>'
+config/routes.rb:1:in `<main>'
+Started POST "/encode" for 127.0.0.1 at 2023-07-14 21:40:09 +0300
+  
+ArgumentError ('LinksController' is not a supported controller name. This can lead to potential routing problems. See https://guides.rubyonrails.org/routing.html#specifying-a-controller-to-use):
+  
+config/routes.rb:10:in `block in <main>'
+config/routes.rb:1:in `<main>'
+Started GET "/" for 127.0.0.1 at 2023-07-14 21:40:48 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/"):
+  
+Started GET "/" for 127.0.0.1 at 2023-07-14 21:40:50 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/"):
+  
+Started GET "/" for 127.0.0.1 at 2023-07-14 21:40:59 +0300
+  
+ArgumentError ('LinksController' is not a supported controller name. This can lead to potential routing problems. See https://guides.rubyonrails.org/routing.html#specifying-a-controller-to-use):
+  
+config/routes.rb:10:in `block in <main>'
+config/routes.rb:1:in `<main>'
+Started GET "/" for 127.0.0.1 at 2023-07-14 21:41:15 +0300
+  
+ArgumentError (Missing :controller key on routes definition, please check your routes.):
+  
+config/routes.rb:10:in `block in <main>'
+config/routes.rb:1:in `<main>'
+Started GET "/" for 127.0.0.1 at 2023-07-14 21:42:15 +0300
+Processing by LinksController#index as HTML
+Completed 200 OK in 2ms (Views: 0.4ms | Allocations: 257)
+
+
+Started POST "/encode" for 127.0.0.1 at 2023-07-14 21:42:25 +0300
+Processing by LinksController#encode as HTML
+  Parameters: {"long_link"=>"https://example.com"}
+Can't verify CSRF token authenticity.
+Completed 422 Unprocessable Entity in 1ms (Allocations: 501)
+
+
+  
+ActionController::InvalidAuthenticityToken (Can't verify CSRF token authenticity.):
+  
+actionpack (7.0.6) lib/action_controller/metal/request_forgery_protection.rb:253:in `handle_unverified_request'
+actionpack (7.0.6) lib/action_controller/metal/request_forgery_protection.rb:286:in `handle_unverified_request'
+actionpack (7.0.6) lib/action_controller/metal/request_forgery_protection.rb:275:in `verify_authenticity_token'
+activesupport (7.0.6) lib/active_support/callbacks.rb:400:in `block in make_lambda'
+activesupport (7.0.6) lib/active_support/callbacks.rb:199:in `block (2 levels) in halting'
+actionpack (7.0.6) lib/abstract_controller/callbacks.rb:34:in `block (2 levels) in <module:Callbacks>'
+activesupport (7.0.6) lib/active_support/callbacks.rb:200:in `block in halting'
+activesupport (7.0.6) lib/active_support/callbacks.rb:595:in `block in invoke_before'
+activesupport (7.0.6) lib/active_support/callbacks.rb:595:in `each'
+activesupport (7.0.6) lib/active_support/callbacks.rb:595:in `invoke_before'
+activesupport (7.0.6) lib/active_support/callbacks.rb:116:in `block in run_callbacks'
+activesupport (7.0.6) lib/active_support/callbacks.rb:138:in `run_callbacks'
+actionpack (7.0.6) lib/abstract_controller/callbacks.rb:233:in `process_action'
+actionpack (7.0.6) lib/action_controller/metal/rescue.rb:23:in `process_action'
+actionpack (7.0.6) lib/action_controller/metal/instrumentation.rb:67:in `block in process_action'
+activesupport (7.0.6) lib/active_support/notifications.rb:206:in `block in instrument'
+activesupport (7.0.6) lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+activesupport (7.0.6) lib/active_support/notifications.rb:206:in `instrument'
+actionpack (7.0.6) lib/action_controller/metal/instrumentation.rb:66:in `process_action'
+actionpack (7.0.6) lib/action_controller/metal/params_wrapper.rb:259:in `process_action'
+activerecord (7.0.6) lib/active_record/railties/controller_runtime.rb:27:in `process_action'
+actionpack (7.0.6) lib/abstract_controller/base.rb:151:in `process'
+actionview (7.0.6) lib/action_view/rendering.rb:39:in `process'
+actionpack (7.0.6) lib/action_controller/metal.rb:188:in `dispatch'
+actionpack (7.0.6) lib/action_controller/metal.rb:251:in `dispatch'
+actionpack (7.0.6) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (7.0.6) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (7.0.6) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (7.0.6) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (7.0.6) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (7.0.6) lib/action_dispatch/routing/route_set.rb:852:in `call'
+rack (2.2.7) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.7) lib/rack/etag.rb:27:in `call'
+rack (2.2.7) lib/rack/conditional_get.rb:40:in `call'
+rack (2.2.7) lib/rack/head.rb:12:in `call'
+actionpack (7.0.6) lib/action_dispatch/http/permissions_policy.rb:38:in `call'
+actionpack (7.0.6) lib/action_dispatch/http/content_security_policy.rb:36:in `call'
+rack (2.2.7) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.7) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (7.0.6) lib/action_dispatch/middleware/cookies.rb:704:in `call'
+activerecord (7.0.6) lib/active_record/migration.rb:603:in `call'
+actionpack (7.0.6) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (7.0.6) lib/active_support/callbacks.rb:99:in `run_callbacks'
+actionpack (7.0.6) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (7.0.6) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.6) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (7.0.6) lib/action_dispatch/middleware/debug_exceptions.rb:28:in `call'
+web-console (4.2.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (7.0.6) lib/action_dispatch/middleware/show_exceptions.rb:29:in `call'
+railties (7.0.6) lib/rails/rack/logger.rb:40:in `call_app'
+railties (7.0.6) lib/rails/rack/logger.rb:25:in `block in call'
+activesupport (7.0.6) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (7.0.6) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (7.0.6) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (7.0.6) lib/rails/rack/logger.rb:25:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (7.0.6) lib/action_dispatch/middleware/remote_ip.rb:93:in `call'
+actionpack (7.0.6) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.7) lib/rack/method_override.rb:24:in `call'
+rack (2.2.7) lib/rack/runtime.rb:22:in `call'
+activesupport (7.0.6) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.0.6) lib/action_dispatch/middleware/server_timing.rb:61:in `block in call'
+actionpack (7.0.6) lib/action_dispatch/middleware/server_timing.rb:26:in `collect_events'
+actionpack (7.0.6) lib/action_dispatch/middleware/server_timing.rb:60:in `call'
+actionpack (7.0.6) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.6) lib/action_dispatch/middleware/static.rb:23:in `call'
+rack (2.2.7) lib/rack/sendfile.rb:110:in `call'
+actionpack (7.0.6) lib/action_dispatch/middleware/host_authorization.rb:137:in `call'
+railties (7.0.6) lib/rails/engine.rb:530:in `call'
+puma (5.6.6) lib/puma/configuration.rb:252:in `call'
+puma (5.6.6) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.6) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.6) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.6) lib/puma/server.rb:443:in `process_client'
+puma (5.6.6) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2023-07-14 21:42:36 +0300
+Processing by LinksController#index as HTML
+Completed 200 OK in 2ms (Views: 0.2ms | Allocations: 171)
+
+
+Started POST "/encode" for 127.0.0.1 at 2023-07-14 21:42:39 +0300
+Processing by LinksController#encode as HTML
+  Parameters: {"long_link"=>"https://example.com"}
+Can't verify CSRF token authenticity.
+Completed 422 Unprocessable Entity in 1ms (Allocations: 440)
+
+
+  
+ActionController::InvalidAuthenticityToken (Can't verify CSRF token authenticity.):
+  
+actionpack (7.0.6) lib/action_controller/metal/request_forgery_protection.rb:253:in `handle_unverified_request'
+actionpack (7.0.6) lib/action_controller/metal/request_forgery_protection.rb:286:in `handle_unverified_request'
+actionpack (7.0.6) lib/action_controller/metal/request_forgery_protection.rb:275:in `verify_authenticity_token'
+activesupport (7.0.6) lib/active_support/callbacks.rb:400:in `block in make_lambda'
+activesupport (7.0.6) lib/active_support/callbacks.rb:199:in `block (2 levels) in halting'
+actionpack (7.0.6) lib/abstract_controller/callbacks.rb:34:in `block (2 levels) in <module:Callbacks>'
+activesupport (7.0.6) lib/active_support/callbacks.rb:200:in `block in halting'
+activesupport (7.0.6) lib/active_support/callbacks.rb:595:in `block in invoke_before'
+activesupport (7.0.6) lib/active_support/callbacks.rb:595:in `each'
+activesupport (7.0.6) lib/active_support/callbacks.rb:595:in `invoke_before'
+activesupport (7.0.6) lib/active_support/callbacks.rb:116:in `block in run_callbacks'
+activesupport (7.0.6) lib/active_support/callbacks.rb:138:in `run_callbacks'
+actionpack (7.0.6) lib/abstract_controller/callbacks.rb:233:in `process_action'
+actionpack (7.0.6) lib/action_controller/metal/rescue.rb:23:in `process_action'
+actionpack (7.0.6) lib/action_controller/metal/instrumentation.rb:67:in `block in process_action'
+activesupport (7.0.6) lib/active_support/notifications.rb:206:in `block in instrument'
+activesupport (7.0.6) lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+activesupport (7.0.6) lib/active_support/notifications.rb:206:in `instrument'
+actionpack (7.0.6) lib/action_controller/metal/instrumentation.rb:66:in `process_action'
+actionpack (7.0.6) lib/action_controller/metal/params_wrapper.rb:259:in `process_action'
+activerecord (7.0.6) lib/active_record/railties/controller_runtime.rb:27:in `process_action'
+actionpack (7.0.6) lib/abstract_controller/base.rb:151:in `process'
+actionview (7.0.6) lib/action_view/rendering.rb:39:in `process'
+actionpack (7.0.6) lib/action_controller/metal.rb:188:in `dispatch'
+actionpack (7.0.6) lib/action_controller/metal.rb:251:in `dispatch'
+actionpack (7.0.6) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (7.0.6) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (7.0.6) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (7.0.6) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (7.0.6) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (7.0.6) lib/action_dispatch/routing/route_set.rb:852:in `call'
+rack (2.2.7) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.7) lib/rack/etag.rb:27:in `call'
+rack (2.2.7) lib/rack/conditional_get.rb:40:in `call'
+rack (2.2.7) lib/rack/head.rb:12:in `call'
+actionpack (7.0.6) lib/action_dispatch/http/permissions_policy.rb:38:in `call'
+actionpack (7.0.6) lib/action_dispatch/http/content_security_policy.rb:36:in `call'
+rack (2.2.7) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.7) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (7.0.6) lib/action_dispatch/middleware/cookies.rb:704:in `call'
+activerecord (7.0.6) lib/active_record/migration.rb:603:in `call'
+actionpack (7.0.6) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (7.0.6) lib/active_support/callbacks.rb:99:in `run_callbacks'
+actionpack (7.0.6) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (7.0.6) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.6) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (7.0.6) lib/action_dispatch/middleware/debug_exceptions.rb:28:in `call'
+web-console (4.2.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (7.0.6) lib/action_dispatch/middleware/show_exceptions.rb:29:in `call'
+railties (7.0.6) lib/rails/rack/logger.rb:40:in `call_app'
+railties (7.0.6) lib/rails/rack/logger.rb:25:in `block in call'
+activesupport (7.0.6) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (7.0.6) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (7.0.6) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (7.0.6) lib/rails/rack/logger.rb:25:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (7.0.6) lib/action_dispatch/middleware/remote_ip.rb:93:in `call'
+actionpack (7.0.6) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.7) lib/rack/method_override.rb:24:in `call'
+rack (2.2.7) lib/rack/runtime.rb:22:in `call'
+activesupport (7.0.6) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.0.6) lib/action_dispatch/middleware/server_timing.rb:61:in `block in call'
+actionpack (7.0.6) lib/action_dispatch/middleware/server_timing.rb:26:in `collect_events'
+actionpack (7.0.6) lib/action_dispatch/middleware/server_timing.rb:60:in `call'
+actionpack (7.0.6) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.6) lib/action_dispatch/middleware/static.rb:23:in `call'
+rack (2.2.7) lib/rack/sendfile.rb:110:in `call'
+actionpack (7.0.6) lib/action_dispatch/middleware/host_authorization.rb:137:in `call'
+railties (7.0.6) lib/rails/engine.rb:530:in `call'
+puma (5.6.6) lib/puma/configuration.rb:252:in `call'
+puma (5.6.6) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.6) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.6) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.6) lib/puma/server.rb:443:in `process_client'
+puma (5.6.6) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2023-07-14 21:42:46 +0300
+Processing by LinksController#index as HTML
+Completed 200 OK in 2ms (Views: 0.3ms | Allocations: 171)
+
+
+Started GET "/" for 127.0.0.1 at 2023-07-14 21:42:47 +0300
+Processing by LinksController#index as HTML
+Completed 200 OK in 2ms (Views: 0.2ms | Allocations: 171)
+
+
+Started GET "/" for 127.0.0.1 at 2023-07-14 21:43:11 +0300
+Processing by LinksController#index as HTML
+Completed 200 OK in 3ms (Views: 0.3ms | Allocations: 274)
+
+
+Started GET "/" for 127.0.0.1 at 2023-07-14 21:43:12 +0300
+Processing by LinksController#index as HTML
+Completed 200 OK in 2ms (Views: 0.2ms | Allocations: 218)
+
+
+Started GET "/" for 127.0.0.1 at 2023-07-14 21:43:12 +0300
+Processing by LinksController#index as HTML
+Completed 200 OK in 2ms (Views: 0.2ms | Allocations: 243)
+
+
+Started GET "/" for 127.0.0.1 at 2023-07-14 21:43:13 +0300
+Processing by LinksController#index as HTML
+Completed 200 OK in 2ms (Views: 0.2ms | Allocations: 268)
+
+
+Started GET "/" for 127.0.0.1 at 2023-07-14 21:43:14 +0300
+Processing by LinksController#index as HTML
+Completed 200 OK in 2ms (Views: 0.2ms | Allocations: 293)
+
+
+Started GET "/" for 127.0.0.1 at 2023-07-14 21:43:15 +0300
+Processing by LinksController#index as HTML
+Completed 200 OK in 2ms (Views: 0.2ms | Allocations: 318)
+
+
+Started GET "/" for 127.0.0.1 at 2023-07-14 21:43:16 +0300
+Processing by LinksController#index as HTML
+Completed 200 OK in 2ms (Views: 0.3ms | Allocations: 343)
+
+
+Started GET "/" for 127.0.0.1 at 2023-07-14 21:43:17 +0300
+Processing by LinksController#index as HTML
+Completed 200 OK in 2ms (Views: 0.4ms | Allocations: 368)
+
+
+Started GET "/" for 127.0.0.1 at 2023-07-14 21:43:17 +0300
+Processing by LinksController#index as HTML
+Completed 200 OK in 14ms (Views: 0.3ms | Allocations: 393)
+
+
+Started GET "/" for 127.0.0.1 at 2023-07-14 21:43:18 +0300
+Processing by LinksController#index as HTML
+Completed 200 OK in 3ms (Views: 0.3ms | Allocations: 418)
+
+
+Started GET "/" for 127.0.0.1 at 2023-07-14 21:43:18 +0300
+Processing by LinksController#index as HTML
+Completed 200 OK in 2ms (Views: 0.3ms | Allocations: 443)
+
+
+Started GET "/" for 127.0.0.1 at 2023-07-14 21:43:18 +0300
+Processing by LinksController#index as HTML
+Completed 200 OK in 2ms (Views: 0.3ms | Allocations: 468)
+
+
+Started GET "/" for 127.0.0.1 at 2023-07-14 21:43:19 +0300
+Processing by LinksController#index as HTML
+Completed 200 OK in 2ms (Views: 0.3ms | Allocations: 493)
+
+
+Started GET "/" for 127.0.0.1 at 2023-07-14 21:43:19 +0300
+Processing by LinksController#index as HTML
+Completed 200 OK in 2ms (Views: 0.4ms | Allocations: 518)
+
+
+Started GET "/encode" for 127.0.0.1 at 2023-07-14 21:43:46 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/encode"):
+  
+Started GET "/encode" for 127.0.0.1 at 2023-07-14 21:44:16 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/encode"):
+  
+Started POST "/encode" for 127.0.0.1 at 2023-07-14 21:44:21 +0300
+Processing by LinksController#encode as HTML
+  Parameters: {"long_link"=>"https://example.com"}
+Can't verify CSRF token authenticity.
+Completed 422 Unprocessable Entity in 1ms (Allocations: 453)
+
+
+  
+ActionController::InvalidAuthenticityToken (Can't verify CSRF token authenticity.):
+  
+actionpack (7.0.6) lib/action_controller/metal/request_forgery_protection.rb:253:in `handle_unverified_request'
+actionpack (7.0.6) lib/action_controller/metal/request_forgery_protection.rb:286:in `handle_unverified_request'
+actionpack (7.0.6) lib/action_controller/metal/request_forgery_protection.rb:275:in `verify_authenticity_token'
+activesupport (7.0.6) lib/active_support/callbacks.rb:400:in `block in make_lambda'
+activesupport (7.0.6) lib/active_support/callbacks.rb:199:in `block (2 levels) in halting'
+actionpack (7.0.6) lib/abstract_controller/callbacks.rb:34:in `block (2 levels) in <module:Callbacks>'
+activesupport (7.0.6) lib/active_support/callbacks.rb:200:in `block in halting'
+activesupport (7.0.6) lib/active_support/callbacks.rb:595:in `block in invoke_before'
+activesupport (7.0.6) lib/active_support/callbacks.rb:595:in `each'
+activesupport (7.0.6) lib/active_support/callbacks.rb:595:in `invoke_before'
+activesupport (7.0.6) lib/active_support/callbacks.rb:116:in `block in run_callbacks'
+activesupport (7.0.6) lib/active_support/callbacks.rb:138:in `run_callbacks'
+actionpack (7.0.6) lib/abstract_controller/callbacks.rb:233:in `process_action'
+actionpack (7.0.6) lib/action_controller/metal/rescue.rb:23:in `process_action'
+actionpack (7.0.6) lib/action_controller/metal/instrumentation.rb:67:in `block in process_action'
+activesupport (7.0.6) lib/active_support/notifications.rb:206:in `block in instrument'
+activesupport (7.0.6) lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+activesupport (7.0.6) lib/active_support/notifications.rb:206:in `instrument'
+actionpack (7.0.6) lib/action_controller/metal/instrumentation.rb:66:in `process_action'
+actionpack (7.0.6) lib/action_controller/metal/params_wrapper.rb:259:in `process_action'
+activerecord (7.0.6) lib/active_record/railties/controller_runtime.rb:27:in `process_action'
+actionpack (7.0.6) lib/abstract_controller/base.rb:151:in `process'
+actionview (7.0.6) lib/action_view/rendering.rb:39:in `process'
+actionpack (7.0.6) lib/action_controller/metal.rb:188:in `dispatch'
+actionpack (7.0.6) lib/action_controller/metal.rb:251:in `dispatch'
+actionpack (7.0.6) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (7.0.6) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (7.0.6) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (7.0.6) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (7.0.6) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (7.0.6) lib/action_dispatch/routing/route_set.rb:852:in `call'
+rack (2.2.7) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.7) lib/rack/etag.rb:27:in `call'
+rack (2.2.7) lib/rack/conditional_get.rb:40:in `call'
+rack (2.2.7) lib/rack/head.rb:12:in `call'
+actionpack (7.0.6) lib/action_dispatch/http/permissions_policy.rb:38:in `call'
+actionpack (7.0.6) lib/action_dispatch/http/content_security_policy.rb:36:in `call'
+rack (2.2.7) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.7) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (7.0.6) lib/action_dispatch/middleware/cookies.rb:704:in `call'
+activerecord (7.0.6) lib/active_record/migration.rb:603:in `call'
+actionpack (7.0.6) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (7.0.6) lib/active_support/callbacks.rb:99:in `run_callbacks'
+actionpack (7.0.6) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (7.0.6) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.6) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (7.0.6) lib/action_dispatch/middleware/debug_exceptions.rb:28:in `call'
+web-console (4.2.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (7.0.6) lib/action_dispatch/middleware/show_exceptions.rb:29:in `call'
+railties (7.0.6) lib/rails/rack/logger.rb:40:in `call_app'
+railties (7.0.6) lib/rails/rack/logger.rb:25:in `block in call'
+activesupport (7.0.6) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (7.0.6) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (7.0.6) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (7.0.6) lib/rails/rack/logger.rb:25:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (7.0.6) lib/action_dispatch/middleware/remote_ip.rb:93:in `call'
+actionpack (7.0.6) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.7) lib/rack/method_override.rb:24:in `call'
+rack (2.2.7) lib/rack/runtime.rb:22:in `call'
+activesupport (7.0.6) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.0.6) lib/action_dispatch/middleware/server_timing.rb:61:in `block in call'
+actionpack (7.0.6) lib/action_dispatch/middleware/server_timing.rb:26:in `collect_events'
+actionpack (7.0.6) lib/action_dispatch/middleware/server_timing.rb:60:in `call'
+actionpack (7.0.6) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.6) lib/action_dispatch/middleware/static.rb:23:in `call'
+rack (2.2.7) lib/rack/sendfile.rb:110:in `call'
+actionpack (7.0.6) lib/action_dispatch/middleware/host_authorization.rb:137:in `call'
+railties (7.0.6) lib/rails/engine.rb:530:in `call'
+puma (5.6.6) lib/puma/configuration.rb:252:in `call'
+puma (5.6.6) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.6) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.6) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.6) lib/puma/server.rb:443:in `process_client'
+puma (5.6.6) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started GET "/encode" for 127.0.0.1 at 2023-07-14 21:44:33 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/encode"):
+  
+Started GET "/" for 127.0.0.1 at 2023-07-14 21:44:40 +0300
+Processing by LinksController#index as HTML
+Completed 200 OK in 3ms (Views: 0.5ms | Allocations: 274)
+
+
+Started POST "/encode" for 127.0.0.1 at 2023-07-14 21:46:10 +0300
+Processing by LinksController#encode as HTML
+  Parameters: {"long_link"=>"https://example.com"}
+Completed 500 Internal Server Error in 2ms (Allocations: 469)
+
+
+  
+ArgumentError (wrong number of arguments (given 0, expected 1)):
+  
+app/controllers/links_controller.rb:20:in `encode'
+Started POST "/encode" for 127.0.0.1 at 2023-07-14 21:46:55 +0300
+Processing by LinksController#encode as HTML
+  Parameters: {"long_link"=>"https://example.com"}
+Completed 500 Internal Server Error in 2ms (Allocations: 451)
+
+
+  
+ArgumentError (wrong number of arguments (given 0, expected 1)):
+  
+app/controllers/links_controller.rb:20:in `encode'
+Started POST "/encode" for ::1 at 2023-07-14 21:48:59 +0300
+Processing by LinksController#encode as HTML
+  Parameters: {"long_link"=>"google.lv", "link"=>{"long_link"=>"google.lv"}}
+Completed 500 Internal Server Error in 2ms (Allocations: 469)
+
+
+  
+ArgumentError (wrong number of arguments (given 0, expected 1)):
+  
+app/controllers/links_controller.rb:20:in `encode'
+Started POST "/encode" for ::1 at 2023-07-14 21:49:18 +0300
+Processing by LinksController#encode as HTML
+  Parameters: {"long_link"=>"https://example.com"}
+Completed 500 Internal Server Error in 2ms (Allocations: 451)
+
+
+  
+ArgumentError (wrong number of arguments (given 0, expected 1)):
+  
+app/controllers/links_controller.rb:20:in `encode'
+Started POST "/encode" for ::1 at 2023-07-14 21:49:21 +0300
+Processing by LinksController#encode as HTML
+  Parameters: {"long_link"=>"google.lv", "link"=>{"long_link"=>"google.lv"}}
+Completed 500 Internal Server Error in 2ms (Allocations: 451)
+
+
+  
+ArgumentError (wrong number of arguments (given 0, expected 1)):
+  
+app/controllers/links_controller.rb:20:in `encode'
+Started POST "/encode" for ::1 at 2023-07-14 21:49:45 +0300
+Processing by LinksController#encode as HTML
+  Parameters: {"long_link"=>"google.lv", "link"=>{"long_link"=>"google.lv"}}
+Completed 500 Internal Server Error in 2ms (Allocations: 451)
+
+
+  
+ArgumentError (wrong number of arguments (given 0, expected 1)):
+  
+app/controllers/links_controller.rb:20:in `encode'
+Started POST "/encode" for ::1 at 2023-07-14 21:49:48 +0300
+Processing by LinksController#encode as HTML
+  Parameters: {"long_link"=>"google.lv", "link"=>{"long_link"=>"google.lv"}}
+Completed 500 Internal Server Error in 2ms (Allocations: 451)
+
+
+  
+ArgumentError (wrong number of arguments (given 0, expected 1)):
+  
+app/controllers/links_controller.rb:20:in `encode'
+Started POST "/encode" for 127.0.0.1 at 2023-07-14 21:50:12 +0300
+Processing by LinksController#encode as HTML
+  Parameters: {"long_link"=>"google.lv", "link"=>{"long_link"=>"google.lv"}}
+Completed 500 Internal Server Error in 2ms (Allocations: 451)
+
+
+  
+ArgumentError (wrong number of arguments (given 0, expected 1)):
+  
+app/controllers/links_controller.rb:20:in `encode'
+Started POST "/encode" for 127.0.0.1 at 2023-07-14 21:51:49 +0300
+Processing by LinksController#encode as HTML
+  Parameters: {"long_link"=>"google.lv", "link"=>{"long_link"=>"google.lv"}}
+Completed 500 Internal Server Error in 18ms (Allocations: 451)
+
+
+  
+ArgumentError (wrong number of arguments (given 0, expected 1)):
+  
+app/controllers/links_controller.rb:20:in `encode'
+Started POST "/encode" for 127.0.0.1 at 2023-07-14 21:54:28 +0300
+Processing by LinksController#encode as HTML
+  Parameters: {"long_link"=>"google.lv", "link"=>{"long_link"=>"google.lv"}}
+Completed 500 Internal Server Error in 2ms (Allocations: 451)
+
+
+  
+ArgumentError (wrong number of arguments (given 0, expected 1)):
+  
+app/controllers/links_controller.rb:20:in `encode'
+Started GET "/" for 127.0.0.1 at 2023-07-14 21:55:09 +0300
+Processing by LinksController#index as HTML
+Completed 200 OK in 3ms (Views: 0.5ms | Allocations: 228)
+
+
+Started GET "/" for 127.0.0.1 at 2023-07-14 21:55:10 +0300
+Processing by LinksController#index as HTML
+Completed 200 OK in 3ms (Views: 0.5ms | Allocations: 204)
+
+
+Started GET "/" for 127.0.0.1 at 2023-07-14 21:55:11 +0300
+Processing by LinksController#index as HTML
+Completed 200 OK in 6ms (Views: 3.1ms | Allocations: 229)
+
+
+Started GET "/" for 127.0.0.1 at 2023-07-14 21:55:11 +0300
+Processing by LinksController#index as HTML
+Completed 200 OK in 3ms (Views: 0.6ms | Allocations: 254)
+
+
+Started POST "/encode" for 127.0.0.1 at 2023-07-14 21:55:27 +0300
+Processing by LinksController#encode as HTML
+  Parameters: {"long_link"=>"google.lv", "link"=>{"long_link"=>"google.lv"}}
+Completed 500 Internal Server Error in 2ms (Allocations: 451)
+
+
+  
+ArgumentError (wrong number of arguments (given 0, expected 1)):
+  
+app/controllers/links_controller.rb:20:in `encode'
+Started GET "/" for 127.0.0.1 at 2023-07-14 21:58:20 +0300
+Processing by Rails::WelcomeController#index as HTML
+  Rendering C:/Ruby30-x64/lib/ruby/gems/3.0.0/gems/railties-7.0.6/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered C:/Ruby30-x64/lib/ruby/gems/3.0.0/gems/railties-7.0.6/lib/rails/templates/rails/welcome/index.html.erb (Duration: 80.5ms | Allocations: 495)
+Completed 200 OK in 88ms (Views: 83.4ms | Allocations: 1586)
+
+
+Started POST "/encode" for 127.0.0.1 at 2023-07-14 21:58:27 +0300
+Processing by LinksController#encode as HTML
+  Parameters: {"long_link"=>"google.lv", "link"=>{"long_link"=>"google.lv"}}
+Completed 500 Internal Server Error in 2ms (Allocations: 522)
+
+
+  
+ArgumentError (wrong number of arguments (given 0, expected 1)):
+  
+app/controllers/links_controller.rb:20:in `encode'
+Started POST "/encode" for 127.0.0.1 at 2023-07-14 21:59:33 +0300
+Error occurred while parsing request parameters.
+Contents:
+
+long_link=google.lv
+Processing by LinksController#encode as HTML
+Completed 500 Internal Server Error in 4ms (Allocations: 389)
+
+
+  
+ArgumentError (wrong number of arguments (given 0, expected 1)):
+  
+app/controllers/links_controller.rb:20:in `encode'
+Started POST "/encode" for 127.0.0.1 at 2023-07-14 21:59:39 +0300
+Error occurred while parsing request parameters.
+Contents:
+
+long_link=google.lv
+Processing by LinksController#encode as HTML
+Completed 500 Internal Server Error in 2ms (Allocations: 389)
+
+
+  
+ArgumentError (wrong number of arguments (given 0, expected 1)):
+  
+app/controllers/links_controller.rb:20:in `encode'
+Started POST "/encode" for 127.0.0.1 at 2023-07-14 21:59:40 +0300
+Processing by LinksController#encode as HTML
+  Parameters: {"long_link"=>"google.lv", "link"=>{"long_link"=>"google.lv"}}
+Completed 500 Internal Server Error in 2ms (Allocations: 451)
+
+
+  
+ArgumentError (wrong number of arguments (given 0, expected 1)):
+  
+app/controllers/links_controller.rb:20:in `encode'
+Started GET "/" for 127.0.0.1 at 2023-07-14 22:00:30 +0300
+Processing by Rails::WelcomeController#index as HTML
+  Rendering C:/Ruby30-x64/lib/ruby/gems/3.0.0/gems/railties-7.0.6/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered C:/Ruby30-x64/lib/ruby/gems/3.0.0/gems/railties-7.0.6/lib/rails/templates/rails/welcome/index.html.erb (Duration: 1.9ms | Allocations: 487)
+Completed 200 OK in 7ms (Views: 4.2ms | Allocations: 1504)
+
+
+Started POST "/encode" for 127.0.0.1 at 2023-07-14 22:00:34 +0300
+Processing by LinksController#encode as HTML
+  Parameters: {"long_link"=>"google.lv", "link"=>{"long_link"=>"google.lv"}}
+Completed 500 Internal Server Error in 2ms (Allocations: 469)
+
+
+  
+ArgumentError (wrong number of arguments (given 0, expected 1)):
+  
+app/controllers/links_controller.rb:20:in `encode'
+Started POST "/encode" for 127.0.0.1 at 2023-07-14 22:00:47 +0300
+Processing by LinksController#encode as HTML
+  Parameters: {"long_link"=>"google.lv", "link"=>{"long_link"=>"google.lv"}}
+Completed 500 Internal Server Error in 2ms (Allocations: 451)
+
+
+  
+ArgumentError (wrong number of arguments (given 0, expected 1)):
+  
+app/controllers/links_controller.rb:20:in `encode'
+Started POST "/encode" for 127.0.0.1 at 2023-07-14 22:02:24 +0300
+Processing by LinksController#encode as HTML
+  Parameters: {"long_link"=>"https://example.com", "link"=>{"long_link"=>"https://example.com"}}
+Completed 500 Internal Server Error in 2ms (Allocations: 469)
+
+
+  
+ArgumentError (wrong number of arguments (given 0, expected 1)):
+  
+app/controllers/links_controller.rb:20:in `encode'
+Started POST "/encode" for 127.0.0.1 at 2023-07-14 22:04:14 +0300
+Processing by LinksController#encode as HTML
+  Parameters: {"{\"long_link\":\"https://example.com\"}"=>nil}
+Completed 500 Internal Server Error in 2ms (Allocations: 469)
+
+
+  
+ArgumentError (wrong number of arguments (given 0, expected 1)):
+  
+app/controllers/links_controller.rb:16:in `encode'
+Started POST "/encode" for 127.0.0.1 at 2023-07-14 22:04:53 +0300
+Processing by LinksController#encode as HTML
+  Parameters: {"long_link"=>"https://example.com", "link"=>{"long_link"=>"https://example.com"}}
+Completed 500 Internal Server Error in 3ms (Allocations: 469)
+
+
+  
+ArgumentError (wrong number of arguments (given 0, expected 1)):
+  
+app/controllers/links_controller.rb:14:in `encode'
+Started POST "/encode" for 127.0.0.1 at 2023-07-14 22:05:52 +0300
+Processing by LinksController#encode as HTML
+  Parameters: {"long_link"=>"https://example.com", "link"=>{"long_link"=>"https://example.com"}}
+Completed 500 Internal Server Error in 39ms (ActiveRecord: 0.0ms | Allocations: 3217)
+
+
+  
+ArgumentError (wrong number of arguments (given 0, expected 1)):
+  
+app/controllers/links_controller.rb:14:in `encode'
+Started GET "/" for 127.0.0.1 at 2023-07-14 22:06:28 +0300
+Processing by Rails::WelcomeController#index as HTML
+  Rendering C:/Ruby30-x64/lib/ruby/gems/3.0.0/gems/railties-7.0.6/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered C:/Ruby30-x64/lib/ruby/gems/3.0.0/gems/railties-7.0.6/lib/rails/templates/rails/welcome/index.html.erb (Duration: 1.5ms | Allocations: 497)
+Completed 200 OK in 8ms (Views: 4.3ms | ActiveRecord: 0.0ms | Allocations: 1800)
+
+
+Started GET "/" for 127.0.0.1 at 2023-07-14 22:06:35 +0300
+Processing by LinksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering links/index.html.erb within layouts/application
+  Rendered links/index.html.erb within layouts/application (Duration: 1.5ms | Allocations: 179)
+  Rendered layout layouts/application.html.erb (Duration: 381.7ms | Allocations: 36997)
+Completed 200 OK in 389ms (Views: 386.7ms | Allocations: 38082)
+
+
+Started GET "/encode" for 127.0.0.1 at 2023-07-14 22:06:40 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/encode"):
+  
+Started GET "/" for 127.0.0.1 at 2023-07-14 22:06:42 +0300
+Processing by LinksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering links/index.html.erb within layouts/application
+  Rendered links/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 10)
+  Rendered layout layouts/application.html.erb (Duration: 14.6ms | Allocations: 2586)
+Completed 200 OK in 21ms (Views: 17.4ms | Allocations: 2933)
+
+
+Started GET "/" for 127.0.0.1 at 2023-07-14 22:06:43 +0300
+Processing by LinksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering links/index.html.erb within layouts/application
+  Rendered links/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 10)
+  Rendered layout layouts/application.html.erb (Duration: 10.4ms | Allocations: 2453)
+Completed 200 OK in 14ms (Views: 11.7ms | Allocations: 2769)
+
+
+Started GET "/" for 127.0.0.1 at 2023-07-14 22:06:43 +0300
+Processing by LinksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering links/index.html.erb within layouts/application
+  Rendered links/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 10)
+  Rendered layout layouts/application.html.erb (Duration: 8.2ms | Allocations: 2452)
+Completed 200 OK in 11ms (Views: 9.4ms | Allocations: 2765)
+
+
+Started GET "/" for 127.0.0.1 at 2023-07-14 22:07:02 +0300
+Processing by LinksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering links/index.html.erb within layouts/application
+  Rendered links/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 10)
+  Rendered layout layouts/application.html.erb (Duration: 9.5ms | Allocations: 2447)
+Completed 200 OK in 13ms (Views: 11.0ms | Allocations: 2760)
+
+
+Started GET "/" for 127.0.0.1 at 2023-07-14 22:07:54 +0300
+Processing by LinksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering links/index.html.erb within layouts/application
+  Rendered links/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 10)
+  Rendered layout layouts/application.html.erb (Duration: 8.4ms | Allocations: 2451)
+Completed 200 OK in 12ms (Views: 9.7ms | Allocations: 2764)
+
+
+Started POST "/encode" for 127.0.0.1 at 2023-07-14 22:09:38 +0300
+Processing by LinksController#encode as HTML
+  Parameters: {"long_link"=>"https://example.com", "link"=>{"long_link"=>"https://example.com"}}
+Completed 500 Internal Server Error in 3ms (Allocations: 461)
+
+
+  
+ArgumentError (wrong number of arguments (given 0, expected 1)):
+  
+app/controllers/links_controller.rb:14:in `encode'
+Started GET "/" for 127.0.0.1 at 2023-07-14 22:10:13 +0300
+Processing by LinksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering links/index.html.erb within layouts/application
+  Rendered links/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 16)
+  Rendered layout layouts/application.html.erb (Duration: 28.5ms | Allocations: 14485)
+Completed 200 OK in 32ms (Views: 30.6ms | Allocations: 15363)
+
+
+Started POST "/encode" for 127.0.0.1 at 2023-07-14 22:10:19 +0300
+Processing by LinksController#encode as HTML
+  Parameters: {"long_link"=>"https://example.com", "link"=>{"long_link"=>"https://example.com"}}
+Completed 500 Internal Server Error in 2ms (Allocations: 466)
+
+
+  
+ArgumentError (wrong number of arguments (given 0, expected 1)):
+  
+app/controllers/links_controller.rb:14:in `encode'
+Started POST "/encode" for 127.0.0.1 at 2023-07-14 22:13:09 +0300
+Processing by LinksController#encode as HTML
+  Parameters: {"long_link"=>"https://example.com", "link"=>{"long_link"=>"https://example.com"}}
+Can't verify CSRF token authenticity.
+Completed 422 Unprocessable Entity in 1ms (Allocations: 531)
+
+
+  
+ActionController::InvalidAuthenticityToken (Can't verify CSRF token authenticity.):
+  
+actionpack (7.0.6) lib/action_controller/metal/request_forgery_protection.rb:253:in `handle_unverified_request'
+actionpack (7.0.6) lib/action_controller/metal/request_forgery_protection.rb:286:in `handle_unverified_request'
+actionpack (7.0.6) lib/action_controller/metal/request_forgery_protection.rb:275:in `verify_authenticity_token'
+activesupport (7.0.6) lib/active_support/callbacks.rb:400:in `block in make_lambda'
+activesupport (7.0.6) lib/active_support/callbacks.rb:199:in `block (2 levels) in halting'
+actionpack (7.0.6) lib/abstract_controller/callbacks.rb:34:in `block (2 levels) in <module:Callbacks>'
+activesupport (7.0.6) lib/active_support/callbacks.rb:200:in `block in halting'
+activesupport (7.0.6) lib/active_support/callbacks.rb:595:in `block in invoke_before'
+activesupport (7.0.6) lib/active_support/callbacks.rb:595:in `each'
+activesupport (7.0.6) lib/active_support/callbacks.rb:595:in `invoke_before'
+activesupport (7.0.6) lib/active_support/callbacks.rb:116:in `block in run_callbacks'
+activesupport (7.0.6) lib/active_support/callbacks.rb:138:in `run_callbacks'
+actionpack (7.0.6) lib/abstract_controller/callbacks.rb:233:in `process_action'
+actionpack (7.0.6) lib/action_controller/metal/rescue.rb:23:in `process_action'
+actionpack (7.0.6) lib/action_controller/metal/instrumentation.rb:67:in `block in process_action'
+activesupport (7.0.6) lib/active_support/notifications.rb:206:in `block in instrument'
+activesupport (7.0.6) lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+activesupport (7.0.6) lib/active_support/notifications.rb:206:in `instrument'
+actionpack (7.0.6) lib/action_controller/metal/instrumentation.rb:66:in `process_action'
+actionpack (7.0.6) lib/action_controller/metal/params_wrapper.rb:259:in `process_action'
+activerecord (7.0.6) lib/active_record/railties/controller_runtime.rb:27:in `process_action'
+actionpack (7.0.6) lib/abstract_controller/base.rb:151:in `process'
+actionview (7.0.6) lib/action_view/rendering.rb:39:in `process'
+actionpack (7.0.6) lib/action_controller/metal.rb:188:in `dispatch'
+actionpack (7.0.6) lib/action_controller/metal.rb:251:in `dispatch'
+actionpack (7.0.6) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (7.0.6) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (7.0.6) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (7.0.6) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (7.0.6) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (7.0.6) lib/action_dispatch/routing/route_set.rb:852:in `call'
+rack (2.2.7) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.7) lib/rack/etag.rb:27:in `call'
+rack (2.2.7) lib/rack/conditional_get.rb:40:in `call'
+rack (2.2.7) lib/rack/head.rb:12:in `call'
+actionpack (7.0.6) lib/action_dispatch/http/permissions_policy.rb:38:in `call'
+actionpack (7.0.6) lib/action_dispatch/http/content_security_policy.rb:36:in `call'
+rack (2.2.7) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.7) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (7.0.6) lib/action_dispatch/middleware/cookies.rb:704:in `call'
+activerecord (7.0.6) lib/active_record/migration.rb:603:in `call'
+actionpack (7.0.6) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (7.0.6) lib/active_support/callbacks.rb:99:in `run_callbacks'
+actionpack (7.0.6) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (7.0.6) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.6) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (7.0.6) lib/action_dispatch/middleware/debug_exceptions.rb:28:in `call'
+web-console (4.2.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (7.0.6) lib/action_dispatch/middleware/show_exceptions.rb:29:in `call'
+railties (7.0.6) lib/rails/rack/logger.rb:40:in `call_app'
+railties (7.0.6) lib/rails/rack/logger.rb:25:in `block in call'
+activesupport (7.0.6) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (7.0.6) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (7.0.6) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (7.0.6) lib/rails/rack/logger.rb:25:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (7.0.6) lib/action_dispatch/middleware/remote_ip.rb:93:in `call'
+actionpack (7.0.6) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.7) lib/rack/method_override.rb:24:in `call'
+rack (2.2.7) lib/rack/runtime.rb:22:in `call'
+activesupport (7.0.6) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.0.6) lib/action_dispatch/middleware/server_timing.rb:61:in `block in call'
+actionpack (7.0.6) lib/action_dispatch/middleware/server_timing.rb:26:in `collect_events'
+actionpack (7.0.6) lib/action_dispatch/middleware/server_timing.rb:60:in `call'
+actionpack (7.0.6) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.6) lib/action_dispatch/middleware/static.rb:23:in `call'
+rack (2.2.7) lib/rack/sendfile.rb:110:in `call'
+actionpack (7.0.6) lib/action_dispatch/middleware/host_authorization.rb:137:in `call'
+railties (7.0.6) lib/rails/engine.rb:530:in `call'
+puma (5.6.6) lib/puma/configuration.rb:252:in `call'
+puma (5.6.6) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.6) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.6) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.6) lib/puma/server.rb:443:in `process_client'
+puma (5.6.6) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started POST "/encode" for 127.0.0.1 at 2023-07-14 22:13:19 +0300
+Processing by LinksController#encode as HTML
+  Parameters: {"long_link"=>"https://example.com", "link"=>{"long_link"=>"https://example.com"}}
+Can't verify CSRF token authenticity.
+Completed 422 Unprocessable Entity in 1ms (Allocations: 440)
+
+
+  
+ActionController::InvalidAuthenticityToken (Can't verify CSRF token authenticity.):
+  
+actionpack (7.0.6) lib/action_controller/metal/request_forgery_protection.rb:253:in `handle_unverified_request'
+actionpack (7.0.6) lib/action_controller/metal/request_forgery_protection.rb:286:in `handle_unverified_request'
+actionpack (7.0.6) lib/action_controller/metal/request_forgery_protection.rb:275:in `verify_authenticity_token'
+activesupport (7.0.6) lib/active_support/callbacks.rb:400:in `block in make_lambda'
+activesupport (7.0.6) lib/active_support/callbacks.rb:199:in `block (2 levels) in halting'
+actionpack (7.0.6) lib/abstract_controller/callbacks.rb:34:in `block (2 levels) in <module:Callbacks>'
+activesupport (7.0.6) lib/active_support/callbacks.rb:200:in `block in halting'
+activesupport (7.0.6) lib/active_support/callbacks.rb:595:in `block in invoke_before'
+activesupport (7.0.6) lib/active_support/callbacks.rb:595:in `each'
+activesupport (7.0.6) lib/active_support/callbacks.rb:595:in `invoke_before'
+activesupport (7.0.6) lib/active_support/callbacks.rb:116:in `block in run_callbacks'
+activesupport (7.0.6) lib/active_support/callbacks.rb:138:in `run_callbacks'
+actionpack (7.0.6) lib/abstract_controller/callbacks.rb:233:in `process_action'
+actionpack (7.0.6) lib/action_controller/metal/rescue.rb:23:in `process_action'
+actionpack (7.0.6) lib/action_controller/metal/instrumentation.rb:67:in `block in process_action'
+activesupport (7.0.6) lib/active_support/notifications.rb:206:in `block in instrument'
+activesupport (7.0.6) lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+activesupport (7.0.6) lib/active_support/notifications.rb:206:in `instrument'
+actionpack (7.0.6) lib/action_controller/metal/instrumentation.rb:66:in `process_action'
+actionpack (7.0.6) lib/action_controller/metal/params_wrapper.rb:259:in `process_action'
+activerecord (7.0.6) lib/active_record/railties/controller_runtime.rb:27:in `process_action'
+actionpack (7.0.6) lib/abstract_controller/base.rb:151:in `process'
+actionview (7.0.6) lib/action_view/rendering.rb:39:in `process'
+actionpack (7.0.6) lib/action_controller/metal.rb:188:in `dispatch'
+actionpack (7.0.6) lib/action_controller/metal.rb:251:in `dispatch'
+actionpack (7.0.6) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (7.0.6) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (7.0.6) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (7.0.6) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (7.0.6) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (7.0.6) lib/action_dispatch/routing/route_set.rb:852:in `call'
+rack (2.2.7) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.7) lib/rack/etag.rb:27:in `call'
+rack (2.2.7) lib/rack/conditional_get.rb:40:in `call'
+rack (2.2.7) lib/rack/head.rb:12:in `call'
+actionpack (7.0.6) lib/action_dispatch/http/permissions_policy.rb:38:in `call'
+actionpack (7.0.6) lib/action_dispatch/http/content_security_policy.rb:36:in `call'
+rack (2.2.7) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.7) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (7.0.6) lib/action_dispatch/middleware/cookies.rb:704:in `call'
+activerecord (7.0.6) lib/active_record/migration.rb:603:in `call'
+actionpack (7.0.6) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (7.0.6) lib/active_support/callbacks.rb:99:in `run_callbacks'
+actionpack (7.0.6) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (7.0.6) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.6) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (7.0.6) lib/action_dispatch/middleware/debug_exceptions.rb:28:in `call'
+web-console (4.2.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (7.0.6) lib/action_dispatch/middleware/show_exceptions.rb:29:in `call'
+railties (7.0.6) lib/rails/rack/logger.rb:40:in `call_app'
+railties (7.0.6) lib/rails/rack/logger.rb:25:in `block in call'
+activesupport (7.0.6) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (7.0.6) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (7.0.6) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (7.0.6) lib/rails/rack/logger.rb:25:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (7.0.6) lib/action_dispatch/middleware/remote_ip.rb:93:in `call'
+actionpack (7.0.6) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.7) lib/rack/method_override.rb:24:in `call'
+rack (2.2.7) lib/rack/runtime.rb:22:in `call'
+activesupport (7.0.6) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.0.6) lib/action_dispatch/middleware/server_timing.rb:61:in `block in call'
+actionpack (7.0.6) lib/action_dispatch/middleware/server_timing.rb:26:in `collect_events'
+actionpack (7.0.6) lib/action_dispatch/middleware/server_timing.rb:60:in `call'
+actionpack (7.0.6) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.6) lib/action_dispatch/middleware/static.rb:23:in `call'
+rack (2.2.7) lib/rack/sendfile.rb:110:in `call'
+actionpack (7.0.6) lib/action_dispatch/middleware/host_authorization.rb:137:in `call'
+railties (7.0.6) lib/rails/engine.rb:530:in `call'
+puma (5.6.6) lib/puma/configuration.rb:252:in `call'
+puma (5.6.6) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.6) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.6) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.6) lib/puma/server.rb:443:in `process_client'
+puma (5.6.6) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2023-07-14 22:13:40 +0300
+Processing by LinksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering links/index.html.erb within layouts/application
+  Rendered links/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 16)
+  Rendered layout layouts/application.html.erb (Duration: 31.1ms | Allocations: 14488)
+Completed 200 OK in 36ms (Views: 33.9ms | Allocations: 15366)
+
+
+Started POST "/encode" for 127.0.0.1 at 2023-07-14 22:13:44 +0300
+Processing by LinksController#encode as HTML
+  Parameters: {"long_link"=>"https://example.com", "link"=>{"long_link"=>"https://example.com"}}
+Completed 500 Internal Server Error in 2ms (Allocations: 465)
+
+
+  
+ArgumentError (wrong number of arguments (given 0, expected 1)):
+  
+app/controllers/links_controller.rb:14:in `encode'
+Started POST "/encode" for 127.0.0.1 at 2023-07-14 22:16:26 +0300
+Processing by LinksController#encode as HTML
+  Parameters: {"long_link"=>"https://example.com", "link"=>{"long_link"=>"https://example.com"}}
+Completed 500 Internal Server Error in 2ms (Allocations: 469)
+
+
+  
+ArgumentError (wrong number of arguments (given 0, expected 1)):
+  
+app/controllers/links_controller.rb:14:in `encode'
+Started POST "/encode" for 127.0.0.1 at 2023-07-14 22:16:48 +0300
+Processing by LinksController#encode as HTML
+  Parameters: {"long_link"=>"https://example.com", "link"=>{"long_link"=>"https://example.com"}}
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.0ms | Allocations: 3217)
+
+
+  
+ArgumentError (wrong number of arguments (given 0, expected 1)):
+  
+app/controllers/links_controller.rb:14:in `encode'
+Started POST "/encode" for 127.0.0.1 at 2023-07-14 22:17:32 +0300
+Error occurred while parsing request parameters.
+Contents:
+
+{"https://example.com"}
+Processing by LinksController#encode as HTML
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.0ms | Allocations: 409)
+
+
+  
+ArgumentError (wrong number of arguments (given 0, expected 1)):
+  
+app/controllers/links_controller.rb:14:in `encode'
+Started POST "/encode" for 127.0.0.1 at 2023-07-14 22:17:34 +0300
+Processing by LinksController#encode as HTML
+  Parameters: {"long_link"=>"https://example.com", "link"=>{"long_link"=>"https://example.com"}}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 454)
+
+
+  
+ArgumentError (wrong number of arguments (given 0, expected 1)):
+  
+app/controllers/links_controller.rb:14:in `encode'
+Started POST "/encode" for 127.0.0.1 at 2023-07-14 22:17:52 +0300
+Processing by LinksController#encode as HTML
+  Parameters: {"long_link"=>"https://example.com", "link"=>{"long_link"=>"https://example.com"}}
+Completed 500 Internal Server Error in 2ms (Allocations: 469)
+
+
+  
+ArgumentError (wrong number of arguments (given 0, expected 1)):
+  
+app/controllers/links_controller.rb:14:in `encode'
