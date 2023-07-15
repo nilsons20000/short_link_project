@@ -5,7 +5,7 @@ Rails.application.routes.draw do
   # Defines the root path route ("/")
   # root "articles#index"
 
-   root "links#index"
+  #  root "links#index"
 
   post '/encode', to: 'links#encode'
   post '/decode', to: 'links#decode'

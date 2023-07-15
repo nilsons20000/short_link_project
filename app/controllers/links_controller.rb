@@ -16,7 +16,7 @@ class LinksController < ApplicationController
     short_link = get_random_short_symbol
     @@links_hash[short_link] = {
       "long_link" => long_link,
-      "short_link" => short_link
+      "short_link" => request.original_url + short_link
     } 
     render json: { encoded_string: @@links_hash }
   end
@@ -24,16 +24,12 @@ class LinksController < ApplicationController
 
   def decode
     short_link = params[:short_link]
-    puts @@links_hash
     if @@links_hash.has_key?(short_link)
-      puts short_link
         @long_link_from_array = @@links_hash[short_link]
         render json: { encoded_string: @long_link_from_array }
+    else
+        render json: { encoded_string: "Not Found" }
     end
-
-    
-
-
     
   end
 

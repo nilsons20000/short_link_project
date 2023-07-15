@@ -3812,3 +3812,438 @@ Completed 500 Internal Server Error in 2ms (Allocations: 469)
 ArgumentError (wrong number of arguments (given 0, expected 1)):
   
 app/controllers/links_controller.rb:14:in `encode'
+Started POST "/encode" for 127.0.0.1 at 2023-07-14 22:18:22 +0300
+Processing by LinksController#encode as HTML
+  Parameters: {"long_link"=>"https://example.com", "link"=>{"long_link"=>"https://example.com"}}
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 0.0ms | Allocations: 3217)
+
+
+  
+ArgumentError (wrong number of arguments (given 0, expected 1)):
+  
+app/controllers/links_controller.rb:14:in `encode'
+Started POST "/encode" for 127.0.0.1 at 2023-07-14 22:21:27 +0300
+Processing by LinksController#encode as HTML
+  Parameters: {"long_link"=>"https://example.com", "link"=>{"long_link"=>"https://example.com"}}
+Completed 500 Internal Server Error in 7ms (Allocations: 469)
+
+
+  
+ArgumentError (wrong number of arguments (given 0, expected 1)):
+  
+app/controllers/links_controller.rb:14:in `encode'
+Started POST "/encode" for 127.0.0.1 at 2023-07-14 22:21:29 +0300
+Processing by LinksController#encode as HTML
+  Parameters: {"long_link"=>"https://example.com"}
+Completed 500 Internal Server Error in 2ms (Allocations: 473)
+
+
+  
+ArgumentError (wrong number of arguments (given 0, expected 1)):
+  
+app/controllers/links_controller.rb:14:in `encode'
+Started POST "/encode" for 127.0.0.1 at 2023-07-14 22:21:46 +0300
+Processing by LinksController#encode as HTML
+  Parameters: {"long_link"=>"https://example.com"}
+Completed 500 Internal Server Error in 2ms (Allocations: 453)
+
+
+  
+ArgumentError (wrong number of arguments (given 0, expected 1)):
+  
+app/controllers/links_controller.rb:14:in `encode'
+Started POST "/encode" for 127.0.0.1 at 2023-07-14 22:21:57 +0300
+Processing by LinksController#encode as HTML
+  Parameters: {"long_link"=>"https://example.com"}
+Completed 500 Internal Server Error in 2ms (Allocations: 453)
+
+
+  
+ArgumentError (wrong number of arguments (given 0, expected 1)):
+  
+app/controllers/links_controller.rb:14:in `encode'
+Started POST "/encode" for 127.0.0.1 at 2023-07-14 22:22:12 +0300
+Processing by LinksController#encode as HTML
+  Parameters: {"long_link"=>"https://example.com"}
+Completed 500 Internal Server Error in 2ms (Allocations: 469)
+
+
+  
+ArgumentError (wrong number of arguments (given 0, expected 1)):
+  
+app/controllers/links_controller.rb:14:in `encode'
+Started POST "/encode" for 127.0.0.1 at 2023-07-14 22:22:30 +0300
+Processing by LinksController#encode as HTML
+  Parameters: {"long_link"=>"https://example.com"}
+Completed 500 Internal Server Error in 2ms (Allocations: 451)
+
+
+  
+ArgumentError (wrong number of arguments (given 0, expected 1)):
+  
+app/controllers/links_controller.rb:14:in `encode'
+Started POST "/encode" for 127.0.0.1 at 2023-07-14 22:22:41 +0300
+Processing by LinksController#encode as HTML
+  Parameters: {"long_link"=>"https://example.com"}
+Completed 500 Internal Server Error in 2ms (Allocations: 451)
+
+
+  
+ArgumentError (wrong number of arguments (given 0, expected 1)):
+  
+app/controllers/links_controller.rb:14:in `encode'
+Started POST "/encode" for 127.0.0.1 at 2023-07-14 22:22:52 +0300
+Processing by LinksController#encode as HTML
+  Parameters: {"long_link"=>"https://example.com"}
+Completed 500 Internal Server Error in 2ms (Allocations: 469)
+
+
+  
+ArgumentError (wrong number of arguments (given 0, expected 1)):
+  
+app/controllers/links_controller.rb:14:in `encode'
+Started POST "/encode" for 127.0.0.1 at 2023-07-14 22:25:03 +0300
+Processing by LinksController#encode as HTML
+  Parameters: {"long_link"=>"https://example.com"}
+Completed 500 Internal Server Error in 22ms (Allocations: 1504)
+
+
+  
+ArgumentError ('{:encoded_string=>{"b92cx"=>{"long_link"=>"https://example.com", "short_link"=>"b92cx"}}}' is not an ActiveModel-compatible object. It must implement :to_partial_path.):
+  
+app/controllers/links_controller.rb:21:in `encode'
+Started POST "/encode" for 127.0.0.1 at 2023-07-14 22:25:15 +0300
+Processing by LinksController#encode as HTML
+  Parameters: {"long_link"=>"https://example.com"}
+Completed 200 OK in 3ms (Views: 0.7ms | Allocations: 360)
+
+
+Started POST "/encode" for 127.0.0.1 at 2023-07-14 22:26:04 +0300
+Processing by LinksController#encode as HTML
+  Parameters: {"long_link"=>"https://example.com"}
+Completed 200 OK in 2ms (Views: 0.2ms | Allocations: 211)
+
+
+Started POST "/encode" for 127.0.0.1 at 2023-07-14 22:26:08 +0300
+Processing by LinksController#encode as HTML
+  Parameters: {"long_link"=>"https://example.com"}
+Completed 200 OK in 2ms (Views: 0.2ms | Allocations: 236)
+
+
+Started POST "/decode" for 127.0.0.1 at 2023-07-14 22:30:08 +0300
+Processing by LinksController#encode as HTML
+  Parameters: {"long_link"=>"https://example.com"}
+Completed 200 OK in 3ms (Views: 0.3ms | Allocations: 298)
+
+
+Started POST "/decode" for 127.0.0.1 at 2023-07-14 22:30:37 +0300
+Processing by LinksController#encode as HTML
+  Parameters: {"long_link"=>"https://example.com"}
+Completed 200 OK in 3ms (Views: 0.2ms | Allocations: 298)
+
+
+Started POST "/decode" for 127.0.0.1 at 2023-07-14 22:30:38 +0300
+Processing by LinksController#encode as HTML
+  Parameters: {"long_link"=>"https://example.com"}
+Completed 200 OK in 2ms (Views: 0.3ms | Allocations: 211)
+
+
+Started POST "/decode" for 127.0.0.1 at 2023-07-14 22:30:40 +0300
+Processing by LinksController#encode as HTML
+  Parameters: {"long_link"=>"https://example.com"}
+Completed 200 OK in 2ms (Views: 0.4ms | Allocations: 236)
+
+
+Started POST "/decode" for 127.0.0.1 at 2023-07-14 22:30:41 +0300
+Processing by LinksController#encode as HTML
+  Parameters: {"long_link"=>"https://example.com"}
+Completed 200 OK in 2ms (Views: 0.2ms | Allocations: 261)
+
+
+Started POST "/decode" for 127.0.0.1 at 2023-07-14 22:30:41 +0300
+Processing by LinksController#encode as HTML
+  Parameters: {"long_link"=>"https://example.com"}
+Completed 200 OK in 2ms (Views: 0.2ms | Allocations: 286)
+
+
+Started POST "/decode" for 127.0.0.1 at 2023-07-14 22:30:42 +0300
+Processing by LinksController#encode as HTML
+  Parameters: {"long_link"=>"https://example.com"}
+Completed 200 OK in 2ms (Views: 0.4ms | Allocations: 311)
+
+
+Started POST "/decode" for 127.0.0.1 at 2023-07-14 22:30:43 +0300
+Processing by LinksController#encode as HTML
+  Parameters: {"long_link"=>"https://example.com"}
+Completed 200 OK in 2ms (Views: 0.2ms | Allocations: 336)
+
+
+Started POST "/decode" for 127.0.0.1 at 2023-07-14 22:30:45 +0300
+Processing by LinksController#encode as HTML
+  Parameters: {"long_link"=>"https://example.com"}
+Completed 200 OK in 2ms (Views: 0.2ms | Allocations: 361)
+
+
+Started POST "/decode" for 127.0.0.1 at 2023-07-14 22:30:46 +0300
+Processing by LinksController#encode as HTML
+  Parameters: {"long_link"=>"https://example.com"}
+Completed 200 OK in 2ms (Views: 0.3ms | Allocations: 386)
+
+
+Started POST "/encode" for 127.0.0.1 at 2023-07-14 22:31:39 +0300
+Processing by LinksController#encode as HTML
+  Parameters: {"long_link"=>"https://example.com"}
+Completed 200 OK in 2ms (Views: 0.2ms | Allocations: 298)
+
+
+Started POST "/encode" for 127.0.0.1 at 2023-07-14 22:31:42 +0300
+Processing by LinksController#encode as HTML
+  Parameters: {"long_link"=>"https://example.com"}
+Completed 200 OK in 2ms (Views: 0.4ms | Allocations: 211)
+
+
+Started POST "/encode" for 127.0.0.1 at 2023-07-14 22:31:43 +0300
+Processing by LinksController#encode as HTML
+  Parameters: {"long_link"=>"https://example.com"}
+Completed 200 OK in 2ms (Views: 0.2ms | Allocations: 236)
+
+
+Started POST "/decode" for 127.0.0.1 at 2023-07-14 22:31:47 +0300
+Processing by LinksController#encode as HTML
+  Parameters: {"long_link"=>"https://example.com"}
+Completed 200 OK in 2ms (Views: 0.2ms | Allocations: 261)
+
+
+Started POST "/decode" for 127.0.0.1 at 2023-07-14 22:31:52 +0300
+Processing by LinksController#encode as HTML
+  Parameters: {"long_link"=>"https://example.com"}
+Completed 200 OK in 2ms (Views: 0.2ms | Allocations: 286)
+
+
+Started POST "/decode" for 127.0.0.1 at 2023-07-14 22:32:07 +0300
+Processing by LinksController#encode as HTML
+  Parameters: {"long_link"=>"https://example.com"}
+Completed 200 OK in 2ms (Views: 0.2ms | Allocations: 298)
+
+
+Started POST "/decode" for 127.0.0.1 at 2023-07-14 22:32:09 +0300
+Processing by LinksController#encode as HTML
+  Parameters: {"long_link"=>"https://example.com"}
+Completed 200 OK in 2ms (Views: 0.2ms | Allocations: 211)
+
+
+Started POST "/decode" for 127.0.0.1 at 2023-07-14 22:32:10 +0300
+Processing by LinksController#encode as HTML
+  Parameters: {"long_link"=>"https://example.com"}
+Completed 200 OK in 2ms (Views: 0.2ms | Allocations: 236)
+
+
+Started POST "/encode" for 127.0.0.1 at 2023-07-14 22:32:24 +0300
+Processing by LinksController#encode as HTML
+  Parameters: {"long_link"=>"https://example.com"}
+Completed 200 OK in 2ms (Views: 0.2ms | Allocations: 298)
+
+
+Started POST "/encode" for 127.0.0.1 at 2023-07-14 22:32:25 +0300
+Processing by LinksController#encode as HTML
+  Parameters: {"long_link"=>"https://example.com"}
+Completed 200 OK in 3ms (Views: 0.2ms | Allocations: 211)
+
+
+Started POST "/decode" for 127.0.0.1 at 2023-07-14 22:32:28 +0300
+Processing by LinksController#decode as HTML
+  Parameters: {"long_link"=>"https://example.com"}
+No template found for LinksController#decode, rendering head :no_content
+Completed 204 No Content in 8ms (Allocations: 428)
+
+
+Started POST "/decode" for 127.0.0.1 at 2023-07-14 22:34:06 +0300
+Processing by LinksController#decode as HTML
+  Parameters: {"longs"=>nil}
+No template found for LinksController#decode, rendering head :no_content
+Completed 204 No Content in 3ms (Allocations: 181)
+
+
+Started POST "/decode" for 127.0.0.1 at 2023-07-14 22:34:34 +0300
+Processing by LinksController#decode as HTML
+  Parameters: {"short_link"=>"dcimf=}"}
+No template found for LinksController#decode, rendering head :no_content
+Completed 204 No Content in 2ms (Allocations: 179)
+
+
+Started POST "/encode" for 127.0.0.1 at 2023-07-14 22:35:49 +0300
+Processing by LinksController#encode as HTML
+  Parameters: {"long_link"=>"https://example.com"}
+Completed 200 OK in 2ms (Views: 0.2ms | Allocations: 298)
+
+
+Started POST "/encode" for 127.0.0.1 at 2023-07-14 22:35:53 +0300
+Processing by LinksController#encode as HTML
+  Parameters: {"long_link"=>"https://example.com"}
+Completed 200 OK in 2ms (Views: 0.3ms | Allocations: 211)
+
+
+Started POST "/decode" for 127.0.0.1 at 2023-07-14 22:36:16 +0300
+Processing by LinksController#decode as HTML
+  Parameters: {"short_link"=>"@{jo0vh="}
+Completed 500 Internal Server Error in 19ms (Allocations: 2686)
+
+
+  
+NameError (uninitialized class variable @@long_link_from_array in LinksController):
+  
+app/controllers/links_controller.rb:30:in `decode'
+Started POST "/encode" for 127.0.0.1 at 2023-07-14 22:36:45 +0300
+Processing by LinksController#encode as HTML
+  Parameters: {"long_link"=>"https://example.com"}
+Completed 200 OK in 3ms (Views: 0.4ms | Allocations: 298)
+
+
+Started POST "/encode" for 127.0.0.1 at 2023-07-14 22:36:47 +0300
+Processing by LinksController#encode as HTML
+  Parameters: {"long_link"=>"https://example.com"}
+Completed 200 OK in 2ms (Views: 0.2ms | Allocations: 211)
+
+
+Started POST "/encode" for 127.0.0.1 at 2023-07-14 22:37:09 +0300
+Processing by LinksController#encode as HTML
+  Parameters: {"long_link"=>"skrw8=}"}
+Completed 200 OK in 2ms (Views: 0.2ms | Allocations: 236)
+
+
+Started POST "/decode" for 127.0.0.1 at 2023-07-14 22:37:30 +0300
+Processing by LinksController#decode as HTML
+  Parameters: {"short_link"=>"@skrw8=}"}
+Completed 200 OK in 2ms (Views: 0.1ms | Allocations: 156)
+
+
+Started POST "/decode" for 127.0.0.1 at 2023-07-14 22:38:10 +0300
+Processing by LinksController#decode as HTML
+  Parameters: {"short_link"=>"@skrw8=}"}
+No template found for LinksController#decode, rendering head :no_content
+Completed 204 No Content in 3ms (Allocations: 265)
+
+
+Started POST "/decode" for 127.0.0.1 at 2023-07-14 22:38:12 +0300
+Processing by LinksController#decode as HTML
+  Parameters: {"short_link"=>"@skrw8=}"}
+No template found for LinksController#decode, rendering head :no_content
+Completed 204 No Content in 3ms (Allocations: 179)
+
+
+Started POST "/encode" for 127.0.0.1 at 2023-07-14 22:38:13 +0300
+Processing by LinksController#encode as HTML
+  Parameters: {"long_link"=>"skrw8=}"}
+Completed 200 OK in 2ms (Views: 0.3ms | Allocations: 221)
+
+
+Started POST "/encode" for 127.0.0.1 at 2023-07-14 22:38:21 +0300
+Processing by LinksController#encode as HTML
+  Parameters: {"long_link"=>"https://example.com"}
+Completed 200 OK in 2ms (Views: 0.2ms | Allocations: 211)
+
+
+Started POST "/decode" for 127.0.0.1 at 2023-07-14 22:38:38 +0300
+Processing by LinksController#decode as HTML
+  Parameters: {"short_link"=>"gdx6s=}"}
+No template found for LinksController#decode, rendering head :no_content
+Completed 204 No Content in 2ms (Allocations: 179)
+
+
+Started POST "/decode" for 127.0.0.1 at 2023-07-14 22:38:43 +0300
+Processing by LinksController#decode as HTML
+  Parameters: {"short_link"=>"gdx6s=}"}
+No template found for LinksController#decode, rendering head :no_content
+Completed 204 No Content in 3ms (Allocations: 179)
+
+
+Started POST "/encode" for 127.0.0.1 at 2023-07-14 22:39:40 +0300
+Processing by LinksController#encode as HTML
+  Parameters: {"long_link"=>"https://example.com"}
+Completed 200 OK in 2ms (Views: 0.3ms | Allocations: 298)
+
+
+Started POST "/decode" for 127.0.0.1 at 2023-07-14 22:39:54 +0300
+Processing by LinksController#decode as HTML
+  Parameters: {"short_link"=>"@{9un90=}}"}
+Completed 200 OK in 2ms (Views: 0.3ms | Allocations: 154)
+
+
+Started POST "/decode" for 127.0.0.1 at 2023-07-14 22:40:00 +0300
+Processing by LinksController#decode as HTML
+  Parameters: {"short_link"=>"@{9un90=}"}
+Completed 200 OK in 2ms (Views: 0.2ms | Allocations: 154)
+
+
+Started POST "/encode" for 127.0.0.1 at 2023-07-14 22:47:25 +0300
+Processing by LinksController#encode as HTML
+  Parameters: {"long_link"=>"https://example.com"}
+Completed 200 OK in 2ms (Views: 0.2ms | Allocations: 298)
+
+
+Started POST "/decode" for 127.0.0.1 at 2023-07-14 22:47:44 +0300
+Processing by LinksController#decode as HTML
+  Parameters: {"short_link"=>"@{73z0w=}"}
+No template found for LinksController#decode, rendering head :no_content
+Completed 204 No Content in 2ms (Allocations: 190)
+
+
+Started POST "/decode" for 127.0.0.1 at 2023-07-14 22:48:07 +0300
+Processing by LinksController#decode as HTML
+  Parameters: {"short_link"=>"@{73z0w=}"}
+No template found for LinksController#decode, rendering head :no_content
+Completed 204 No Content in 2ms (Allocations: 179)
+
+
+Started POST "/encode" for 127.0.0.1 at 2023-07-14 22:54:02 +0300
+Processing by LinksController#encode as HTML
+  Parameters: {"long_link"=>"https://example.com"}
+Completed 200 OK in 3ms (Views: 0.2ms | Allocations: 298)
+
+
+Started POST "/decode" for 127.0.0.1 at 2023-07-14 22:54:17 +0300
+Processing by LinksController#decode as HTML
+  Parameters: {"short_link"=>"@{4vdp0=}"}
+No template found for LinksController#decode, rendering head :no_content
+Completed 204 No Content in 3ms (Allocations: 192)
+
+
+Started POST "/encode" for 127.0.0.1 at 2023-07-14 22:54:56 +0300
+Processing by LinksController#encode as HTML
+  Parameters: {"long_link"=>"https://example.com"}
+Completed 200 OK in 3ms (Views: 0.2ms | Allocations: 298)
+
+
+Started POST "/decode" for 127.0.0.1 at 2023-07-14 22:55:10 +0300
+Processing by LinksController#decode as HTML
+  Parameters: {"short_link"=>"@{11912=}"}
+No template found for LinksController#decode, rendering head :no_content
+Completed 204 No Content in 2ms (Allocations: 190)
+
+
+Started POST "/encode" for 127.0.0.1 at 2023-07-14 22:56:04 +0300
+Processing by LinksController#encode as HTML
+  Parameters: {"long_link"=>"https://example.com"}
+Completed 200 OK in 2ms (Views: 0.2ms | Allocations: 298)
+
+
+Started POST "/decode" for 127.0.0.1 at 2023-07-14 22:56:18 +0300
+Processing by LinksController#decode as HTML
+  Parameters: {"short_link"=>"@{713s2=}"}
+No template found for LinksController#decode, rendering head :no_content
+Completed 204 No Content in 4ms (Allocations: 200)
+
+
+Started POST "/decode" for 127.0.0.1 at 2023-07-14 22:57:32 +0300
+Processing by LinksController#decode as HTML
+  Parameters: {"short_link"=>"@{7l3s2=}"}
+No template found for LinksController#decode, rendering head :no_content
+Completed 204 No Content in 3ms (Allocations: 188)
+
+
+Started POST "/decode" for 127.0.0.1 at 2023-07-14 22:57:54 +0300
+Processing by LinksController#decode as HTML
+  Parameters: {"short_link"=>"7l3s2"}
+Completed 200 OK in 3ms (Views: 0.2ms | Allocations: 183)
+
+
