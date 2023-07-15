@@ -16,23 +16,24 @@ class LinksController < ApplicationController
     short_link = get_random_short_symbol
     @@links_hash[short_link] = {
       "long_link" => long_link,
-      "short_link" => request.original_url + short_link
+      "short_link" => URI.parse(request.original_url) + short_link
     } 
-    render json: { encoded_string: @@links_hash }
+    render json: { encoded_long_link_to_short: @@links_hash[short_link]}
   end
 
 
   def decode
     short_link = params[:short_link]
-    if @@links_hash.has_key?(short_link)
-        @long_link_from_array = @@links_hash[short_link]
-        render json: { encoded_string: @long_link_from_array }
-    else
-        render json: { encoded_string: "Not Found" }
-    end
+    get_url_domain = URI.parse(request.original_url).host
+    link_merge_original_and_short = URI.parse(request.original_url) + short_link
+    get_short_symbol_after_domain = link_merge_original_and_short.request_uri.split("/").last
+     if @@links_hash.has_key?(get_short_symbol_after_domain)
+         @long_link_from_array = @@links_hash[get_short_symbol_after_domain]
+         render json: { decode_short_link_to_long: @long_link_from_array }
+     else
+         render json: { decode_short_link_to_long: "Not Found" }
+     end
     
   end
-
-
 
 end
