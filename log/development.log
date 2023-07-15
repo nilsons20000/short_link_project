@@ -4247,3 +4247,75 @@ Processing by LinksController#decode as HTML
 Completed 200 OK in 3ms (Views: 0.2ms | Allocations: 183)
 
 
+Started POST "/decode" for 127.0.0.1 at 2023-07-15 13:10:41 +0300
+Processing by LinksController#decode as HTML
+  Parameters: {"short_link"=>"@{7l3s2=}"}
+No template found for LinksController#decode, rendering head :no_content
+Completed 204 No Content in 53ms (ActiveRecord: 0.0ms | Allocations: 3630)
+
+
+Started POST "/encode" for 127.0.0.1 at 2023-07-15 13:10:52 +0300
+Processing by LinksController#encode as HTML
+  Parameters: {"long_link"=>"https://example.com"}
+Completed 200 OK in 3ms (Views: 0.7ms | ActiveRecord: 0.0ms | Allocations: 331)
+
+
+Started POST "/decode" for 127.0.0.1 at 2023-07-15 13:11:06 +0300
+Processing by LinksController#decode as HTML
+  Parameters: {"short_link"=>"@{b0b8r=}"}
+No template found for LinksController#decode, rendering head :no_content
+Completed 204 No Content in 7ms (ActiveRecord: 0.0ms | Allocations: 451)
+
+
+Started POST "/decode" for 127.0.0.1 at 2023-07-15 13:11:20 +0300
+Processing by LinksController#decode as HTML
+  Parameters: {"short_link"=>"b0b8r"}
+Completed 200 OK in 3ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 187)
+
+
+Started POST "/decode" for 127.0.0.1 at 2023-07-15 14:12:17 +0300
+Processing by LinksController#decode as HTML
+  Parameters: {"short_link"=>"b0b8r"}
+Completed 200 OK in 4ms (Views: 0.7ms | Allocations: 271)
+
+
+Started POST "/encode" for 127.0.0.1 at 2023-07-15 14:12:23 +0300
+Processing by LinksController#encode as HTML
+  Parameters: {"long_link"=>"https://example.com"}
+Completed 200 OK in 2ms (Views: 0.1ms | Allocations: 186)
+
+
+Started POST "/decode" for 127.0.0.1 at 2023-07-15 14:12:34 +0300
+Processing by LinksController#decode as HTML
+  Parameters: {"short_link"=>"szu0p"}
+Completed 200 OK in 2ms (Views: 0.1ms | Allocations: 174)
+
+
+Started POST "/encode" for 127.0.0.1 at 2023-07-15 14:13:57 +0300
+Processing by LinksController#encode as HTML
+  Parameters: {"long_link"=>"https://example.com"}
+Completed 500 Internal Server Error in 10ms (Allocations: 3094)
+
+
+  
+NameError (undefined local variable or method `original_fullpath' for #<LinksController:0x00000000011da0>):
+  
+app/controllers/links_controller.rb:19:in `encode'
+Started POST "/encode" for 127.0.0.1 at 2023-07-15 14:14:30 +0300
+Processing by LinksController#encode as HTML
+  Parameters: {"long_link"=>"https://example.com"}
+Completed 200 OK in 2ms (Views: 0.2ms | Allocations: 346)
+
+
+Started POST "/decode" for 127.0.0.1 at 2023-07-15 14:14:52 +0300
+Processing by LinksController#decode as HTML
+  Parameters: {"short_link"=>"w2bie"}
+Completed 200 OK in 2ms (Views: 0.1ms | Allocations: 159)
+
+
+Started POST "/decode" for 127.0.0.1 at 2023-07-15 14:15:02 +0300
+Processing by LinksController#decode as HTML
+  Parameters: {"short_link"=>"w3bie"}
+Completed 200 OK in 2ms (Views: 0.2ms | Allocations: 174)
+
+
