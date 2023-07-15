@@ -4461,3 +4461,592 @@ Processing by LinksController#decode as HTML
 Completed 200 OK in 3ms (Views: 0.1ms | Allocations: 183)
 
 
+Started POST "/encode" for 127.0.0.1 at 2023-07-15 14:46:27 +0300
+Processing by LinksController#encode as HTML
+  Parameters: {"long_link"=>"https://example.com"}
+Completed 200 OK in 9ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 3144)
+
+
+Started POST "/decode" for 127.0.0.1 at 2023-07-15 14:46:49 +0300
+Processing by LinksController#decode as HTML
+  Parameters: {"short_link"=>"http://127.0.0.1:3000/encodeexvrw"}
+Completed 200 OK in 3ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 250)
+
+
+Started POST "/encode" for 127.0.0.1 at 2023-07-15 14:47:39 +0300
+Processing by LinksController#encode as HTML
+  Parameters: {"long_link"=>"https://example.com"}
+Completed 200 OK in 2ms (Views: 0.1ms | Allocations: 296)
+
+
+Started POST "/decode" for 127.0.0.1 at 2023-07-15 14:47:49 +0300
+Processing by LinksController#decode as HTML
+  Parameters: {"short_link"=>"http://127.0.0.1:3000/encode9ta7m"}
+Completed 200 OK in 2ms (Views: 0.1ms | Allocations: 195)
+
+
+Started POST "/encode" for 127.0.0.1 at 2023-07-15 15:06:30 +0300
+Processing by LinksController#encode as HTML
+  Parameters: {"long_link"=>"https://example.com"}
+Completed 500 Internal Server Error in 4ms (Allocations: 3084)
+
+
+  
+NameError (undefined local variable or method `uri' for #<LinksController:0x00000000011c88>
+Did you mean?  URI):
+  
+app/controllers/links_controller.rb:19:in `encode'
+Started POST "/encode" for 127.0.0.1 at 2023-07-15 15:06:53 +0300
+Processing by LinksController#encode as HTML
+  Parameters: {"long_link"=>"https://example.com"}
+Completed 500 Internal Server Error in 5ms (Allocations: 1927)
+
+
+  
+NoMethodError (undefined method `request_uri' for #<ActionDispatch::Request POST "http://127.0.0.1:3000/encode" for 127.0.0.1>
+Did you mean?  request_id
+               request_id=):
+  
+app/controllers/links_controller.rb:19:in `encode'
+Started POST "/encode" for 127.0.0.1 at 2023-07-15 15:08:01 +0300
+Processing by LinksController#encode as HTML
+  Parameters: {"long_link"=>"https://example.com"}
+Completed 500 Internal Server Error in 4ms (Allocations: 3019)
+
+
+  
+NameError (undefined local variable or method `uri' for #<LinksController:0x00000000019488>
+Did you mean?  URI):
+  
+app/controllers/links_controller.rb:19:in `encode'
+Started POST "/encode" for 127.0.0.1 at 2023-07-15 15:08:14 +0300
+Processing by LinksController#encode as HTML
+  Parameters: {"long_link"=>"https://example.com"}
+Completed 500 Internal Server Error in 2ms (Allocations: 551)
+
+
+  
+ArgumentError (wrong number of arguments (given 0, expected 1)):
+  
+app/controllers/links_controller.rb:19:in `encode'
+Started POST "/encode" for 127.0.0.1 at 2023-07-15 15:08:24 +0300
+Processing by LinksController#encode as HTML
+  Parameters: {"long_link"=>"https://example.com"}
+Completed 500 Internal Server Error in 4ms (Allocations: 1895)
+
+
+  
+NoMethodError (undefined method `request_uri' for #<ActionDispatch::Request POST "http://127.0.0.1:3000/encode" for 127.0.0.1>
+Did you mean?  request_id
+               request_id=):
+  
+app/controllers/links_controller.rb:19:in `encode'
+Started POST "/encode" for 127.0.0.1 at 2023-07-15 15:09:19 +0300
+Processing by LinksController#encode as HTML
+  Parameters: {"long_link"=>"https://example.com"}
+Completed 200 OK in 2ms (Views: 0.2ms | Allocations: 386)
+
+
+Started POST "/decode" for 127.0.0.1 at 2023-07-15 15:09:44 +0300
+Processing by LinksController#decode as HTML
+  Parameters: {"short_link"=>"http://127.0.0.1:3000/y3mpl"}
+Completed 200 OK in 3ms (Views: 0.2ms | Allocations: 192)
+
+
+Started POST "/encode" for 127.0.0.1 at 2023-07-15 15:09:55 +0300
+Processing by LinksController#encode as HTML
+  Parameters: {"long_link"=>"https://example.com"}
+Completed 200 OK in 2ms (Views: 0.2ms | Allocations: 218)
+
+
+Started POST "/encode" for 127.0.0.1 at 2023-07-15 15:10:03 +0300
+Processing by LinksController#encode as HTML
+  Parameters: {"long_link"=>"https://example.com"}
+Completed 200 OK in 2ms (Views: 0.1ms | Allocations: 218)
+
+
+Started POST "/encode" for 127.0.0.1 at 2023-07-15 15:10:10 +0300
+Processing by LinksController#encode as HTML
+  Parameters: {"long_link"=>"https://example.com"}
+Completed 200 OK in 3ms (Views: 0.4ms | Allocations: 362)
+
+
+Started POST "/encode" for 127.0.0.1 at 2023-07-15 15:10:12 +0300
+Processing by LinksController#encode as HTML
+  Parameters: {"long_link"=>"https://example.com"}
+Completed 200 OK in 2ms (Views: 0.1ms | Allocations: 234)
+
+
+Started POST "/encode" for 127.0.0.1 at 2023-07-15 15:10:14 +0300
+Processing by LinksController#encode as HTML
+  Parameters: {"long_link"=>"https://example.com"}
+Completed 200 OK in 2ms (Views: 0.1ms | Allocations: 234)
+
+
+Started POST "/encode" for 127.0.0.1 at 2023-07-15 15:10:15 +0300
+Processing by LinksController#encode as HTML
+  Parameters: {"long_link"=>"https://example.com"}
+Completed 200 OK in 2ms (Views: 0.1ms | Allocations: 234)
+
+
+Started POST "/encode" for 127.0.0.1 at 2023-07-15 15:10:21 +0300
+Processing by LinksController#encode as HTML
+  Parameters: {"long_link"=>"https://example.com"}
+Completed 200 OK in 3ms (Views: 0.2ms | Allocations: 234)
+
+
+Started POST "/encode" for 127.0.0.1 at 2023-07-15 15:10:30 +0300
+Processing by LinksController#encode as HTML
+  Parameters: {"long_link"=>"https://example.com"}
+Completed 200 OK in 3ms (Views: 0.2ms | Allocations: 369)
+
+
+Started POST "/encode" for 127.0.0.1 at 2023-07-15 15:10:31 +0300
+Processing by LinksController#encode as HTML
+  Parameters: {"long_link"=>"https://example.com"}
+Completed 200 OK in 2ms (Views: 0.2ms | Allocations: 269)
+
+
+Started POST "/encode" for 127.0.0.1 at 2023-07-15 15:10:32 +0300
+Processing by LinksController#encode as HTML
+  Parameters: {"long_link"=>"https://example.com"}
+Completed 200 OK in 2ms (Views: 0.2ms | Allocations: 297)
+
+
+Started POST "/decode" for 127.0.0.1 at 2023-07-15 15:10:42 +0300
+Processing by LinksController#decode as HTML
+  Parameters: {"short_link"=>"http://127.0.0.1:3000/afg95"}
+Completed 200 OK in 3ms (Views: 0.2ms | Allocations: 192)
+
+
+Started POST "/encode" for 127.0.0.1 at 2023-07-15 15:32:11 +0300
+Processing by LinksController#encode as HTML
+  Parameters: {"long_link"=>"https://example.com"}
+Completed 200 OK in 3ms (Views: 0.2ms | Allocations: 369)
+
+
+Started POST "/decode" for 127.0.0.1 at 2023-07-15 15:32:22 +0300
+Processing by LinksController#decode as HTML
+  Parameters: {"short_link"=>"http://127.0.0.1:3000/d18jx"}
+Completed 200 OK in 2ms (Views: 0.1ms | Allocations: 183)
+
+
+Started POST "/encode" for 127.0.0.1 at 2023-07-15 15:32:27 +0300
+Processing by LinksController#encode as HTML
+  Parameters: {"long_link"=>"https://example.com"}
+Completed 200 OK in 2ms (Views: 0.2ms | Allocations: 269)
+
+
+Started POST "/decode" for 127.0.0.1 at 2023-07-15 15:32:41 +0300
+Processing by LinksController#decode as HTML
+  Parameters: {"short_link"=>"http://127.0.0.1:3000/of5b7"}
+Completed 200 OK in 3ms (Views: 0.2ms | Allocations: 182)
+
+
+Started POST "/encode" for 127.0.0.1 at 2023-07-15 15:33:00 +0300
+Processing by LinksController#encode as HTML
+  Parameters: {"long_link"=>"https://example.com"}
+Completed 200 OK in 2ms (Views: 0.2ms | Allocations: 362)
+
+
+Started POST "/encode" for 127.0.0.1 at 2023-07-15 15:34:31 +0300
+Processing by LinksController#encode as HTML
+  Parameters: {"long_link"=>"https://example.com"}
+Completed 200 OK in 2ms (Views: 0.2ms | Allocations: 362)
+
+
+Started POST "/decode" for 127.0.0.1 at 2023-07-15 15:34:43 +0300
+Processing by LinksController#decode as HTML
+  Parameters: {"short_link"=>"http://127.0.0.1:3000/zhwd9"}
+Completed 200 OK in 3ms (Views: 0.1ms | Allocations: 182)
+
+
+Started POST "/encode" for 127.0.0.1 at 2023-07-15 15:35:03 +0300
+Processing by LinksController#encode as HTML
+  Parameters: {"long_link"=>"https://example.com"}
+Completed 200 OK in 2ms (Views: 0.2ms | Allocations: 362)
+
+
+Started POST "/decode" for 127.0.0.1 at 2023-07-15 15:35:22 +0300
+Processing by LinksController#decode as HTML
+  Parameters: {"short_link"=>"http://127.0.0.1:3000/5n3sb"}
+Completed 200 OK in 3ms (Views: 0.2ms | Allocations: 184)
+
+
+Started POST "/encode" for 127.0.0.1 at 2023-07-15 15:36:39 +0300
+Processing by LinksController#encode as HTML
+  Parameters: {"long_link"=>"https://example.com"}
+Completed 200 OK in 4ms (Views: 0.3ms | Allocations: 362)
+
+
+Started POST "/decode" for 127.0.0.1 at 2023-07-15 15:36:48 +0300
+Processing by LinksController#decode as HTML
+  Parameters: {"short_link"=>"http://127.0.0.1:3000/??7?7"}
+Completed 500 Internal Server Error in 3ms (Views: 0.2ms | Allocations: 649)
+
+
+  
+AbstractController::DoubleRenderError (Render and/or redirect were called multiple times in this action. Please note that you may only call render OR redirect, and at most once per action. Also note that neither redirect nor render terminate execution of the action, so if you want to exit an action after redirecting, you need to do something like "redirect_to(...) and return".):
+  
+app/controllers/links_controller.rb:35:in `decode'
+Started POST "/encode" for 127.0.0.1 at 2023-07-15 15:37:01 +0300
+Processing by LinksController#encode as HTML
+  Parameters: {"long_link"=>"https://example.com"}
+Completed 200 OK in 2ms (Views: 0.2ms | Allocations: 234)
+
+
+Started POST "/decode" for 127.0.0.1 at 2023-07-15 15:37:11 +0300
+Processing by LinksController#decode as HTML
+  Parameters: {"short_link"=>"http://127.0.0.1:3000/jefuw"}
+Completed 500 Internal Server Error in 3ms (Views: 0.1ms | Allocations: 624)
+
+
+  
+AbstractController::DoubleRenderError (Render and/or redirect were called multiple times in this action. Please note that you may only call render OR redirect, and at most once per action. Also note that neither redirect nor render terminate execution of the action, so if you want to exit an action after redirecting, you need to do something like "redirect_to(...) and return".):
+  
+app/controllers/links_controller.rb:35:in `decode'
+Started POST "/encode" for 127.0.0.1 at 2023-07-15 15:37:28 +0300
+Processing by LinksController#encode as HTML
+  Parameters: {"long_link"=>"https://example.com"}
+Completed 200 OK in 2ms (Views: 0.2ms | Allocations: 362)
+
+
+Started POST "/decode" for 127.0.0.1 at 2023-07-15 15:37:38 +0300
+Processing by LinksController#decode as HTML
+  Parameters: {"short_link"=>"http://127.0.0.1:3000/o9dad"}
+Completed 200 OK in 3ms (Views: 0.1ms | Allocations: 178)
+
+
+Started POST "/encode" for 127.0.0.1 at 2023-07-15 15:38:23 +0300
+Processing by LinksController#encode as HTML
+  Parameters: {"long_link"=>"https://example.com"}
+Completed 200 OK in 2ms (Views: 0.4ms | Allocations: 362)
+
+
+Started POST "/decode" for 127.0.0.1 at 2023-07-15 15:38:33 +0300
+Processing by LinksController#decode as HTML
+  Parameters: {"short_link"=>"http://127.0.0.1:3000/2qb9u"}
+Completed 200 OK in 2ms (Views: 0.2ms | Allocations: 173)
+
+
+Started POST "/encode" for 127.0.0.1 at 2023-07-15 15:39:10 +0300
+Processing by LinksController#encode as HTML
+  Parameters: {"long_link"=>"https://example.com"}
+Completed 200 OK in 2ms (Views: 0.2ms | Allocations: 362)
+
+
+Started POST "/decode" for 127.0.0.1 at 2023-07-15 15:39:20 +0300
+Processing by LinksController#decode as HTML
+  Parameters: {"short_link"=>"http://127.0.0.1:3000/m4s5"}
+Completed 200 OK in 3ms (Views: 0.3ms | Allocations: 196)
+
+
+Started POST "/decode" for 127.0.0.1 at 2023-07-15 15:40:01 +0300
+Processing by LinksController#decode as HTML
+  Parameters: {"short_link"=>"http://127.0.0.1:3000/m4s5"}
+Completed 200 OK in 3ms (Views: 0.3ms | Allocations: 195)
+
+
+Started POST "/encode" for 127.0.0.1 at 2023-07-15 15:40:04 +0300
+Processing by LinksController#encode as HTML
+  Parameters: {"long_link"=>"https://example.com"}
+Completed 200 OK in 2ms (Views: 0.1ms | Allocations: 234)
+
+
+Started POST "/decode" for 127.0.0.1 at 2023-07-15 15:40:07 +0300
+Processing by LinksController#decode as HTML
+  Parameters: {"short_link"=>"http://127.0.0.1:3000/m4s5"}
+Completed 200 OK in 3ms (Views: 0.1ms | Allocations: 196)
+
+
+Started POST "/encode" for 127.0.0.1 at 2023-07-15 15:41:44 +0300
+Processing by LinksController#encode as HTML
+  Parameters: {"long_link"=>"https://example.com"}
+Completed 200 OK in 2ms (Views: 0.2ms | Allocations: 338)
+
+
+Started POST "/encode" for 127.0.0.1 at 2023-07-15 15:41:51 +0300
+Processing by LinksController#encode as HTML
+  Parameters: {"long_link"=>"https://example.com"}
+Completed 200 OK in 3ms (Views: 0.2ms | Allocations: 362)
+
+
+Started POST "/encode" for 127.0.0.1 at 2023-07-15 15:42:19 +0300
+Processing by LinksController#encode as HTML
+  Parameters: {"long_link"=>"https://example.com"}
+Completed 200 OK in 2ms (Views: 0.2ms | Allocations: 362)
+
+
+Started POST "/decode" for 127.0.0.1 at 2023-07-15 15:42:22 +0300
+Processing by LinksController#decode as HTML
+  Parameters: {"short_link"=>"http://127.0.0.1:3000/m4s5"}
+Completed 200 OK in 3ms (Views: 0.2ms | Allocations: 215)
+
+
+Started POST "/decode" for 127.0.0.1 at 2023-07-15 15:43:56 +0300
+Processing by LinksController#decode as HTML
+  Parameters: {"short_link"=>"http://127.0.0.1:3000/m4s5"}
+Completed 500 Internal Server Error in 3ms (Allocations: 1166)
+
+
+  
+NoMethodError (undefined method `split' for #<URI::HTTP http://127.0.0.1:3000/m4s5>):
+  
+app/controllers/links_controller.rb:28:in `decode'
+Started POST "/encode" for 127.0.0.1 at 2023-07-15 15:44:00 +0300
+Processing by LinksController#encode as HTML
+  Parameters: {"long_link"=>"https://example.com"}
+Completed 200 OK in 2ms (Views: 0.2ms | Allocations: 285)
+
+
+Started POST "/decode" for 127.0.0.1 at 2023-07-15 15:44:02 +0300
+Processing by LinksController#decode as HTML
+  Parameters: {"short_link"=>"http://127.0.0.1:3000/m4s5"}
+Completed 500 Internal Server Error in 3ms (Allocations: 1111)
+
+
+  
+NoMethodError (undefined method `split' for #<URI::HTTP http://127.0.0.1:3000/m4s5>):
+  
+app/controllers/links_controller.rb:28:in `decode'
+Started POST "/encode" for 127.0.0.1 at 2023-07-15 15:46:42 +0300
+Processing by LinksController#encode as HTML
+  Parameters: {"long_link"=>"https://example.com"}
+Completed 200 OK in 2ms (Views: 0.2ms | Allocations: 362)
+
+
+Started POST "/decode" for 127.0.0.1 at 2023-07-15 15:46:43 +0300
+Processing by LinksController#decode as HTML
+  Parameters: {"short_link"=>"http://127.0.0.1:3000/m4s5"}
+Completed 200 OK in 3ms (Views: 0.3ms | Allocations: 191)
+
+
+Started POST "/encode" for 127.0.0.1 at 2023-07-15 15:49:15 +0300
+Processing by LinksController#encode as HTML
+  Parameters: {"long_link"=>"https://example.com"}
+Completed 200 OK in 2ms (Views: 0.2ms | Allocations: 362)
+
+
+Started POST "/decode" for 127.0.0.1 at 2023-07-15 15:49:18 +0300
+Processing by LinksController#decode as HTML
+  Parameters: {"short_link"=>"http://127.0.0.1:3000/m4s5"}
+Completed 500 Internal Server Error in 3ms (Allocations: 1163)
+
+
+  
+NoMethodError (undefined method `split' for #<URI::HTTP http://127.0.0.1:3000/m4s5>):
+  
+app/controllers/links_controller.rb:29:in `decode'
+Started POST "/decode" for 127.0.0.1 at 2023-07-15 15:49:49 +0300
+Processing by LinksController#decode as HTML
+  Parameters: {"short_link"=>"http://127.0.0.1:3000/m4s5"}
+Completed 200 OK in 2ms (Views: 0.2ms | Allocations: 365)
+
+
+Started POST "/encode" for 127.0.0.1 at 2023-07-15 15:52:59 +0300
+Processing by LinksController#encode as HTML
+  Parameters: {"long_link"=>"https://example.com"}
+Completed 200 OK in 2ms (Views: 0.2ms | Allocations: 362)
+
+
+Started POST "/decode" for 127.0.0.1 at 2023-07-15 15:53:00 +0300
+Processing by LinksController#decode as HTML
+  Parameters: {"short_link"=>"http://127.0.0.1:3000/m4s5"}
+Completed 200 OK in 2ms (Views: 0.1ms | Allocations: 244)
+
+
+Started POST "/encode" for 127.0.0.1 at 2023-07-15 15:53:10 +0300
+Processing by LinksController#encode as HTML
+  Parameters: {"long_link"=>"https://example.com"}
+Completed 200 OK in 2ms (Views: 0.2ms | Allocations: 362)
+
+
+Started POST "/decode" for 127.0.0.1 at 2023-07-15 15:53:12 +0300
+Processing by LinksController#decode as HTML
+  Parameters: {"short_link"=>"http://127.0.0.1:3000/m4s5"}
+Completed 200 OK in 2ms (Views: 0.1ms | Allocations: 239)
+
+
+Started POST "/encode" for 127.0.0.1 at 2023-07-15 15:53:22 +0300
+Processing by LinksController#encode as HTML
+  Parameters: {"long_link"=>"https://example.com"}
+Completed 200 OK in 3ms (Views: 0.2ms | Allocations: 362)
+
+
+Started POST "/decode" for 127.0.0.1 at 2023-07-15 15:53:24 +0300
+Processing by LinksController#decode as HTML
+  Parameters: {"short_link"=>"http://127.0.0.1:3000/m4s5"}
+Completed 500 Internal Server Error in 3ms (Allocations: 1163)
+
+
+  
+NoMethodError (undefined method `split' for #<URI::HTTP http://127.0.0.1:3000/m4s5>):
+  
+app/controllers/links_controller.rb:30:in `decode'
+Started POST "/encode" for 127.0.0.1 at 2023-07-15 15:54:04 +0300
+Processing by LinksController#encode as HTML
+  Parameters: {"long_link"=>"https://example.com"}
+Completed 200 OK in 3ms (Views: 0.2ms | Allocations: 362)
+
+
+Started POST "/decode" for 127.0.0.1 at 2023-07-15 15:54:05 +0300
+Processing by LinksController#decode as HTML
+  Parameters: {"short_link"=>"http://127.0.0.1:3000/m4s5"}
+Completed 200 OK in 2ms (Views: 0.1ms | Allocations: 239)
+
+
+Started POST "/decode" for 127.0.0.1 at 2023-07-15 15:54:27 +0300
+Processing by LinksController#decode as HTML
+  Parameters: {"short_link"=>"http://127.0.0.1:3000/m4s5"}
+Completed 200 OK in 2ms (Views: 0.2ms | Allocations: 367)
+
+
+Started POST "/encode" for 127.0.0.1 at 2023-07-15 15:54:28 +0300
+Processing by LinksController#encode as HTML
+  Parameters: {"long_link"=>"https://example.com"}
+Completed 200 OK in 2ms (Views: 0.1ms | Allocations: 236)
+
+
+Started POST "/decode" for 127.0.0.1 at 2023-07-15 15:54:31 +0300
+Processing by LinksController#decode as HTML
+  Parameters: {"short_link"=>"http://127.0.0.1:3000/m4s5"}
+Completed 200 OK in 2ms (Views: 0.1ms | Allocations: 239)
+
+
+Started POST "/decode" for 127.0.0.1 at 2023-07-15 15:54:49 +0300
+Processing by LinksController#decode as HTML
+  Parameters: {"short_link"=>"http://127.0.0.1:3000/m4s5"}
+Completed 500 Internal Server Error in 8ms (Allocations: 2932)
+
+
+  
+NoMethodError (undefined method `get_url_domain' for #<LinksController:0x0000000007b8b8>):
+  
+app/controllers/links_controller.rb:30:in `decode'
+Started POST "/encode" for 127.0.0.1 at 2023-07-15 15:55:14 +0300
+Processing by LinksController#encode as HTML
+  Parameters: {"long_link"=>"https://example.com"}
+Completed 200 OK in 2ms (Views: 0.2ms | Allocations: 362)
+
+
+Started POST "/decode" for 127.0.0.1 at 2023-07-15 15:55:16 +0300
+Processing by LinksController#decode as HTML
+  Parameters: {"short_link"=>"http://127.0.0.1:3000/m4s5"}
+Completed 200 OK in 3ms (Views: 0.1ms | Allocations: 241)
+
+
+Started POST "/encode" for 127.0.0.1 at 2023-07-15 15:55:59 +0300
+Processing by LinksController#encode as HTML
+  Parameters: {"long_link"=>"https://example.com"}
+Completed 200 OK in 3ms (Views: 0.2ms | Allocations: 362)
+
+
+Started POST "/decode" for 127.0.0.1 at 2023-07-15 15:56:09 +0300
+Processing by LinksController#decode as HTML
+  Parameters: {"short_link"=>"http://127.0.0.1:3000/pf121"}
+Completed 200 OK in 2ms (Views: 0.1ms | Allocations: 260)
+
+
+Started POST "/encode" for 127.0.0.1 at 2023-07-15 16:02:48 +0300
+Processing by LinksController#encode as HTML
+  Parameters: {"long_link"=>"https://example.com"}
+Completed 200 OK in 2ms (Views: 0.2ms | Allocations: 362)
+
+
+Started POST "/decode" for 127.0.0.1 at 2023-07-15 16:02:53 +0300
+Processing by LinksController#decode as HTML
+  Parameters: {"short_link"=>"http://127.0.0.1:3000/pf121"}
+Completed 500 Internal Server Error in 8ms (Allocations: 3254)
+
+
+  
+NameError (undefined local variable or method `request_uri' for #<LinksController:0x00000000087488>
+Did you mean?  request):
+  
+app/controllers/links_controller.rb:28:in `decode'
+Started POST "/decode" for 127.0.0.1 at 2023-07-15 16:04:16 +0300
+Processing by LinksController#decode as HTML
+  Parameters: {"short_link"=>"http://127.0.0.1:3000/pf121"}
+Completed 200 OK in 3ms (Views: 0.2ms | Allocations: 368)
+
+
+Started POST "/decode" for 127.0.0.1 at 2023-07-15 16:04:32 +0300
+Processing by LinksController#decode as HTML
+  Parameters: {"short_link"=>"http://127.0.0.1:3000/pf121"}
+Completed 500 Internal Server Error in 3ms (Views: 0.2ms | Allocations: 827)
+
+
+  
+AbstractController::DoubleRenderError (Render and/or redirect were called multiple times in this action. Please note that you may only call render OR redirect, and at most once per action. Also note that neither redirect nor render terminate execution of the action, so if you want to exit an action after redirecting, you need to do something like "redirect_to(...) and return".):
+  
+app/controllers/links_controller.rb:34:in `decode'
+Started POST "/encode" for 127.0.0.1 at 2023-07-15 16:04:35 +0300
+Processing by LinksController#encode as HTML
+  Parameters: {"long_link"=>"https://example.com"}
+Completed 200 OK in 2ms (Views: 0.1ms | Allocations: 236)
+
+
+Started POST "/decode" for 127.0.0.1 at 2023-07-15 16:04:44 +0300
+Processing by LinksController#decode as HTML
+  Parameters: {"short_link"=>"http://127.0.0.1:3000/k6d2j"}
+Completed 500 Internal Server Error in 2ms (Views: 0.1ms | Allocations: 684)
+
+
+  
+AbstractController::DoubleRenderError (Render and/or redirect were called multiple times in this action. Please note that you may only call render OR redirect, and at most once per action. Also note that neither redirect nor render terminate execution of the action, so if you want to exit an action after redirecting, you need to do something like "redirect_to(...) and return".):
+  
+app/controllers/links_controller.rb:32:in `decode'
+Started POST "/encode" for 127.0.0.1 at 2023-07-15 16:04:54 +0300
+Processing by LinksController#encode as HTML
+  Parameters: {"long_link"=>"https://example.com"}
+Completed 200 OK in 2ms (Views: 0.2ms | Allocations: 362)
+
+
+Started POST "/decode" for 127.0.0.1 at 2023-07-15 16:05:04 +0300
+Processing by LinksController#decode as HTML
+  Parameters: {"short_link"=>"http://127.0.0.1:3000/sp12e"}
+Completed 200 OK in 2ms (Views: 0.1ms | Allocations: 260)
+
+
+Started POST "/encode" for 127.0.0.1 at 2023-07-15 19:17:58 +0300
+Processing by LinksController#encode as HTML
+  Parameters: {"long_link"=>"https://example.com"}
+Completed 200 OK in 2ms (Views: 0.2ms | Allocations: 362)
+
+
+Started POST "/decode" for 127.0.0.1 at 2023-07-15 19:18:15 +0300
+Processing by LinksController#decode as HTML
+  Parameters: {"short_link"=>"http://127.0.0.1:3000/dpcom"}
+Completed 200 OK in 2ms (Views: 0.1ms | Allocations: 241)
+
+
+Started POST "/encode" for 127.0.0.1 at 2023-07-15 19:18:44 +0300
+Processing by LinksController#encode as HTML
+  Parameters: {"long_link"=>"https://example.com"}
+Completed 200 OK in 2ms (Views: 0.2ms | Allocations: 346)
+
+
+Started POST "/decode" for 127.0.0.1 at 2023-07-15 19:18:55 +0300
+Processing by LinksController#decode as HTML
+  Parameters: {"short_link"=>"http://127.0.0.1:3000/7nxvg"}
+Completed 200 OK in 2ms (Views: 0.1ms | Allocations: 241)
+
+
+Started POST "/encode" for 127.0.0.1 at 2023-07-15 19:50:43 +0300
+Processing by LinksController#encode as HTML
+  Parameters: {"long_link"=>"https://example.com"}
+Completed 200 OK in 2ms (Views: 0.2ms | Allocations: 346)
+
+
+Started POST "/decode" for 127.0.0.1 at 2023-07-15 19:50:52 +0300
+Processing by LinksController#decode as HTML
+  Parameters: {"short_link"=>"http://127.0.0.1:3000/??3??"}
+Completed 200 OK in 3ms (Views: 0.2ms | Allocations: 250)
+
+
+Started POST "/decode" for 127.0.0.1 at 2023-07-15 19:51:24 +0300
+Processing by LinksController#decode as HTML
+  Parameters: {"short_link"=>"http://127.0.0.1:3000/hy3ow"}
+Completed 200 OK in 2ms (Views: 0.1ms | Allocations: 239)
+
+
