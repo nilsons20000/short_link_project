@@ -21,9 +21,8 @@ class LinksController < ApplicationController
     render json: { encoded_long_link_to_short: @@links_hash[short_link]["short_link"]}
   end
 
-  def decode
-    short_link = params[:short_link]
-    get_url_domain = URI.parse(request.original_url).host
+  def decode 
+    short_link = params[:short_link] 
     link_merge = URI.parse(request.original_url) + short_link
     get_short_symbol_after_domain = link_merge.request_uri.split("/").last
       if @@links_hash.has_key?(get_short_symbol_after_domain)
