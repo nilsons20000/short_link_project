@@ -5050,3 +5050,1950 @@ Processing by LinksController#decode as HTML
 Completed 200 OK in 2ms (Views: 0.1ms | Allocations: 239)
 
 
+Started POST "/encode" for 127.0.0.1 at 2023-07-15 19:55:16 +0300
+Processing by LinksController#encode as HTML
+  Parameters: {"long_link"=>"https://example.com"}
+Completed 200 OK in 3ms (Views: 0.1ms | Allocations: 346)
+
+
+Started POST "/decode" for 127.0.0.1 at 2023-07-15 19:55:28 +0300
+Processing by LinksController#decode as HTML
+  Parameters: {"short_link"=>"http://127.0.0.1:3000/fi97x"}
+Completed 200 OK in 2ms (Views: 0.1ms | Allocations: 241)
+
+
+Started POST "/encode" for 127.0.0.1 at 2023-07-15 19:55:54 +0300
+Processing by LinksController#encode as HTML
+  Parameters: {"long_link"=>"https://example.com"}
+Completed 200 OK in 2ms (Views: 0.1ms | Allocations: 346)
+
+
+Started POST "/decode" for 127.0.0.1 at 2023-07-15 19:56:04 +0300
+Processing by LinksController#decode as HTML
+  Parameters: {"short_link"=>"http://127.0.0.1:3000/dv62y"}
+Completed 200 OK in 2ms (Views: 0.1ms | Allocations: 213)
+
+
+Started POST "/encode" for 127.0.0.1 at 2023-07-16 11:39:58 +0300
+Processing by LinksController#encode as HTML
+  Parameters: {"long_link"=>"https://example.com/ff"}
+Completed 200 OK in 6ms (Views: 1.5ms | Allocations: 218)
+
+
+Started POST "/decode" for 127.0.0.1 at 2023-07-16 11:40:07 +0300
+Processing by LinksController#decode as HTML
+  Parameters: {"short_link"=>"http://127.0.0.1:3000/b1jim"}
+Completed 200 OK in 2ms (Views: 0.1ms | Allocations: 212)
+
+
+Started POST "/encode" for 127.0.0.1 at 2023-07-16 12:37:07 +0300
+Processing by LinksController#encode as HTML
+  Parameters: {"long_link"=>"https://example.com"}
+Completed 200 OK in 4ms (Views: 0.6ms | Allocations: 346)
+
+
+Started POST "/decode" for 127.0.0.1 at 2023-07-16 12:37:18 +0300
+Processing by LinksController#decode as HTML
+  Parameters: {"short_link"=>"http://127.0.0.1:3000/1k7ru"}
+Completed 200 OK in 2ms (Views: 0.1ms | Allocations: 213)
+
+
+Started POST "/encode" for 127.0.0.1 at 2023-07-16 12:48:05 +0300
+Processing by LinksController#encode as HTML
+  Parameters: {"long_link"=>"https://example.com"}
+Completed 200 OK in 2ms (Views: 0.2ms | Allocations: 218)
+
+
+Started POST "/encode" for 127.0.0.1 at 2023-07-16 12:48:08 +0300
+Processing by LinksController#encode as HTML
+  Parameters: {"long_link"=>"https://example.com"}
+Completed 200 OK in 3ms (Views: 0.1ms | Allocations: 218)
+
+
+Started POST "/decode" for 127.0.0.1 at 2023-07-16 12:48:16 +0300
+Processing by LinksController#decode as HTML
+  Parameters: {"short_link"=>"http://127.0.0.1:3000/44f"}
+Completed 200 OK in 2ms (Views: 0.1ms | Allocations: 212)
+
+
+Started POST "/encode" for 127.0.0.1 at 2023-07-16 12:48:23 +0300
+Processing by LinksController#encode as HTML
+  Parameters: {"long_link"=>"https://example.com"}
+Completed 200 OK in 4ms (Views: 0.2ms | Allocations: 218)
+
+
+Started POST "/decode" for 127.0.0.1 at 2023-07-16 12:48:34 +0300
+Processing by LinksController#decode as HTML
+  Parameters: {"short_link"=>"http://127.0.0.1:3000/hqsqp"}
+Completed 200 OK in 2ms (Views: 0.1ms | Allocations: 212)
+
+
+Started POST "/encode" for 127.0.0.1 at 2023-07-16 13:39:33 +0300
+Processing by LinksController#encode as HTML
+  Parameters: {"long_link"=>"https://example.com"}
+Completed 200 OK in 5ms (Views: 1.0ms | Allocations: 346)
+
+
+Started POST "/decode" for 127.0.0.1 at 2023-07-16 13:39:47 +0300
+Processing by LinksController#decode as HTML
+  Parameters: {"short_link"=>"http://127.0.0.1:3000/r45en"}
+Completed 200 OK in 2ms (Views: 0.2ms | Allocations: 213)
+
+
+Started POST "/decode" for 127.0.0.1 at 2023-07-16 14:04:43 +0300
+Error occurred while parsing request parameters.
+Contents:
+
+short_link=http://127.0.0.1:3000/hqsqp
+Processing by LinksController#decode as HTML
+Completed 400 Bad Request in 25ms (Allocations: 731)
+
+
+  
+ActionDispatch::Http::Parameters::ParseError (Error occurred while parsing request parameters):
+  
+app/controllers/links_controller.rb:25:in `decode'
+Started POST "/encode" for 127.0.0.1 at 2023-07-16 14:05:02 +0300
+Error occurred while parsing request parameters.
+Contents:
+
+long_link=https://example.com
+Processing by LinksController#encode as HTML
+Completed 400 Bad Request in 5ms (Allocations: 711)
+
+
+  
+ActionDispatch::Http::Parameters::ParseError (Error occurred while parsing request parameters):
+  
+app/controllers/links_controller.rb:15:in `encode'
+Started POST "/decode" for 127.0.0.1 at 2023-07-16 14:07:11 +0300
+Processing by LinksController#decode as HTML
+  Parameters: {"short_link"=>"http://127.0.0.1:3000/r45en"}
+Completed 200 OK in 3ms (Views: 0.6ms | Allocations: 212)
+
+
+Started POST "/encode" for 127.0.0.1 at 2023-07-16 14:07:12 +0300
+Processing by LinksController#encode as JSON
+  Parameters: {"long_link"=>"https://example.com"}
+Completed 200 OK in 2ms (Views: 0.2ms | Allocations: 220)
+
+
+Started POST "/decode" for 127.0.0.1 at 2023-07-16 14:08:28 +0300
+Processing by LinksController#decode as JSON
+  Parameters: {"short_link"=>"http://127.0.0.1:3000/22e4v"}
+Completed 200 OK in 2ms (Views: 0.1ms | Allocations: 214)
+
+
+Started POST "/encode" for 127.0.0.1 at 2023-07-16 14:15:27 +0300
+Processing by LinksController#encode as JSON
+  Parameters: {"long_link"=>"https://example.com"}
+Completed 200 OK in 2ms (Views: 0.2ms | Allocations: 220)
+
+
+Started POST "/decode" for 127.0.0.1 at 2023-07-16 14:15:48 +0300
+Processing by LinksController#decode as JSON
+  Parameters: {"short_link"=>"http://127.0.0.1:3000/htw35"}
+Completed 200 OK in 2ms (Views: 0.3ms | Allocations: 214)
+
+
+Started POST "/encode" for 127.0.0.1 at 2023-07-16 14:31:25 +0300
+  
+NameError (undefined local variable or method `session' for LinksController:Class):
+  
+app/controllers/links_controller.rb:3:in `<class:LinksController>'
+app/controllers/links_controller.rb:2:in `<main>'
+Started POST "/decode" for 127.0.0.1 at 2023-07-16 14:33:36 +0300
+  
+NameError (undefined local variable or method `form_authenticity_token' for LinksController:Class):
+  
+app/controllers/links_controller.rb:3:in `<class:LinksController>'
+app/controllers/links_controller.rb:2:in `<main>'
+Started POST "/encode" for 127.0.0.1 at 2023-07-16 14:33:45 +0300
+  
+NameError (undefined local variable or method `form_authenticity_token' for LinksController:Class):
+  
+app/controllers/links_controller.rb:3:in `<class:LinksController>'
+app/controllers/links_controller.rb:2:in `<main>'
+Started POST "/encode" for 127.0.0.1 at 2023-07-16 14:34:33 +0300
+  
+NameError (undefined local variable or method `request' for LinksController:Class
+Did you mean?  require):
+  
+app/controllers/links_controller.rb:3:in `<class:LinksController>'
+app/controllers/links_controller.rb:2:in `<main>'
+Started POST "/encode" for 127.0.0.1 at 2023-07-16 14:35:53 +0300
+Processing by LinksController#encode as JSON
+  Parameters: {"long_link"=>"https://example.com"}
+Completed 500 Internal Server Error in 7ms (Allocations: 1773)
+
+
+  
+NoMethodError (undefined method `form_authenticity_token' for #<ActionDispatch::Request POST "http://127.0.0.1:3000/encode" for 127.0.0.1>):
+  
+app/controllers/links_controller.rb:16:in `encode'
+Started POST "/encode" for 127.0.0.1 at 2023-07-16 14:36:00 +0300
+Processing by LinksController#encode as JSON
+  Parameters: {"long_link"=>"https://example.com"}
+Completed 200 OK in 2ms (Views: 0.2ms | Allocations: 351)
+
+
+Started POST "/encode" for 127.0.0.1 at 2023-07-16 14:36:14 +0300
+Processing by LinksController#encode as JSON
+  Parameters: {"long_link"=>"https://example.com"}
+Completed 500 Internal Server Error in 5ms (Allocations: 1826)
+
+
+  
+NoMethodError (undefined method `form_authenticity_token' for #<ActionDispatch::Request POST "http://127.0.0.1:3000/encode" for 127.0.0.1>):
+  
+app/controllers/links_controller.rb:16:in `encode'
+Started POST "/encode" for 127.0.0.1 at 2023-07-16 14:38:36 +0300
+Processing by LinksController#encode as JSON
+  Parameters: {"long_link"=>"https://example.com"}
+Completed 200 OK in 3ms (Views: 0.3ms | Allocations: 351)
+
+
+Started POST "/decode" for 127.0.0.1 at 2023-07-16 14:38:37 +0300
+Processing by LinksController#decode as JSON
+  Parameters: {"short_link"=>"http://127.0.0.1:3000/22e4v"}
+Completed 200 OK in 2ms (Views: 0.3ms | Allocations: 216)
+
+
+Started POST "/decode" for 127.0.0.1 at 2023-07-16 14:55:21 +0300
+  
+SyntaxError (C:/wamp/www/link/config/routes.rb:7: syntax error, unexpected string literal, expecting `do' or '{' or '('
+  get '/generate_crfs', to 'links#generate_crfs'
+                           ^
+):
+  
+config/routes.rb:7: syntax error, unexpected string literal, expecting `do' or '{' or '('
+config/routes.rb:7: syntax error, unexpected string literal, expecting `do' or '{' or '('
+config/routes.rb:7: syntax error, unexpected string literal, expecting `do' or '{' or '('
+Started POST "/encode" for 127.0.0.1 at 2023-07-16 14:55:28 +0300
+  
+ActionController::RoutingError (No route matches [POST] "/encode"):
+  
+Started POST "/encode" for 127.0.0.1 at 2023-07-16 14:56:12 +0300
+Processing by LinksController#encode as JSON
+  Parameters: {"long_link"=>"https://example.com"}
+Completed 200 OK in 4ms (Views: 0.8ms | Allocations: 351)
+
+
+Started POST "/decode" for 127.0.0.1 at 2023-07-16 14:56:13 +0300
+Processing by LinksController#decode as JSON
+  Parameters: {"short_link"=>"http://127.0.0.1:3000/22e4v"}
+Completed 200 OK in 3ms (Views: 0.1ms | Allocations: 216)
+
+
+Started GET "/generate_crfs" for 127.0.0.1 at 2023-07-16 14:58:57 +0300
+Processing by LinksController#generate_crfs as HTML
+  Parameters: {"link"=>{}}
+Completed 200 OK in 3ms (Views: 0.3ms | Allocations: 266)
+
+
+Started POST "/decode" for 127.0.0.1 at 2023-07-16 14:58:57 +0300
+Processing by LinksController#decode as JSON
+  Parameters: {"short_link"=>"http://127.0.0.1:3000/22e4v"}
+Completed 200 OK in 2ms (Views: 0.1ms | Allocations: 233)
+
+
+Started GET "/generate_crfs" for 127.0.0.1 at 2023-07-16 14:59:02 +0300
+Processing by LinksController#generate_crfs as HTML
+  Parameters: {"link"=>{}}
+Completed 200 OK in 2ms (Views: 0.2ms | Allocations: 153)
+
+
+Started POST "/decode" for 127.0.0.1 at 2023-07-16 14:59:02 +0300
+Processing by LinksController#decode as JSON
+  Parameters: {"short_link"=>"http://127.0.0.1:3000/22e4v"}
+Completed 200 OK in 3ms (Views: 0.2ms | Allocations: 215)
+
+
+Started GET "/generate_crfs" for 127.0.0.1 at 2023-07-16 14:59:48 +0300
+Processing by LinksController#generate_crfs as HTML
+  Parameters: {"link"=>{}}
+Completed 200 OK in 2ms (Views: 0.2ms | Allocations: 153)
+
+
+Started POST "/encode" for 127.0.0.1 at 2023-07-16 14:59:48 +0300
+Processing by LinksController#encode as JSON
+  Parameters: {"long_link"=>"http://example.com"}
+Completed 200 OK in 2ms (Views: 0.1ms | Allocations: 222)
+
+
+Started GET "/generate_crfs" for 127.0.0.1 at 2023-07-16 14:59:57 +0300
+Processing by LinksController#generate_crfs as HTML
+  Parameters: {"link"=>{}}
+Completed 200 OK in 2ms (Views: 0.2ms | Allocations: 306)
+
+
+Started POST "/encode" for 127.0.0.1 at 2023-07-16 14:59:57 +0300
+Processing by LinksController#encode as JSON
+  Parameters: {"long_link"=>"http://example.com"}
+Can't verify CSRF token authenticity.
+Completed 422 Unprocessable Entity in 1ms (Allocations: 514)
+
+
+  
+ActionController::InvalidAuthenticityToken (Can't verify CSRF token authenticity.):
+  
+actionpack (7.0.6) lib/action_controller/metal/request_forgery_protection.rb:253:in `handle_unverified_request'
+actionpack (7.0.6) lib/action_controller/metal/request_forgery_protection.rb:286:in `handle_unverified_request'
+actionpack (7.0.6) lib/action_controller/metal/request_forgery_protection.rb:275:in `verify_authenticity_token'
+activesupport (7.0.6) lib/active_support/callbacks.rb:400:in `block in make_lambda'
+activesupport (7.0.6) lib/active_support/callbacks.rb:199:in `block (2 levels) in halting'
+actionpack (7.0.6) lib/abstract_controller/callbacks.rb:34:in `block (2 levels) in <module:Callbacks>'
+activesupport (7.0.6) lib/active_support/callbacks.rb:200:in `block in halting'
+activesupport (7.0.6) lib/active_support/callbacks.rb:595:in `block in invoke_before'
+activesupport (7.0.6) lib/active_support/callbacks.rb:595:in `each'
+activesupport (7.0.6) lib/active_support/callbacks.rb:595:in `invoke_before'
+activesupport (7.0.6) lib/active_support/callbacks.rb:116:in `block in run_callbacks'
+activesupport (7.0.6) lib/active_support/callbacks.rb:138:in `run_callbacks'
+actionpack (7.0.6) lib/abstract_controller/callbacks.rb:233:in `process_action'
+actionpack (7.0.6) lib/action_controller/metal/rescue.rb:23:in `process_action'
+actionpack (7.0.6) lib/action_controller/metal/instrumentation.rb:67:in `block in process_action'
+activesupport (7.0.6) lib/active_support/notifications.rb:206:in `block in instrument'
+activesupport (7.0.6) lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+activesupport (7.0.6) lib/active_support/notifications.rb:206:in `instrument'
+actionpack (7.0.6) lib/action_controller/metal/instrumentation.rb:66:in `process_action'
+actionpack (7.0.6) lib/action_controller/metal/params_wrapper.rb:259:in `process_action'
+activerecord (7.0.6) lib/active_record/railties/controller_runtime.rb:27:in `process_action'
+actionpack (7.0.6) lib/abstract_controller/base.rb:151:in `process'
+actionview (7.0.6) lib/action_view/rendering.rb:39:in `process'
+actionpack (7.0.6) lib/action_controller/metal.rb:188:in `dispatch'
+actionpack (7.0.6) lib/action_controller/metal.rb:251:in `dispatch'
+actionpack (7.0.6) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (7.0.6) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (7.0.6) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (7.0.6) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (7.0.6) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (7.0.6) lib/action_dispatch/routing/route_set.rb:852:in `call'
+rack (2.2.7) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.7) lib/rack/etag.rb:27:in `call'
+rack (2.2.7) lib/rack/conditional_get.rb:40:in `call'
+rack (2.2.7) lib/rack/head.rb:12:in `call'
+actionpack (7.0.6) lib/action_dispatch/http/permissions_policy.rb:38:in `call'
+actionpack (7.0.6) lib/action_dispatch/http/content_security_policy.rb:36:in `call'
+rack (2.2.7) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.7) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (7.0.6) lib/action_dispatch/middleware/cookies.rb:704:in `call'
+activerecord (7.0.6) lib/active_record/migration.rb:603:in `call'
+actionpack (7.0.6) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (7.0.6) lib/active_support/callbacks.rb:99:in `run_callbacks'
+actionpack (7.0.6) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (7.0.6) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.6) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (7.0.6) lib/action_dispatch/middleware/debug_exceptions.rb:28:in `call'
+web-console (4.2.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (7.0.6) lib/action_dispatch/middleware/show_exceptions.rb:29:in `call'
+railties (7.0.6) lib/rails/rack/logger.rb:40:in `call_app'
+railties (7.0.6) lib/rails/rack/logger.rb:25:in `block in call'
+activesupport (7.0.6) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (7.0.6) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (7.0.6) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (7.0.6) lib/rails/rack/logger.rb:25:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (7.0.6) lib/action_dispatch/middleware/remote_ip.rb:93:in `call'
+actionpack (7.0.6) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.7) lib/rack/method_override.rb:24:in `call'
+rack (2.2.7) lib/rack/runtime.rb:22:in `call'
+activesupport (7.0.6) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.0.6) lib/action_dispatch/middleware/server_timing.rb:61:in `block in call'
+actionpack (7.0.6) lib/action_dispatch/middleware/server_timing.rb:26:in `collect_events'
+actionpack (7.0.6) lib/action_dispatch/middleware/server_timing.rb:60:in `call'
+actionpack (7.0.6) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.6) lib/action_dispatch/middleware/static.rb:23:in `call'
+rack (2.2.7) lib/rack/sendfile.rb:110:in `call'
+actionpack (7.0.6) lib/action_dispatch/middleware/host_authorization.rb:137:in `call'
+railties (7.0.6) lib/rails/engine.rb:530:in `call'
+puma (5.6.6) lib/puma/configuration.rb:252:in `call'
+puma (5.6.6) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.6) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.6) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.6) lib/puma/server.rb:443:in `process_client'
+puma (5.6.6) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started GET "/generate_crfs" for 127.0.0.1 at 2023-07-16 15:03:11 +0300
+Processing by LinksController#generate_crfs as HTML
+  Parameters: {"link"=>{}}
+Completed 200 OK in 3ms (Views: 0.2ms | Allocations: 167)
+
+
+Started GET "/generate_crfs" for 127.0.0.1 at 2023-07-16 15:03:11 +0300
+Processing by LinksController#generate_crfs as HTML
+  Parameters: {"link"=>{}}
+Completed 200 OK in 2ms (Views: 0.1ms | Allocations: 167)
+
+
+Started POST "/encode" for 127.0.0.1 at 2023-07-16 15:03:12 +0300
+Processing by LinksController#encode as JSON
+  Parameters: {"long_link"=>"http://example.com"}
+Can't verify CSRF token authenticity.
+Completed 422 Unprocessable Entity in 1ms (Allocations: 443)
+
+
+  
+ActionController::InvalidAuthenticityToken (Can't verify CSRF token authenticity.):
+  
+actionpack (7.0.6) lib/action_controller/metal/request_forgery_protection.rb:253:in `handle_unverified_request'
+actionpack (7.0.6) lib/action_controller/metal/request_forgery_protection.rb:286:in `handle_unverified_request'
+actionpack (7.0.6) lib/action_controller/metal/request_forgery_protection.rb:275:in `verify_authenticity_token'
+activesupport (7.0.6) lib/active_support/callbacks.rb:400:in `block in make_lambda'
+activesupport (7.0.6) lib/active_support/callbacks.rb:199:in `block (2 levels) in halting'
+actionpack (7.0.6) lib/abstract_controller/callbacks.rb:34:in `block (2 levels) in <module:Callbacks>'
+activesupport (7.0.6) lib/active_support/callbacks.rb:200:in `block in halting'
+activesupport (7.0.6) lib/active_support/callbacks.rb:595:in `block in invoke_before'
+activesupport (7.0.6) lib/active_support/callbacks.rb:595:in `each'
+activesupport (7.0.6) lib/active_support/callbacks.rb:595:in `invoke_before'
+activesupport (7.0.6) lib/active_support/callbacks.rb:116:in `block in run_callbacks'
+activesupport (7.0.6) lib/active_support/callbacks.rb:138:in `run_callbacks'
+actionpack (7.0.6) lib/abstract_controller/callbacks.rb:233:in `process_action'
+actionpack (7.0.6) lib/action_controller/metal/rescue.rb:23:in `process_action'
+actionpack (7.0.6) lib/action_controller/metal/instrumentation.rb:67:in `block in process_action'
+activesupport (7.0.6) lib/active_support/notifications.rb:206:in `block in instrument'
+activesupport (7.0.6) lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+activesupport (7.0.6) lib/active_support/notifications.rb:206:in `instrument'
+actionpack (7.0.6) lib/action_controller/metal/instrumentation.rb:66:in `process_action'
+actionpack (7.0.6) lib/action_controller/metal/params_wrapper.rb:259:in `process_action'
+activerecord (7.0.6) lib/active_record/railties/controller_runtime.rb:27:in `process_action'
+actionpack (7.0.6) lib/abstract_controller/base.rb:151:in `process'
+actionview (7.0.6) lib/action_view/rendering.rb:39:in `process'
+actionpack (7.0.6) lib/action_controller/metal.rb:188:in `dispatch'
+actionpack (7.0.6) lib/action_controller/metal.rb:251:in `dispatch'
+actionpack (7.0.6) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (7.0.6) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (7.0.6) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (7.0.6) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (7.0.6) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (7.0.6) lib/action_dispatch/routing/route_set.rb:852:in `call'
+rack (2.2.7) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.7) lib/rack/etag.rb:27:in `call'
+rack (2.2.7) lib/rack/conditional_get.rb:40:in `call'
+rack (2.2.7) lib/rack/head.rb:12:in `call'
+actionpack (7.0.6) lib/action_dispatch/http/permissions_policy.rb:38:in `call'
+actionpack (7.0.6) lib/action_dispatch/http/content_security_policy.rb:36:in `call'
+rack (2.2.7) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.7) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (7.0.6) lib/action_dispatch/middleware/cookies.rb:704:in `call'
+activerecord (7.0.6) lib/active_record/migration.rb:603:in `call'
+actionpack (7.0.6) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (7.0.6) lib/active_support/callbacks.rb:99:in `run_callbacks'
+actionpack (7.0.6) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (7.0.6) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.6) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (7.0.6) lib/action_dispatch/middleware/debug_exceptions.rb:28:in `call'
+web-console (4.2.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (7.0.6) lib/action_dispatch/middleware/show_exceptions.rb:29:in `call'
+railties (7.0.6) lib/rails/rack/logger.rb:40:in `call_app'
+railties (7.0.6) lib/rails/rack/logger.rb:25:in `block in call'
+activesupport (7.0.6) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (7.0.6) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (7.0.6) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (7.0.6) lib/rails/rack/logger.rb:25:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (7.0.6) lib/action_dispatch/middleware/remote_ip.rb:93:in `call'
+actionpack (7.0.6) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.7) lib/rack/method_override.rb:24:in `call'
+rack (2.2.7) lib/rack/runtime.rb:22:in `call'
+activesupport (7.0.6) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.0.6) lib/action_dispatch/middleware/server_timing.rb:61:in `block in call'
+actionpack (7.0.6) lib/action_dispatch/middleware/server_timing.rb:26:in `collect_events'
+actionpack (7.0.6) lib/action_dispatch/middleware/server_timing.rb:60:in `call'
+actionpack (7.0.6) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.6) lib/action_dispatch/middleware/static.rb:23:in `call'
+rack (2.2.7) lib/rack/sendfile.rb:110:in `call'
+actionpack (7.0.6) lib/action_dispatch/middleware/host_authorization.rb:137:in `call'
+railties (7.0.6) lib/rails/engine.rb:530:in `call'
+puma (5.6.6) lib/puma/configuration.rb:252:in `call'
+puma (5.6.6) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.6) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.6) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.6) lib/puma/server.rb:443:in `process_client'
+puma (5.6.6) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started GET "/generate_crfs" for 127.0.0.1 at 2023-07-16 15:03:13 +0300
+Processing by LinksController#generate_crfs as HTML
+  Parameters: {"link"=>{}}
+Completed 200 OK in 2ms (Views: 0.2ms | Allocations: 167)
+
+
+Started POST "/encode" for 127.0.0.1 at 2023-07-16 15:03:13 +0300
+Processing by LinksController#encode as JSON
+  Parameters: {"long_link"=>"http://example.com"}
+Can't verify CSRF token authenticity.
+Completed 422 Unprocessable Entity in 2ms (Allocations: 443)
+
+
+  
+ActionController::InvalidAuthenticityToken (Can't verify CSRF token authenticity.):
+  
+actionpack (7.0.6) lib/action_controller/metal/request_forgery_protection.rb:253:in `handle_unverified_request'
+actionpack (7.0.6) lib/action_controller/metal/request_forgery_protection.rb:286:in `handle_unverified_request'
+actionpack (7.0.6) lib/action_controller/metal/request_forgery_protection.rb:275:in `verify_authenticity_token'
+activesupport (7.0.6) lib/active_support/callbacks.rb:400:in `block in make_lambda'
+activesupport (7.0.6) lib/active_support/callbacks.rb:199:in `block (2 levels) in halting'
+actionpack (7.0.6) lib/abstract_controller/callbacks.rb:34:in `block (2 levels) in <module:Callbacks>'
+activesupport (7.0.6) lib/active_support/callbacks.rb:200:in `block in halting'
+activesupport (7.0.6) lib/active_support/callbacks.rb:595:in `block in invoke_before'
+activesupport (7.0.6) lib/active_support/callbacks.rb:595:in `each'
+activesupport (7.0.6) lib/active_support/callbacks.rb:595:in `invoke_before'
+activesupport (7.0.6) lib/active_support/callbacks.rb:116:in `block in run_callbacks'
+activesupport (7.0.6) lib/active_support/callbacks.rb:138:in `run_callbacks'
+actionpack (7.0.6) lib/abstract_controller/callbacks.rb:233:in `process_action'
+actionpack (7.0.6) lib/action_controller/metal/rescue.rb:23:in `process_action'
+actionpack (7.0.6) lib/action_controller/metal/instrumentation.rb:67:in `block in process_action'
+activesupport (7.0.6) lib/active_support/notifications.rb:206:in `block in instrument'
+activesupport (7.0.6) lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+activesupport (7.0.6) lib/active_support/notifications.rb:206:in `instrument'
+actionpack (7.0.6) lib/action_controller/metal/instrumentation.rb:66:in `process_action'
+actionpack (7.0.6) lib/action_controller/metal/params_wrapper.rb:259:in `process_action'
+activerecord (7.0.6) lib/active_record/railties/controller_runtime.rb:27:in `process_action'
+actionpack (7.0.6) lib/abstract_controller/base.rb:151:in `process'
+actionview (7.0.6) lib/action_view/rendering.rb:39:in `process'
+actionpack (7.0.6) lib/action_controller/metal.rb:188:in `dispatch'
+actionpack (7.0.6) lib/action_controller/metal.rb:251:in `dispatch'
+actionpack (7.0.6) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (7.0.6) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (7.0.6) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (7.0.6) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (7.0.6) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (7.0.6) lib/action_dispatch/routing/route_set.rb:852:in `call'
+rack (2.2.7) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.7) lib/rack/etag.rb:27:in `call'
+rack (2.2.7) lib/rack/conditional_get.rb:40:in `call'
+rack (2.2.7) lib/rack/head.rb:12:in `call'
+actionpack (7.0.6) lib/action_dispatch/http/permissions_policy.rb:38:in `call'
+actionpack (7.0.6) lib/action_dispatch/http/content_security_policy.rb:36:in `call'
+rack (2.2.7) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.7) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (7.0.6) lib/action_dispatch/middleware/cookies.rb:704:in `call'
+activerecord (7.0.6) lib/active_record/migration.rb:603:in `call'
+actionpack (7.0.6) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (7.0.6) lib/active_support/callbacks.rb:99:in `run_callbacks'
+actionpack (7.0.6) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (7.0.6) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.6) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (7.0.6) lib/action_dispatch/middleware/debug_exceptions.rb:28:in `call'
+web-console (4.2.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (7.0.6) lib/action_dispatch/middleware/show_exceptions.rb:29:in `call'
+railties (7.0.6) lib/rails/rack/logger.rb:40:in `call_app'
+railties (7.0.6) lib/rails/rack/logger.rb:25:in `block in call'
+activesupport (7.0.6) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (7.0.6) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (7.0.6) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (7.0.6) lib/rails/rack/logger.rb:25:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (7.0.6) lib/action_dispatch/middleware/remote_ip.rb:93:in `call'
+actionpack (7.0.6) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.7) lib/rack/method_override.rb:24:in `call'
+rack (2.2.7) lib/rack/runtime.rb:22:in `call'
+activesupport (7.0.6) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.0.6) lib/action_dispatch/middleware/server_timing.rb:61:in `block in call'
+actionpack (7.0.6) lib/action_dispatch/middleware/server_timing.rb:26:in `collect_events'
+actionpack (7.0.6) lib/action_dispatch/middleware/server_timing.rb:60:in `call'
+actionpack (7.0.6) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.6) lib/action_dispatch/middleware/static.rb:23:in `call'
+rack (2.2.7) lib/rack/sendfile.rb:110:in `call'
+actionpack (7.0.6) lib/action_dispatch/middleware/host_authorization.rb:137:in `call'
+railties (7.0.6) lib/rails/engine.rb:530:in `call'
+puma (5.6.6) lib/puma/configuration.rb:252:in `call'
+puma (5.6.6) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.6) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.6) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.6) lib/puma/server.rb:443:in `process_client'
+puma (5.6.6) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started GET "/generate_crfs" for 127.0.0.1 at 2023-07-16 15:03:15 +0300
+Processing by LinksController#generate_crfs as HTML
+  Parameters: {"link"=>{}}
+Completed 200 OK in 2ms (Views: 0.1ms | Allocations: 167)
+
+
+Started POST "/encode" for 127.0.0.1 at 2023-07-16 15:03:15 +0300
+Processing by LinksController#encode as JSON
+  Parameters: {"long_link"=>"http://example.com"}
+Can't verify CSRF token authenticity.
+Completed 422 Unprocessable Entity in 1ms (Allocations: 443)
+
+
+  
+ActionController::InvalidAuthenticityToken (Can't verify CSRF token authenticity.):
+  
+actionpack (7.0.6) lib/action_controller/metal/request_forgery_protection.rb:253:in `handle_unverified_request'
+actionpack (7.0.6) lib/action_controller/metal/request_forgery_protection.rb:286:in `handle_unverified_request'
+actionpack (7.0.6) lib/action_controller/metal/request_forgery_protection.rb:275:in `verify_authenticity_token'
+activesupport (7.0.6) lib/active_support/callbacks.rb:400:in `block in make_lambda'
+activesupport (7.0.6) lib/active_support/callbacks.rb:199:in `block (2 levels) in halting'
+actionpack (7.0.6) lib/abstract_controller/callbacks.rb:34:in `block (2 levels) in <module:Callbacks>'
+activesupport (7.0.6) lib/active_support/callbacks.rb:200:in `block in halting'
+activesupport (7.0.6) lib/active_support/callbacks.rb:595:in `block in invoke_before'
+activesupport (7.0.6) lib/active_support/callbacks.rb:595:in `each'
+activesupport (7.0.6) lib/active_support/callbacks.rb:595:in `invoke_before'
+activesupport (7.0.6) lib/active_support/callbacks.rb:116:in `block in run_callbacks'
+activesupport (7.0.6) lib/active_support/callbacks.rb:138:in `run_callbacks'
+actionpack (7.0.6) lib/abstract_controller/callbacks.rb:233:in `process_action'
+actionpack (7.0.6) lib/action_controller/metal/rescue.rb:23:in `process_action'
+actionpack (7.0.6) lib/action_controller/metal/instrumentation.rb:67:in `block in process_action'
+activesupport (7.0.6) lib/active_support/notifications.rb:206:in `block in instrument'
+activesupport (7.0.6) lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+activesupport (7.0.6) lib/active_support/notifications.rb:206:in `instrument'
+actionpack (7.0.6) lib/action_controller/metal/instrumentation.rb:66:in `process_action'
+actionpack (7.0.6) lib/action_controller/metal/params_wrapper.rb:259:in `process_action'
+activerecord (7.0.6) lib/active_record/railties/controller_runtime.rb:27:in `process_action'
+actionpack (7.0.6) lib/abstract_controller/base.rb:151:in `process'
+actionview (7.0.6) lib/action_view/rendering.rb:39:in `process'
+actionpack (7.0.6) lib/action_controller/metal.rb:188:in `dispatch'
+actionpack (7.0.6) lib/action_controller/metal.rb:251:in `dispatch'
+actionpack (7.0.6) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (7.0.6) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (7.0.6) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (7.0.6) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (7.0.6) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (7.0.6) lib/action_dispatch/routing/route_set.rb:852:in `call'
+rack (2.2.7) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.7) lib/rack/etag.rb:27:in `call'
+rack (2.2.7) lib/rack/conditional_get.rb:40:in `call'
+rack (2.2.7) lib/rack/head.rb:12:in `call'
+actionpack (7.0.6) lib/action_dispatch/http/permissions_policy.rb:38:in `call'
+actionpack (7.0.6) lib/action_dispatch/http/content_security_policy.rb:36:in `call'
+rack (2.2.7) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.7) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (7.0.6) lib/action_dispatch/middleware/cookies.rb:704:in `call'
+activerecord (7.0.6) lib/active_record/migration.rb:603:in `call'
+actionpack (7.0.6) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (7.0.6) lib/active_support/callbacks.rb:99:in `run_callbacks'
+actionpack (7.0.6) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (7.0.6) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.6) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (7.0.6) lib/action_dispatch/middleware/debug_exceptions.rb:28:in `call'
+web-console (4.2.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (7.0.6) lib/action_dispatch/middleware/show_exceptions.rb:29:in `call'
+railties (7.0.6) lib/rails/rack/logger.rb:40:in `call_app'
+railties (7.0.6) lib/rails/rack/logger.rb:25:in `block in call'
+activesupport (7.0.6) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (7.0.6) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (7.0.6) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (7.0.6) lib/rails/rack/logger.rb:25:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (7.0.6) lib/action_dispatch/middleware/remote_ip.rb:93:in `call'
+actionpack (7.0.6) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.7) lib/rack/method_override.rb:24:in `call'
+rack (2.2.7) lib/rack/runtime.rb:22:in `call'
+activesupport (7.0.6) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.0.6) lib/action_dispatch/middleware/server_timing.rb:61:in `block in call'
+actionpack (7.0.6) lib/action_dispatch/middleware/server_timing.rb:26:in `collect_events'
+actionpack (7.0.6) lib/action_dispatch/middleware/server_timing.rb:60:in `call'
+actionpack (7.0.6) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.6) lib/action_dispatch/middleware/static.rb:23:in `call'
+rack (2.2.7) lib/rack/sendfile.rb:110:in `call'
+actionpack (7.0.6) lib/action_dispatch/middleware/host_authorization.rb:137:in `call'
+railties (7.0.6) lib/rails/engine.rb:530:in `call'
+puma (5.6.6) lib/puma/configuration.rb:252:in `call'
+puma (5.6.6) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.6) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.6) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.6) lib/puma/server.rb:443:in `process_client'
+puma (5.6.6) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started GET "/generate_crfs" for 127.0.0.1 at 2023-07-16 15:03:38 +0300
+Processing by LinksController#generate_crfs as HTML
+  Parameters: {"link"=>{}}
+Completed 200 OK in 2ms (Views: 0.2ms | Allocations: 167)
+
+
+Started POST "/encode" for 127.0.0.1 at 2023-07-16 15:03:39 +0300
+Processing by LinksController#encode as JSON
+  Parameters: {"long_link"=>"http://example.com"}
+Can't verify CSRF token authenticity.
+Completed 422 Unprocessable Entity in 1ms (Allocations: 443)
+
+
+  
+ActionController::InvalidAuthenticityToken (Can't verify CSRF token authenticity.):
+  
+actionpack (7.0.6) lib/action_controller/metal/request_forgery_protection.rb:253:in `handle_unverified_request'
+actionpack (7.0.6) lib/action_controller/metal/request_forgery_protection.rb:286:in `handle_unverified_request'
+actionpack (7.0.6) lib/action_controller/metal/request_forgery_protection.rb:275:in `verify_authenticity_token'
+activesupport (7.0.6) lib/active_support/callbacks.rb:400:in `block in make_lambda'
+activesupport (7.0.6) lib/active_support/callbacks.rb:199:in `block (2 levels) in halting'
+actionpack (7.0.6) lib/abstract_controller/callbacks.rb:34:in `block (2 levels) in <module:Callbacks>'
+activesupport (7.0.6) lib/active_support/callbacks.rb:200:in `block in halting'
+activesupport (7.0.6) lib/active_support/callbacks.rb:595:in `block in invoke_before'
+activesupport (7.0.6) lib/active_support/callbacks.rb:595:in `each'
+activesupport (7.0.6) lib/active_support/callbacks.rb:595:in `invoke_before'
+activesupport (7.0.6) lib/active_support/callbacks.rb:116:in `block in run_callbacks'
+activesupport (7.0.6) lib/active_support/callbacks.rb:138:in `run_callbacks'
+actionpack (7.0.6) lib/abstract_controller/callbacks.rb:233:in `process_action'
+actionpack (7.0.6) lib/action_controller/metal/rescue.rb:23:in `process_action'
+actionpack (7.0.6) lib/action_controller/metal/instrumentation.rb:67:in `block in process_action'
+activesupport (7.0.6) lib/active_support/notifications.rb:206:in `block in instrument'
+activesupport (7.0.6) lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+activesupport (7.0.6) lib/active_support/notifications.rb:206:in `instrument'
+actionpack (7.0.6) lib/action_controller/metal/instrumentation.rb:66:in `process_action'
+actionpack (7.0.6) lib/action_controller/metal/params_wrapper.rb:259:in `process_action'
+activerecord (7.0.6) lib/active_record/railties/controller_runtime.rb:27:in `process_action'
+actionpack (7.0.6) lib/abstract_controller/base.rb:151:in `process'
+actionview (7.0.6) lib/action_view/rendering.rb:39:in `process'
+actionpack (7.0.6) lib/action_controller/metal.rb:188:in `dispatch'
+actionpack (7.0.6) lib/action_controller/metal.rb:251:in `dispatch'
+actionpack (7.0.6) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (7.0.6) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (7.0.6) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (7.0.6) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (7.0.6) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (7.0.6) lib/action_dispatch/routing/route_set.rb:852:in `call'
+rack (2.2.7) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.7) lib/rack/etag.rb:27:in `call'
+rack (2.2.7) lib/rack/conditional_get.rb:40:in `call'
+rack (2.2.7) lib/rack/head.rb:12:in `call'
+actionpack (7.0.6) lib/action_dispatch/http/permissions_policy.rb:38:in `call'
+actionpack (7.0.6) lib/action_dispatch/http/content_security_policy.rb:36:in `call'
+rack (2.2.7) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.7) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (7.0.6) lib/action_dispatch/middleware/cookies.rb:704:in `call'
+activerecord (7.0.6) lib/active_record/migration.rb:603:in `call'
+actionpack (7.0.6) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (7.0.6) lib/active_support/callbacks.rb:99:in `run_callbacks'
+actionpack (7.0.6) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (7.0.6) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.6) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (7.0.6) lib/action_dispatch/middleware/debug_exceptions.rb:28:in `call'
+web-console (4.2.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (7.0.6) lib/action_dispatch/middleware/show_exceptions.rb:29:in `call'
+railties (7.0.6) lib/rails/rack/logger.rb:40:in `call_app'
+railties (7.0.6) lib/rails/rack/logger.rb:25:in `block in call'
+activesupport (7.0.6) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (7.0.6) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (7.0.6) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (7.0.6) lib/rails/rack/logger.rb:25:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (7.0.6) lib/action_dispatch/middleware/remote_ip.rb:93:in `call'
+actionpack (7.0.6) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.7) lib/rack/method_override.rb:24:in `call'
+rack (2.2.7) lib/rack/runtime.rb:22:in `call'
+activesupport (7.0.6) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.0.6) lib/action_dispatch/middleware/server_timing.rb:61:in `block in call'
+actionpack (7.0.6) lib/action_dispatch/middleware/server_timing.rb:26:in `collect_events'
+actionpack (7.0.6) lib/action_dispatch/middleware/server_timing.rb:60:in `call'
+actionpack (7.0.6) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.6) lib/action_dispatch/middleware/static.rb:23:in `call'
+rack (2.2.7) lib/rack/sendfile.rb:110:in `call'
+actionpack (7.0.6) lib/action_dispatch/middleware/host_authorization.rb:137:in `call'
+railties (7.0.6) lib/rails/engine.rb:530:in `call'
+puma (5.6.6) lib/puma/configuration.rb:252:in `call'
+puma (5.6.6) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.6) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.6) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.6) lib/puma/server.rb:443:in `process_client'
+puma (5.6.6) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started GET "/generate_crfs" for 127.0.0.1 at 2023-07-16 15:03:40 +0300
+Processing by LinksController#generate_crfs as HTML
+  Parameters: {"link"=>{}}
+Completed 200 OK in 2ms (Views: 0.1ms | Allocations: 167)
+
+
+Started POST "/encode" for 127.0.0.1 at 2023-07-16 15:03:40 +0300
+Processing by LinksController#encode as JSON
+  Parameters: {"long_link"=>"http://example.com"}
+Can't verify CSRF token authenticity.
+Completed 422 Unprocessable Entity in 1ms (Allocations: 443)
+
+
+  
+ActionController::InvalidAuthenticityToken (Can't verify CSRF token authenticity.):
+  
+actionpack (7.0.6) lib/action_controller/metal/request_forgery_protection.rb:253:in `handle_unverified_request'
+actionpack (7.0.6) lib/action_controller/metal/request_forgery_protection.rb:286:in `handle_unverified_request'
+actionpack (7.0.6) lib/action_controller/metal/request_forgery_protection.rb:275:in `verify_authenticity_token'
+activesupport (7.0.6) lib/active_support/callbacks.rb:400:in `block in make_lambda'
+activesupport (7.0.6) lib/active_support/callbacks.rb:199:in `block (2 levels) in halting'
+actionpack (7.0.6) lib/abstract_controller/callbacks.rb:34:in `block (2 levels) in <module:Callbacks>'
+activesupport (7.0.6) lib/active_support/callbacks.rb:200:in `block in halting'
+activesupport (7.0.6) lib/active_support/callbacks.rb:595:in `block in invoke_before'
+activesupport (7.0.6) lib/active_support/callbacks.rb:595:in `each'
+activesupport (7.0.6) lib/active_support/callbacks.rb:595:in `invoke_before'
+activesupport (7.0.6) lib/active_support/callbacks.rb:116:in `block in run_callbacks'
+activesupport (7.0.6) lib/active_support/callbacks.rb:138:in `run_callbacks'
+actionpack (7.0.6) lib/abstract_controller/callbacks.rb:233:in `process_action'
+actionpack (7.0.6) lib/action_controller/metal/rescue.rb:23:in `process_action'
+actionpack (7.0.6) lib/action_controller/metal/instrumentation.rb:67:in `block in process_action'
+activesupport (7.0.6) lib/active_support/notifications.rb:206:in `block in instrument'
+activesupport (7.0.6) lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+activesupport (7.0.6) lib/active_support/notifications.rb:206:in `instrument'
+actionpack (7.0.6) lib/action_controller/metal/instrumentation.rb:66:in `process_action'
+actionpack (7.0.6) lib/action_controller/metal/params_wrapper.rb:259:in `process_action'
+activerecord (7.0.6) lib/active_record/railties/controller_runtime.rb:27:in `process_action'
+actionpack (7.0.6) lib/abstract_controller/base.rb:151:in `process'
+actionview (7.0.6) lib/action_view/rendering.rb:39:in `process'
+actionpack (7.0.6) lib/action_controller/metal.rb:188:in `dispatch'
+actionpack (7.0.6) lib/action_controller/metal.rb:251:in `dispatch'
+actionpack (7.0.6) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (7.0.6) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (7.0.6) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (7.0.6) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (7.0.6) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (7.0.6) lib/action_dispatch/routing/route_set.rb:852:in `call'
+rack (2.2.7) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.7) lib/rack/etag.rb:27:in `call'
+rack (2.2.7) lib/rack/conditional_get.rb:40:in `call'
+rack (2.2.7) lib/rack/head.rb:12:in `call'
+actionpack (7.0.6) lib/action_dispatch/http/permissions_policy.rb:38:in `call'
+actionpack (7.0.6) lib/action_dispatch/http/content_security_policy.rb:36:in `call'
+rack (2.2.7) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.7) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (7.0.6) lib/action_dispatch/middleware/cookies.rb:704:in `call'
+activerecord (7.0.6) lib/active_record/migration.rb:603:in `call'
+actionpack (7.0.6) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (7.0.6) lib/active_support/callbacks.rb:99:in `run_callbacks'
+actionpack (7.0.6) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (7.0.6) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.6) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (7.0.6) lib/action_dispatch/middleware/debug_exceptions.rb:28:in `call'
+web-console (4.2.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (7.0.6) lib/action_dispatch/middleware/show_exceptions.rb:29:in `call'
+railties (7.0.6) lib/rails/rack/logger.rb:40:in `call_app'
+railties (7.0.6) lib/rails/rack/logger.rb:25:in `block in call'
+activesupport (7.0.6) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (7.0.6) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (7.0.6) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (7.0.6) lib/rails/rack/logger.rb:25:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (7.0.6) lib/action_dispatch/middleware/remote_ip.rb:93:in `call'
+actionpack (7.0.6) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.7) lib/rack/method_override.rb:24:in `call'
+rack (2.2.7) lib/rack/runtime.rb:22:in `call'
+activesupport (7.0.6) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.0.6) lib/action_dispatch/middleware/server_timing.rb:61:in `block in call'
+actionpack (7.0.6) lib/action_dispatch/middleware/server_timing.rb:26:in `collect_events'
+actionpack (7.0.6) lib/action_dispatch/middleware/server_timing.rb:60:in `call'
+actionpack (7.0.6) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.6) lib/action_dispatch/middleware/static.rb:23:in `call'
+rack (2.2.7) lib/rack/sendfile.rb:110:in `call'
+actionpack (7.0.6) lib/action_dispatch/middleware/host_authorization.rb:137:in `call'
+railties (7.0.6) lib/rails/engine.rb:530:in `call'
+puma (5.6.6) lib/puma/configuration.rb:252:in `call'
+puma (5.6.6) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.6) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.6) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.6) lib/puma/server.rb:443:in `process_client'
+puma (5.6.6) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started POST "/decode" for 127.0.0.1 at 2023-07-16 15:30:36 +0300
+Processing by LinksController#decode as HTML
+  Parameters: {"short_link"=>"http://127.0.0.1:3000/7nxvg"}
+Completed 200 OK in 3ms (Views: 0.3ms | Allocations: 340)
+
+
+Started POST "/decode" for 127.0.0.1 at 2023-07-16 15:32:55 +0300
+Processing by LinksController#decode as HTML
+  Parameters: {"short_link"=>"http://127.0.0.1:3000/7nxvg"}
+Completed 200 OK in 3ms (Views: 0.2ms | Allocations: 296)
+
+
+Started POST "/decode" for 127.0.0.1 at 2023-07-16 15:33:15 +0300
+Processing by LinksController#decode as HTML
+  Parameters: {"short_link"=>"http://127.0.0.1:3000/7nxvg"}
+Completed 200 OK in 2ms (Views: 0.2ms | Allocations: 294)
+
+
+Started POST "/decode" for 127.0.0.1 at 2023-07-16 15:33:24 +0300
+Processing by LinksController#decode as HTML
+  Parameters: {"short_link"=>"http://127.0.0.1:3000/7nxvg"}
+Completed 200 OK in 2ms (Views: 0.2ms | Allocations: 295)
+
+
+Started POST "/decode" for 127.0.0.1 at 2023-07-16 15:35:45 +0300
+Processing by LinksController#decode as HTML
+  Parameters: {"short_link"=>"http://127.0.0.1:3000/7nxvg"}
+Completed 200 OK in 2ms (Views: 0.2ms | Allocations: 297)
+
+
+Started POST "/decode" for 127.0.0.1 at 2023-07-16 15:36:00 +0300
+Processing by LinksController#decode as HTML
+  Parameters: {"short_link"=>"http://127.0.0.1:3000/7nxvg"}
+Completed 200 OK in 2ms (Views: 0.2ms | Allocations: 295)
+
+
+Started POST "/decode" for 127.0.0.1 at 2023-07-16 15:36:11 +0300
+Processing by LinksController#decode as HTML
+  Parameters: {"short_link"=>"http://127.0.0.1:3000/7nxvg"}
+Completed 200 OK in 2ms (Views: 0.3ms | Allocations: 270)
+
+
+Started POST "/decode" for 127.0.0.1 at 2023-07-16 15:36:39 +0300
+Processing by LinksController#decode as HTML
+  Parameters: {"short_link"=>"http://127.0.0.1:3000/7nxvg"}
+Completed 500 Internal Server Error in 9ms (Allocations: 1610)
+
+
+  
+NoMethodError (undefined method `request_uri' for "http://127.0.0.1:3000/7nxvg":String):
+  
+app/controllers/links_controller.rb:26:in `decode'
+Started POST "/decode" for 127.0.0.1 at 2023-07-16 15:37:12 +0300
+Processing by LinksController#decode as HTML
+  Parameters: {"short_link"=>"http://127.0.0.1:3000/7nxvg"}
+Completed 200 OK in 2ms (Views: 0.2ms | Allocations: 277)
+
+
+Started POST "/encode" for 127.0.0.1 at 2023-07-16 15:37:15 +0300
+Processing by LinksController#encode as HTML
+  Parameters: {"long_link"=>"https://example.com"}
+Completed 200 OK in 2ms (Views: 0.1ms | Allocations: 234)
+
+
+Started POST "/decode" for 127.0.0.1 at 2023-07-16 15:37:24 +0300
+Processing by LinksController#decode as HTML
+  Parameters: {"short_link"=>"http://127.0.0.1:3000/9psbn"}
+Completed 200 OK in 2ms (Views: 0.1ms | Allocations: 164)
+
+
+Started POST "/encode" for 127.0.0.1 at 2023-07-16 15:37:54 +0300
+Processing by LinksController#encode as HTML
+  Parameters: {"long_link"=>"https://example.com/ddd"}
+Completed 200 OK in 2ms (Views: 0.1ms | Allocations: 218)
+
+
+Started POST "/decode" for 127.0.0.1 at 2023-07-16 15:38:06 +0300
+Processing by LinksController#decode as HTML
+  Parameters: {"short_link"=>"http://127.0.0.1:3000/bwpha"}
+Completed 200 OK in 2ms (Views: 0.1ms | Allocations: 164)
+
+
+Started POST "/encode" for 127.0.0.1 at 2023-07-16 15:40:29 +0300
+Processing by LinksController#encode as JSON
+  Parameters: {"long_link"=>"https://example.com"}
+Completed 200 OK in 3ms (Views: 0.2ms | Allocations: 220)
+
+
+Started POST "/decode" for 127.0.0.1 at 2023-07-16 15:42:01 +0300
+Processing by LinksController#decode as JSON
+  Parameters: {"short_link"=>"https://127.0.0.1:3000/22e4v"}
+Completed 200 OK in 2ms (Views: 0.1ms | Allocations: 167)
+
+
+Started POST "/decode" for 127.0.0.1 at 2023-07-16 15:42:18 +0300
+Processing by LinksController#decode as JSON
+  Parameters: {"short_link"=>"https://127.0.0.1:3000/bwpha"}
+Completed 200 OK in 2ms (Views: 0.2ms | Allocations: 166)
+
+
+Started POST "/encode" for 127.0.0.1 at 2023-07-16 15:53:25 +0300
+Processing by LinksController#encode as JSON
+  Parameters: {"long_link"=>"https://example.com"}
+Completed 200 OK in 2ms (Views: 0.2ms | Allocations: 351)
+
+
+Started POST "/decode" for 127.0.0.1 at 2023-07-16 15:53:31 +0300
+Processing by LinksController#decode as JSON
+  Parameters: {"short_link"=>"http://127.0.0.1:3000/22e4v"}
+Completed 200 OK in 2ms (Views: 0.1ms | Allocations: 167)
+
+
+Started POST "/decode" for 127.0.0.1 at 2023-07-16 15:53:44 +0300
+Processing by LinksController#decode as JSON
+  Parameters: {"short_link"=>"http://127.0.0.1:3000/qyzmt"}
+Completed 200 OK in 2ms (Views: 0.1ms | Allocations: 166)
+
+
+Started POST "/encode" for 127.0.0.1 at 2023-07-16 15:53:59 +0300
+Processing by LinksController#encode as JSON
+  Parameters: {"long_link"=>"https://example.com/l"}
+Completed 200 OK in 2ms (Views: 0.1ms | Allocations: 220)
+
+
+Started POST "/decode" for 127.0.0.1 at 2023-07-16 15:54:07 +0300
+Processing by LinksController#decode as JSON
+  Parameters: {"short_link"=>"http://127.0.0.1:3000/qyzmt"}
+Completed 200 OK in 2ms (Views: 0.1ms | Allocations: 166)
+
+
+Started POST "/decode" for 127.0.0.1 at 2023-07-16 16:17:40 +0300
+Processing by LinksController#decode as JSON
+  Parameters: {"short_link"=>"http://127.0.0.1:3000/22e4v"}
+Completed 200 OK in 2ms (Views: 0.2ms | Allocations: 303)
+
+
+Started POST "/decode" for 127.0.0.1 at 2023-07-16 16:17:46 +0300
+Processing by LinksController#decode as JSON
+  Parameters: {"short_link"=>"http://127.0.0.1:3000/qyzmt"}
+Completed 200 OK in 2ms (Views: 0.2ms | Allocations: 181)
+
+
+Started POST "/decode" for 127.0.0.1 at 2023-07-16 16:17:55 +0300
+Processing by LinksController#decode as JSON
+  Parameters: {"short_link"=>"http://127.0.0.1:3000/qyzmt"}
+Completed 200 OK in 2ms (Views: 0.2ms | Allocations: 181)
+
+
+Started POST "/decode" for 127.0.0.1 at 2023-07-16 16:17:59 +0300
+Processing by LinksController#decode as JSON
+  Parameters: {"short_link"=>"http://127.0.0.1:3000/qyzmt"}
+Completed 200 OK in 2ms (Views: 0.1ms | Allocations: 181)
+
+
+Started POST "/decode" for 127.0.0.1 at 2023-07-16 16:18:20 +0300
+Processing by LinksController#decode as JSON
+  Parameters: {"short_link"=>"http://127.0.0.1:3000/qyzmt"}
+Completed 500 Internal Server Error in 4ms (Allocations: 1120)
+
+
+  
+NoMethodError (undefined method `split' for #<URI::HTTP http://127.0.0.1:3000/qyzmt>):
+  
+app/controllers/links_controller.rb:27:in `decode'
+Started POST "/decode" for 127.0.0.1 at 2023-07-16 16:19:12 +0300
+Processing by LinksController#decode as JSON
+  Parameters: {"short_link"=>"http://127.0.0.1:3000/qyzmt"}
+Completed 200 OK in 2ms (Views: 0.2ms | Allocations: 304)
+
+
+Started POST "/decode" for 127.0.0.1 at 2023-07-16 16:19:18 +0300
+Processing by LinksController#decode as JSON
+  Parameters: {"short_link"=>"http://127.0.0.1:3000/qyzmt"}
+Completed 200 OK in 2ms (Views: 0.1ms | Allocations: 182)
+
+
+Started POST "/encode" for 127.0.0.1 at 2023-07-16 16:22:11 +0300
+Processing by LinksController#encode as JSON
+  Parameters: {"long_link"=>"https://example.com/l"}
+Completed 200 OK in 2ms (Views: 0.2ms | Allocations: 351)
+
+
+Started POST "/encode" for 127.0.0.1 at 2023-07-16 16:22:13 +0300
+Processing by LinksController#encode as JSON
+  Parameters: {"long_link"=>"https://example.com/l"}
+Completed 200 OK in 2ms (Views: 0.1ms | Allocations: 220)
+
+
+Started POST "/encode" for 127.0.0.1 at 2023-07-16 16:22:14 +0300
+Processing by LinksController#encode as JSON
+  Parameters: {"long_link"=>"https://example.com/l"}
+Completed 200 OK in 2ms (Views: 0.1ms | Allocations: 220)
+
+
+Started POST "/decode" for 127.0.0.1 at 2023-07-16 16:39:37 +0300
+Processing by LinksController#decode as JSON
+  Parameters: {"short_link"=>"http://127.0.0.1:3000/kxcnd"}
+Completed 200 OK in 2ms (Views: 0.2ms | Allocations: 166)
+
+
+Started POST "/decode" for 127.0.0.1 at 2023-07-16 16:39:46 +0300
+Processing by LinksController#decode as JSON
+  Parameters: {"short_link"=>"http://127.0.0.1:3000//kxcnd"}
+Completed 200 OK in 2ms (Views: 0.1ms | Allocations: 167)
+
+
+Started POST "/encode" for 127.0.0.1 at 2023-07-16 16:46:09 +0300
+Processing by LinksController#encode as JSON
+  Parameters: {"long_link"=>"https://example.com/l"}
+Completed 200 OK in 3ms (Views: 0.2ms | Allocations: 220)
+
+
+Started POST "/decode" for 127.0.0.1 at 2023-07-16 16:47:18 +0300
+Processing by LinksController#decode as JSON
+  Parameters: {"short_link"=>"http://127.0.0.1:3000//kxcnd"}
+Completed 200 OK in 3ms (Views: 0.2ms | Allocations: 319)
+
+
+Started POST "/decode" for 127.0.0.1 at 2023-07-16 16:48:05 +0300
+Processing by LinksController#decode as JSON
+  Parameters: {"short_link"=>"http://127.0.0.1:3000//kxcnd"}
+Completed 200 OK in 3ms (Views: 0.2ms | Allocations: 322)
+
+
+Started POST "/decode" for 127.0.0.1 at 2023-07-16 16:48:40 +0300
+Processing by LinksController#decode as JSON
+  Parameters: {"short_link"=>"http://127.0.0.1:3000//kxcnd"}
+Completed 200 OK in 2ms (Views: 0.2ms | Allocations: 342)
+
+
+Started POST "/decode" for 127.0.0.1 at 2023-07-16 16:49:12 +0300
+Processing by LinksController#decode as JSON
+  Parameters: {"short_link"=>"http://127.0.0.1:3000//kxcnd"}
+Completed 200 OK in 2ms (Views: 0.2ms | Allocations: 353)
+
+
+Started POST "/decode" for 127.0.0.1 at 2023-07-16 16:50:38 +0300
+Processing by LinksController#decode as JSON
+  Parameters: {"short_link"=>"http://127.0.0.1:3000//kxcnd"}
+Completed 200 OK in 2ms (Views: 0.2ms | Allocations: 322)
+
+
+Started POST "/decode" for 127.0.0.1 at 2023-07-16 16:52:31 +0300
+Processing by LinksController#decode as JSON
+  Parameters: {"short_link"=>"http://127.0.0.1:3000//kxcnd"}
+Completed 200 OK in 3ms (Views: 0.3ms | Allocations: 322)
+
+
+Started POST "/decode" for 127.0.0.1 at 2023-07-16 16:52:37 +0300
+Processing by LinksController#decode as JSON
+  Parameters: {"short_link"=>"http://127.0.0.1:3000//kxcnd"}
+Completed 200 OK in 2ms (Views: 0.2ms | Allocations: 319)
+
+
+Started POST "/encode" for 127.0.0.1 at 2023-07-16 16:52:54 +0300
+Processing by LinksController#encode as JSON
+  Parameters: {"long_link"=>"https://example.com/l"}
+Completed 200 OK in 2ms (Views: 0.1ms | Allocations: 325)
+
+
+Started POST "/encode" for 127.0.0.1 at 2023-07-16 16:53:10 +0300
+Processing by LinksController#encode as JSON
+  Parameters: {"long_link"=>"https://example.com/l"}
+Completed 200 OK in 3ms (Views: 0.2ms | Allocations: 327)
+
+
+Started POST "/decode" for 127.0.0.1 at 2023-07-16 16:53:21 +0300
+Processing by LinksController#decode as JSON
+  Parameters: {"short_link"=>"http://127.0.0.1:3000//kxcnd"}
+Completed 200 OK in 2ms (Views: 0.4ms | Allocations: 192)
+
+
+Started POST "/decode" for 127.0.0.1 at 2023-07-16 16:54:32 +0300
+Processing by LinksController#decode as JSON
+  Parameters: {"short_link"=>"http://127.0.0.1:3000//kxcnd"}
+Completed 200 OK in 8ms (Views: 5.5ms | Allocations: 300)
+
+
+Started POST "/decode" for 127.0.0.1 at 2023-07-16 16:56:08 +0300
+Processing by LinksController#decode as JSON
+  Parameters: {"short_link"=>"http://127.0.0.1:3000//kxcnd"}
+Completed 200 OK in 2ms (Views: 0.2ms | Allocations: 349)
+
+
+Started POST "/decode" for 127.0.0.1 at 2023-07-16 16:56:17 +0300
+Processing by LinksController#decode as JSON
+  Parameters: {"short_link"=>"http://127.0.0.1:3000//kxcnd"}
+Completed 200 OK in 2ms (Views: 0.1ms | Allocations: 218)
+
+
+Started POST "/decode" for 127.0.0.1 at 2023-07-16 16:56:26 +0300
+Processing by LinksController#decode as JSON
+  Parameters: {"short_link"=>"http://127.0.0.1:3000//kxcnd"}
+Completed 200 OK in 2ms (Views: 0.2ms | Allocations: 338)
+
+
+Started POST "/decode" for 127.0.0.1 at 2023-07-16 17:05:14 +0300
+  
+SyntaxError (C:/wamp/www/link/app/controllers/links_controller.rb:50: syntax error, unexpected end-of-input, expecting `end'):
+  
+app/controllers/links_controller.rb:50: syntax error, unexpected end-of-input, expecting `end'
+app/controllers/links_controller.rb:50: syntax error, unexpected end-of-input, expecting `end'
+app/controllers/links_controller.rb:50: syntax error, unexpected end-of-input, expecting `end'
+Started POST "/encode" for 127.0.0.1 at 2023-07-16 17:05:32 +0300
+  
+SyntaxError (C:/wamp/www/link/app/controllers/links_controller.rb:48: syntax error, unexpected end-of-input, expecting `end'):
+  
+app/controllers/links_controller.rb:48: syntax error, unexpected end-of-input, expecting `end'
+app/controllers/links_controller.rb:48: syntax error, unexpected end-of-input, expecting `end'
+app/controllers/links_controller.rb:48: syntax error, unexpected end-of-input, expecting `end'
+Started POST "/encode" for 127.0.0.1 at 2023-07-16 17:05:37 +0300
+  
+SyntaxError (C:/wamp/www/link/app/controllers/links_controller.rb:48: syntax error, unexpected end-of-input, expecting `end'):
+  
+app/controllers/links_controller.rb:48: syntax error, unexpected end-of-input, expecting `end'
+app/controllers/links_controller.rb:48: syntax error, unexpected end-of-input, expecting `end'
+app/controllers/links_controller.rb:48: syntax error, unexpected end-of-input, expecting `end'
+Started POST "/encode" for 127.0.0.1 at 2023-07-16 17:05:46 +0300
+  
+SyntaxError (C:/wamp/www/link/app/controllers/links_controller.rb:48: syntax error, unexpected end-of-input, expecting `end'):
+  
+app/controllers/links_controller.rb:48: syntax error, unexpected end-of-input, expecting `end'
+app/controllers/links_controller.rb:48: syntax error, unexpected end-of-input, expecting `end'
+app/controllers/links_controller.rb:48: syntax error, unexpected end-of-input, expecting `end'
+Started POST "/encode" for 127.0.0.1 at 2023-07-16 17:05:58 +0300
+Processing by LinksController#encode as JSON
+  Parameters: {"long_link"=>"https://example.com/l"}
+Completed 200 OK in 2ms (Views: 0.2ms | Allocations: 327)
+
+
+Started POST "/decode" for 127.0.0.1 at 2023-07-16 17:06:01 +0300
+Processing by LinksController#decode as JSON
+  Parameters: {"short_link"=>"http://127.0.0.1:3000//kxcnd"}
+Completed 500 Internal Server Error in 2ms (Allocations: 970)
+
+
+  
+NoMethodError (undefined method `[]' for nil:NilClass):
+  
+app/controllers/links_controller.rb:30:in `decode'
+Started POST "/encode" for 127.0.0.1 at 2023-07-16 17:06:39 +0300
+Processing by LinksController#encode as JSON
+  Parameters: {"long_link"=>"https://example.com/l"}
+Completed 200 OK in 2ms (Views: 0.1ms | Allocations: 199)
+
+
+Started POST "/decode" for 127.0.0.1 at 2023-07-16 17:06:54 +0300
+Processing by LinksController#decode as JSON
+  Parameters: {"short_link"=>"http://127.0.0.1:3000//ejvlq"}
+Completed 500 Internal Server Error in 2ms (Allocations: 941)
+
+
+  
+NoMethodError (undefined method `[]' for nil:NilClass):
+  
+app/controllers/links_controller.rb:30:in `decode'
+Started POST "/encode" for 127.0.0.1 at 2023-07-16 17:08:06 +0300
+Processing by LinksController#encode as JSON
+  Parameters: {"long_link"=>"https://example.com/l"}
+Completed 200 OK in 2ms (Views: 0.1ms | Allocations: 199)
+
+
+Started POST "/decode" for 127.0.0.1 at 2023-07-16 17:08:26 +0300
+Processing by LinksController#decode as JSON
+  Parameters: {"short_link"=>"127.0.0.1/yva92"}
+No template found for LinksController#decode, rendering head :no_content
+Completed 204 No Content in 6ms (Allocations: 499)
+
+
+Started POST "/decode" for 127.0.0.1 at 2023-07-16 17:08:35 +0300
+Processing by LinksController#decode as JSON
+  Parameters: {"short_link"=>"127.0.0.1/yva92"}
+No template found for LinksController#decode, rendering head :no_content
+Completed 204 No Content in 2ms (Allocations: 224)
+
+
+Started POST "/encode" for 127.0.0.1 at 2023-07-16 17:08:48 +0300
+Processing by LinksController#encode as JSON
+  Parameters: {"long_link"=>"https://example.com/l"}
+Completed 200 OK in 3ms (Views: 0.2ms | Allocations: 327)
+
+
+Started POST "/decode" for 127.0.0.1 at 2023-07-16 17:08:59 +0300
+Processing by LinksController#decode as JSON
+  Parameters: {"short_link"=>"127.0.0.1/9cz6g"}
+No template found for LinksController#decode, rendering head :no_content
+Completed 204 No Content in 2ms (Allocations: 237)
+
+
+Started POST "/encode" for 127.0.0.1 at 2023-07-16 17:09:21 +0300
+Processing by LinksController#encode as JSON
+  Parameters: {"long_link"=>"https://example.com/l"}
+Completed 200 OK in 2ms (Views: 0.3ms | Allocations: 327)
+
+
+Started POST "/decode" for 127.0.0.1 at 2023-07-16 17:09:32 +0300
+Processing by LinksController#decode as JSON
+  Parameters: {"short_link"=>"127.0.0.1/2ddkn"}
+No template found for LinksController#decode, rendering head :no_content
+Completed 204 No Content in 4ms (Allocations: 237)
+
+
+Started POST "/decode" for 127.0.0.1 at 2023-07-16 17:10:35 +0300
+Processing by LinksController#decode as JSON
+  Parameters: {"short_link"=>"127.0.0.1/2ddkn"}
+No template found for LinksController#decode, rendering head :no_content
+Completed 204 No Content in 3ms (Allocations: 324)
+
+
+Started POST "/encode" for 127.0.0.1 at 2023-07-16 17:10:38 +0300
+Processing by LinksController#encode as JSON
+  Parameters: {"long_link"=>"https://example.com/l"}
+Completed 200 OK in 3ms (Views: 0.3ms | Allocations: 235)
+
+
+Started POST "/decode" for 127.0.0.1 at 2023-07-16 17:10:47 +0300
+Processing by LinksController#decode as JSON
+  Parameters: {"short_link"=>"127.0.0.1/78igr"}
+No template found for LinksController#decode, rendering head :no_content
+Completed 204 No Content in 2ms (Allocations: 223)
+
+
+Started POST "/encode" for 127.0.0.1 at 2023-07-16 17:11:43 +0300
+Processing by LinksController#encode as JSON
+  Parameters: {"long_link"=>"https://example.com/l"}
+Completed 200 OK in 2ms (Views: 0.1ms | Allocations: 351)
+
+
+Started POST "/decode" for 127.0.0.1 at 2023-07-16 17:11:55 +0300
+Processing by LinksController#decode as JSON
+  Parameters: {"short_link"=>"127.0.0.1/9m94s"}
+Completed 200 OK in 2ms (Views: 0.1ms | Allocations: 164)
+
+
+Started POST "/encode" for 127.0.0.1 at 2023-07-16 17:17:03 +0300
+Processing by LinksController#encode as JSON
+  Parameters: {"long_link"=>"https://example.com/l"}
+Completed 500 Internal Server Error in 7ms (Allocations: 3031)
+
+
+  
+NameError (undefined local variable or method `long_url' for #<LinksController:0x0000000016bcc8>
+Did you mean?  long_link):
+  
+app/controllers/links_controller.rb:24:in `encode'
+Started POST "/encode" for 127.0.0.1 at 2023-07-16 17:17:33 +0300
+Processing by LinksController#encode as JSON
+  Parameters: {"long_link"=>"https://example.com/l"}
+Completed 500 Internal Server Error in 6ms (Allocations: 2901)
+
+
+  
+NoMethodError (undefined method `long_url' for #<LinksController:0x00000000170660>):
+  
+app/controllers/links_controller.rb:16:in `sanitize'
+app/controllers/links_controller.rb:24:in `encode'
+Started POST "/encode" for 127.0.0.1 at 2023-07-16 17:18:38 +0300
+Processing by LinksController#encode as JSON
+  Parameters: {"long_link"=>"https://example.com/l"}
+Completed 500 Internal Server Error in 6ms (Allocations: 3036)
+
+
+  
+NameError (undefined local variable or method `long_url' for #<LinksController:0x00000000174f30>
+Did you mean?  long_link):
+  
+app/controllers/links_controller.rb:15:in `sanitize'
+app/controllers/links_controller.rb:24:in `encode'
+Started POST "/encode" for 127.0.0.1 at 2023-07-16 17:19:40 +0300
+Processing by LinksController#encode as JSON
+  Parameters: {"long_link"=>"https://example.com/l"}
+Completed 500 Internal Server Error in 7ms (Allocations: 2842)
+
+
+  
+NoMethodError (undefined method `long_link' for #<LinksController:0x00000000179878>):
+  
+app/controllers/links_controller.rb:16:in `sanitize'
+app/controllers/links_controller.rb:24:in `encode'
+Started POST "/encode" for 127.0.0.1 at 2023-07-16 17:21:05 +0300
+Processing by LinksController#encode as JSON
+  Parameters: {"long_link"=>"https://example.com/l"}
+Completed 200 OK in 3ms (Views: 0.3ms | Allocations: 361)
+
+
+Started POST "/encode" for 127.0.0.1 at 2023-07-16 17:21:29 +0300
+Processing by LinksController#encode as JSON
+  Parameters: {"long_link"=>"https://example.com/l"}
+Completed 200 OK in 3ms (Views: 0.2ms | Allocations: 358)
+
+
+Started POST "/encode" for 127.0.0.1 at 2023-07-16 17:21:39 +0300
+Processing by LinksController#encode as JSON
+  Parameters: {"long_link"=>"https://example.com////l"}
+Completed 200 OK in 2ms (Views: 0.1ms | Allocations: 226)
+
+
+Started POST "/encode" for 127.0.0.1 at 2023-07-16 17:21:50 +0300
+Processing by LinksController#encode as JSON
+  Parameters: {"long_link"=>"https://example.com////l"}
+Completed 200 OK in 2ms (Views: 0.2ms | Allocations: 360)
+
+
+Started POST "/decode" for 127.0.0.1 at 2023-07-16 17:23:19 +0300
+Processing by LinksController#decode as JSON
+  Parameters: {"short_link"=>"http://127.0.0.1:3000/ebray"}
+Completed 200 OK in 2ms (Views: 0.1ms | Allocations: 166)
+
+
+Started POST "/encode" for 127.0.0.1 at 2023-07-16 17:24:55 +0300
+Processing by LinksController#encode as JSON
+  Parameters: {"long_link"=>"https://example.com////l"}
+Completed 200 OK in 3ms (Views: 0.2ms | Allocations: 360)
+
+
+Started POST "/decode" for 127.0.0.1 at 2023-07-16 17:25:08 +0300
+Processing by LinksController#decode as JSON
+  Parameters: {"short_link"=>"http://127.0.0.1:3000/nrgdf"}
+No template found for LinksController#decode, rendering head :no_content
+Completed 204 No Content in 2ms (Allocations: 198)
+
+
+Started POST "/encode" for 127.0.0.1 at 2023-07-16 17:25:57 +0300
+Processing by LinksController#encode as JSON
+  Parameters: {"long_link"=>"https://example.com////l"}
+Completed 200 OK in 3ms (Views: 0.2ms | Allocations: 360)
+
+
+Started POST "/decode" for 127.0.0.1 at 2023-07-16 17:26:16 +0300
+Processing by LinksController#decode as JSON
+  Parameters: {"short_link"=>"http://127.0.0.1:3000/7wgaj"}
+Completed 500 Internal Server Error in 17ms (Allocations: 3006)
+
+
+  
+NameError (undefined local variable or method `short_link' for #<LinksController:0x0000000018fec0>
+Did you mean?  @short_link):
+  
+app/controllers/links_controller.rb:32:in `decode'
+Started POST "/encode" for 127.0.0.1 at 2023-07-16 17:26:45 +0300
+Processing by LinksController#encode as JSON
+  Parameters: {"long_link"=>"https://example.com////l"}
+Completed 200 OK in 3ms (Views: 0.2ms | Allocations: 360)
+
+
+Started POST "/decode" for 127.0.0.1 at 2023-07-16 17:27:06 +0300
+Processing by LinksController#decode as JSON
+  Parameters: {"short_link"=>"http://127.0.0.1:3000/i41xb"}
+Completed 200 OK in 2ms (Views: 0.2ms | Allocations: 167)
+
+
+Started POST "/encode" for 127.0.0.1 at 2023-07-16 17:27:24 +0300
+Processing by LinksController#encode as JSON
+  Parameters: {"long_link"=>"https://example.com////l"}
+Completed 200 OK in 2ms (Views: 0.1ms | Allocations: 229)
+
+
+Started POST "/decode" for 127.0.0.1 at 2023-07-16 17:27:33 +0300
+Processing by LinksController#decode as JSON
+  Parameters: {"short_link"=>"http://127.0.0.1:3000/yuux2"}
+Completed 200 OK in 2ms (Views: 0.1ms | Allocations: 167)
+
+
+Started POST "/decode" for 127.0.0.1 at 2023-07-16 17:27:39 +0300
+Processing by LinksController#decode as JSON
+  Parameters: {"short_link"=>"http://127.0.0.1:3000/yuux3"}
+No template found for LinksController#decode, rendering head :no_content
+Completed 204 No Content in 2ms (Allocations: 196)
+
+
+Started POST "/encode" for 127.0.0.1 at 2023-07-16 17:28:52 +0300
+Processing by LinksController#encode as JSON
+  Parameters: {"long_link"=>"https://example.com////l"}
+Completed 200 OK in 3ms (Views: 0.2ms | Allocations: 360)
+
+
+Started POST "/decode" for 127.0.0.1 at 2023-07-16 17:29:06 +0300
+Processing by LinksController#decode as JSON
+  Parameters: {"short_link"=>"http://127.0.0.1:3000/9b10p"}
+Completed 200 OK in 3ms (Views: 0.2ms | Allocations: 167)
+
+
+Started POST "/encode" for 127.0.0.1 at 2023-07-16 17:29:25 +0300
+Processing by LinksController#encode as JSON
+  Parameters: {"long_link"=>"https://example.com////l"}
+Completed 200 OK in 3ms (Views: 0.4ms | Allocations: 229)
+
+
+Started POST "/decode" for 127.0.0.1 at 2023-07-16 17:29:38 +0300
+Processing by LinksController#decode as JSON
+  Parameters: {"short_link"=>"http://127.0.0.1:3000/rgaro"}
+Completed 200 OK in 2ms (Views: 0.1ms | Allocations: 166)
+
+
+Started POST "/encode" for 127.0.0.1 at 2023-07-16 17:30:01 +0300
+Processing by LinksController#encode as JSON
+  Parameters: {"long_link"=>"https://example.com////l"}
+Completed 200 OK in 2ms (Views: 0.2ms | Allocations: 360)
+
+
+Started POST "/decode" for 127.0.0.1 at 2023-07-16 17:30:12 +0300
+Processing by LinksController#decode as JSON
+  Parameters: {"short_link"=>"http://127.0.0.1:3000/tuip1"}
+Completed 500 Internal Server Error in 7ms (Allocations: 3009)
+
+
+  
+NameError (undefined local variable or method `links_hash' for #<LinksController:0x0000000019db88>
+Did you mean?  @@links_hash):
+  
+app/controllers/links_controller.rb:35:in `decode'
+Started POST "/encode" for 127.0.0.1 at 2023-07-16 17:30:22 +0300
+Processing by LinksController#encode as JSON
+  Parameters: {"long_link"=>"https://example.com////l"}
+Completed 200 OK in 3ms (Views: 0.2ms | Allocations: 360)
+
+
+Started POST "/decode" for 127.0.0.1 at 2023-07-16 17:30:24 +0300
+Processing by LinksController#decode as JSON
+  Parameters: {"short_link"=>"http://127.0.0.1:3000/tuip1"}
+Completed 200 OK in 3ms (Views: 0.2ms | Allocations: 167)
+
+
+Started POST "/decode" for 127.0.0.1 at 2023-07-16 17:30:38 +0300
+Processing by LinksController#decode as JSON
+  Parameters: {"short_link"=>"http://127.0.0.1:3000/8n7e8"}
+Completed 200 OK in 2ms (Views: 0.2ms | Allocations: 169)
+
+
+Started POST "/encode" for 127.0.0.1 at 2023-07-16 17:31:47 +0300
+Processing by LinksController#encode as JSON
+  Parameters: {"long_link"=>"https://example.com////l"}
+Completed 200 OK in 3ms (Views: 0.2ms | Allocations: 360)
+
+
+Started POST "/decode" for 127.0.0.1 at 2023-07-16 17:31:59 +0300
+Processing by LinksController#decode as JSON
+  Parameters: {"short_link"=>"http://127.0.0.1:3000/t0ovo"}
+Completed 200 OK in 2ms (Views: 0.1ms | Allocations: 166)
+
+
+Started POST "/encode" for 127.0.0.1 at 2023-07-16 17:33:32 +0300
+Processing by LinksController#encode as JSON
+  Parameters: {"long_link"=>"https://example.com////l"}
+Completed 200 OK in 3ms (Views: 0.2ms | Allocations: 360)
+
+
+Started POST "/decode" for 127.0.0.1 at 2023-07-16 17:33:41 +0300
+Processing by LinksController#decode as JSON
+  Parameters: {"short_link"=>"http://127.0.0.1:3000/i1qjn"}
+No template found for LinksController#decode, rendering head :no_content
+Completed 204 No Content in 2ms (Allocations: 196)
+
+
+Started POST "/decode" for 127.0.0.1 at 2023-07-16 17:34:30 +0300
+Processing by LinksController#decode as JSON
+  Parameters: {"short_link"=>"http://127.0.0.1:3000/i1qjn"}
+Completed 200 OK in 2ms (Views: 0.2ms | Allocations: 282)
+
+
+Started POST "/encode" for 127.0.0.1 at 2023-07-16 17:34:33 +0300
+Processing by LinksController#encode as JSON
+  Parameters: {"long_link"=>"https://example.com////l"}
+Completed 200 OK in 2ms (Views: 0.1ms | Allocations: 245)
+
+
+Started POST "/decode" for 127.0.0.1 at 2023-07-16 17:34:44 +0300
+Processing by LinksController#decode as JSON
+  Parameters: {"short_link"=>"http://127.0.0.1:3000/5?98?"}
+Completed 200 OK in 2ms (Views: 0.1ms | Allocations: 167)
+
+
+Started POST "/decode" for 127.0.0.1 at 2023-07-16 17:34:55 +0300
+Processing by LinksController#decode as JSON
+  Parameters: {"short_link"=>"http://127.0.0.1:3000/5i98k"}
+No template found for LinksController#decode, rendering head :no_content
+Completed 204 No Content in 2ms (Allocations: 196)
+
+
+Started POST "/decode" for 127.0.0.1 at 2023-07-16 17:35:22 +0300
+Processing by LinksController#decode as JSON
+  Parameters: {"short_link"=>"http://127.0.0.1:3000/5i98k"}
+Completed 200 OK in 3ms (Views: 0.2ms | Allocations: 282)
+
+
+Started POST "/decode" for 127.0.0.1 at 2023-07-16 17:35:23 +0300
+Processing by LinksController#decode as JSON
+  Parameters: {"short_link"=>"http://127.0.0.1:3000/5?98?"}
+Completed 200 OK in 2ms (Views: 0.1ms | Allocations: 167)
+
+
+Started POST "/encode" for 127.0.0.1 at 2023-07-16 17:35:25 +0300
+Processing by LinksController#encode as JSON
+  Parameters: {"long_link"=>"https://example.com////l"}
+Completed 200 OK in 2ms (Views: 0.1ms | Allocations: 245)
+
+
+Started POST "/decode" for 127.0.0.1 at 2023-07-16 17:35:38 +0300
+Processing by LinksController#decode as JSON
+  Parameters: {"short_link"=>"http://127.0.0.1:3000/t3m78"}
+No template found for LinksController#decode, rendering head :no_content
+Completed 204 No Content in 3ms (Allocations: 196)
+
+
+Started POST "/encode" for 127.0.0.1 at 2023-07-16 17:36:06 +0300
+Processing by LinksController#encode as JSON
+  Parameters: {"long_link"=>"https://example.com////l"}
+Completed 200 OK in 2ms (Views: 0.2ms | Allocations: 360)
+
+
+Started POST "/decode" for 127.0.0.1 at 2023-07-16 17:36:16 +0300
+Processing by LinksController#decode as JSON
+  Parameters: {"short_link"=>"http://127.0.0.1:3000/3mb6n"}
+Completed 500 Internal Server Error in 2ms (Allocations: 920)
+
+
+  
+NoMethodError (undefined method `[]' for nil:NilClass):
+  
+app/controllers/links_controller.rb:34:in `decode'
+Started POST "/decode" for 127.0.0.1 at 2023-07-16 17:36:44 +0300
+Processing by LinksController#decode as JSON
+  Parameters: {"short_link"=>"http://127.0.0.1:3000/3mb6n"}
+Completed 200 OK in 2ms (Views: 0.2ms | Allocations: 282)
+
+
+Started POST "/encode" for 127.0.0.1 at 2023-07-16 17:36:45 +0300
+Processing by LinksController#encode as JSON
+  Parameters: {"long_link"=>"https://example.com////l"}
+Completed 200 OK in 2ms (Views: 0.1ms | Allocations: 245)
+
+
+Started POST "/decode" for 127.0.0.1 at 2023-07-16 17:37:00 +0300
+Processing by LinksController#decode as JSON
+  Parameters: {"short_link"=>"http://127.0.0.1:3000/oj56h"}
+Completed 200 OK in 2ms (Views: 0.1ms | Allocations: 166)
+
+
+Started POST "/encode" for 127.0.0.1 at 2023-07-16 17:37:39 +0300
+Processing by LinksController#encode as JSON
+  Parameters: {"long_link"=>"https://example.com////l"}
+Completed 200 OK in 3ms (Views: 0.3ms | Allocations: 360)
+
+
+Started POST "/decode" for 127.0.0.1 at 2023-07-16 17:37:48 +0300
+Processing by LinksController#decode as JSON
+  Parameters: {"short_link"=>"http://127.0.0.1:3000/e02sa"}
+No template found for LinksController#decode, rendering head :no_content
+Completed 204 No Content in 3ms (Allocations: 196)
+
+
+Started POST "/decode" for 127.0.0.1 at 2023-07-16 17:38:27 +0300
+Processing by LinksController#decode as JSON
+  Parameters: {"short_link"=>"http://127.0.0.1:3000/e02sa"}
+Completed 200 OK in 2ms (Views: 0.2ms | Allocations: 282)
+
+
+Started POST "/encode" for 127.0.0.1 at 2023-07-16 17:38:30 +0300
+Processing by LinksController#encode as JSON
+  Parameters: {"long_link"=>"https://example.com////l"}
+Completed 200 OK in 2ms (Views: 0.1ms | Allocations: 245)
+
+
+Started POST "/decode" for 127.0.0.1 at 2023-07-16 17:38:40 +0300
+Processing by LinksController#decode as JSON
+  Parameters: {"short_link"=>"http://127.0.0.1:3000/b6uo"}
+Completed 200 OK in 2ms (Views: 0.1ms | Allocations: 169)
+
+
+Started POST "/encode" for 127.0.0.1 at 2023-07-16 17:39:48 +0300
+Processing by LinksController#encode as JSON
+  Parameters: {"long_link"=>"https://example.com////l"}
+Completed 200 OK in 2ms (Views: 0.2ms | Allocations: 360)
+
+
+Started POST "/decode" for 127.0.0.1 at 2023-07-16 17:40:01 +0300
+Processing by LinksController#decode as JSON
+  Parameters: {"short_link"=>"http://127.0.0.1:3000/951t1"}
+Completed 200 OK in 2ms (Views: 0.1ms | Allocations: 166)
+
+
+Started POST "/decode" for 127.0.0.1 at 2023-07-16 17:41:05 +0300
+Processing by LinksController#decode as JSON
+  Parameters: {"short_link"=>"http://127.0.0.1:3000/951t1"}
+Completed 200 OK in 3ms (Views: 0.2ms | Allocations: 282)
+
+
+Started POST "/encode" for 127.0.0.1 at 2023-07-16 17:41:06 +0300
+Processing by LinksController#encode as JSON
+  Parameters: {"long_link"=>"https://example.com////l"}
+Completed 200 OK in 2ms (Views: 0.1ms | Allocations: 245)
+
+
+Started POST "/decode" for 127.0.0.1 at 2023-07-16 17:41:15 +0300
+Processing by LinksController#decode as JSON
+  Parameters: {"short_link"=>"http://127.0.0.1:3000/7kt92"}
+No template found for LinksController#decode, rendering head :no_content
+Completed 204 No Content in 3ms (Allocations: 196)
+
+
+Started POST "/encode" for 127.0.0.1 at 2023-07-16 17:42:08 +0300
+Processing by LinksController#encode as JSON
+  Parameters: {"long_link"=>"https://example.com////l"}
+Completed 200 OK in 3ms (Views: 0.2ms | Allocations: 360)
+
+
+Started POST "/decode" for 127.0.0.1 at 2023-07-16 17:42:19 +0300
+Processing by LinksController#decode as JSON
+  Parameters: {"short_link"=>"http://127.0.0.1:3000/???9?"}
+Completed 200 OK in 2ms (Views: 0.1ms | Allocations: 167)
+
+
+Started POST "/decode" for 127.0.0.1 at 2023-07-16 17:42:31 +0300
+Processing by LinksController#decode as JSON
+  Parameters: {"short_link"=>"http://127.0.0.1:3000/xwu9p"}
+Completed 200 OK in 2ms (Views: 0.3ms | Allocations: 170)
+
+
+Started POST "/encode" for 127.0.0.1 at 2023-07-16 17:44:24 +0300
+Processing by LinksController#encode as JSON
+  Parameters: {"long_link"=>"https://example.com////l"}
+Completed 200 OK in 2ms (Views: 0.2ms | Allocations: 360)
+
+
+Started POST "/decode" for 127.0.0.1 at 2023-07-16 17:44:34 +0300
+Processing by LinksController#decode as JSON
+  Parameters: {"short_link"=>"http://127.0.0.1:3000/c9nwf"}
+Completed 200 OK in 2ms (Views: 0.1ms | Allocations: 177)
+
+
+Started POST "/decode" for 127.0.0.1 at 2023-07-16 17:44:42 +0300
+Processing by LinksController#decode as JSON
+  Parameters: {"short_link"=>"http://127.0.0.1:3000/c9n"}
+Completed 200 OK in 2ms (Views: 0.1ms | Allocations: 176)
+
+
+Started POST "/decode" for 127.0.0.1 at 2023-07-16 17:44:53 +0300
+Processing by LinksController#decode as JSON
+  Parameters: {"short_link"=>"http://127.0.0.1:30/c9nwf"}
+Completed 200 OK in 2ms (Views: 0.1ms | Allocations: 178)
+
+
+Started POST "/decode" for 127.0.0.1 at 2023-07-16 17:45:02 +0300
+Processing by LinksController#decode as JSON
+  Parameters: {"short_link"=>"http://127.0.0.1:3000/c9nwf"}
+Completed 200 OK in 2ms (Views: 0.1ms | Allocations: 177)
+
+
+Started POST "/decode" for 127.0.0.1 at 2023-07-16 17:45:11 +0300
+Processing by LinksController#decode as JSON
+  Parameters: {"short_link"=>" http://127.0.0.1:3000/c9nwf"}
+Completed 200 OK in 2ms (Views: 0.1ms | Allocations: 177)
+
+
+Started POST "/decode" for 127.0.0.1 at 2023-07-16 17:45:21 +0300
+Processing by LinksController#decode as JSON
+  Parameters: {"short_link"=>"https://127.0.0.1:3000/c9nwf"}
+Completed 200 OK in 2ms (Views: 0.2ms | Allocations: 177)
+
+
+Started POST "/encode" for 127.0.0.1 at 2023-07-16 18:07:19 +0300
+Processing by LinksController#encode as JSON
+  Parameters: {"long_link"=>"https://example.com////l"}
+Completed 500 Internal Server Error in 3ms (Allocations: 1156)
+
+
+  
+NoMethodError (undefined method `strip!' for #<URI::HTTP http://127.0.0.1:3000/encode>):
+  
+app/controllers/links_controller.rb:15:in `sanitize'
+app/controllers/links_controller.rb:25:in `encode'
+Started POST "/encode" for 127.0.0.1 at 2023-07-16 18:08:27 +0300
+Processing by LinksController#encode as JSON
+  Parameters: {"long_link"=>"https://example.com////l"}
+Completed 500 Internal Server Error in 3ms (Allocations: 1155)
+
+
+  
+NoMethodError (undefined method `strip!' for #<URI::HTTP http://127.0.0.1:3000/encode>):
+  
+app/controllers/links_controller.rb:15:in `sanitize'
+app/controllers/links_controller.rb:24:in `encode'
+Started POST "/encode" for 127.0.0.1 at 2023-07-16 18:09:10 +0300
+Processing by LinksController#encode as JSON
+  Parameters: {"long_link"=>"https://example.com////l"}
+Completed 200 OK in 2ms (Views: 0.2ms | Allocations: 360)
+
+
+Started POST "/decode" for 127.0.0.1 at 2023-07-16 18:09:23 +0300
+Processing by LinksController#decode as JSON
+  Parameters: {"short_link"=>"https://127.0.0.1:3000/tfj6i"}
+Completed 200 OK in 2ms (Views: 0.1ms | Allocations: 177)
+
+
+Started POST "/encode" for 127.0.0.1 at 2023-07-16 18:11:34 +0300
+Processing by LinksController#encode as JSON
+  Parameters: {"long_link"=>"https://example.com////l"}
+Completed 500 Internal Server Error in 3ms (Allocations: 1153)
+
+
+  
+NoMethodError (undefined method `downcase' for #<URI::HTTP http://127.0.0.1:3000/encode>):
+  
+app/controllers/links_controller.rb:16:in `sanitize'
+app/controllers/links_controller.rb:25:in `encode'
+Started POST "/encode" for 127.0.0.1 at 2023-07-16 18:12:30 +0300
+Processing by LinksController#encode as JSON
+  Parameters: {"long_link"=>"https://example.com////l"}
+Completed 200 OK in 3ms (Views: 0.3ms | Allocations: 345)
+
+
+Started POST "/encode" for 127.0.0.1 at 2023-07-16 18:12:42 +0300
+Processing by LinksController#encode as JSON
+  Parameters: {"long_link"=>"https://example.com////l"}
+Completed 500 Internal Server Error in 3ms (Allocations: 1208)
+
+
+  
+NoMethodError (undefined method `strip!' for #<URI::HTTP http://127.0.0.1:3000/encode>):
+  
+app/controllers/links_controller.rb:15:in `sanitize'
+app/controllers/links_controller.rb:25:in `encode'
+Started POST "/encode" for 127.0.0.1 at 2023-07-16 18:12:57 +0300
+Processing by LinksController#encode as JSON
+  Parameters: {"long_link"=>"https://example.com////l"}
+Completed 200 OK in 2ms (Views: 0.2ms | Allocations: 360)
+
+
+Started POST "/decode" for 127.0.0.1 at 2023-07-16 18:13:10 +0300
+Processing by LinksController#decode as JSON
+  Parameters: {"short_link"=>"https://127.0.0.1:3000/9hvs"}
+Completed 200 OK in 2ms (Views: 0.1ms | Allocations: 177)
+
+
+Started POST "/encode" for 127.0.0.1 at 2023-07-16 18:13:59 +0300
+Processing by LinksController#encode as JSON
+  Parameters: {"long_link"=>"https://example.com////l"}
+Completed 200 OK in 2ms (Views: 0.2ms | Allocations: 361)
+
+
+Started POST "/decode" for 127.0.0.1 at 2023-07-16 18:14:14 +0300
+Processing by LinksController#decode as JSON
+  Parameters: {"short_link"=>"http://127.0.0.1:3000/152eo"}
+Completed 200 OK in 2ms (Views: 0.1ms | Allocations: 178)
+
+
+Started POST "/encode" for 127.0.0.1 at 2023-07-16 18:14:23 +0300
+Processing by LinksController#encode as JSON
+  Parameters: {"long_link"=>"   https://example.com////l"}
+Completed 200 OK in 2ms (Views: 0.3ms | Allocations: 231)
+
+
+Started POST "/decode" for 127.0.0.1 at 2023-07-16 18:14:38 +0300
+Processing by LinksController#decode as JSON
+  Parameters: {"short_link"=>"http://127.0.0.1:3000/uqxv9"}
+Completed 200 OK in 2ms (Views: 0.1ms | Allocations: 179)
+
+
+Started POST "/encode" for 127.0.0.1 at 2023-07-16 18:14:45 +0300
+Processing by LinksController#encode as JSON
+  Parameters: {"long_link"=>"   https://example.com////l"}
+Completed 200 OK in 2ms (Views: 0.2ms | Allocations: 360)
+
+
+Started POST "/decode" for 127.0.0.1 at 2023-07-16 18:14:55 +0300
+Processing by LinksController#decode as JSON
+  Parameters: {"short_link"=>"http://127.0.0.1:3000/4gwh9"}
+Completed 200 OK in 2ms (Views: 0.1ms | Allocations: 177)
+
+
+Started POST "/encode" for 127.0.0.1 at 2023-07-16 18:15:12 +0300
+Processing by LinksController#encode as JSON
+  Parameters: {"long_link"=>" ttps://www.example.com////l"}
+Completed 200 OK in 2ms (Views: 0.1ms | Allocations: 229)
+
+
+Started POST "/decode" for 127.0.0.1 at 2023-07-16 18:15:25 +0300
+Processing by LinksController#decode as JSON
+  Parameters: {"short_link"=>"https://127.0.0.1:3000/5eueg"}
+Completed 200 OK in 2ms (Views: 0.1ms | Allocations: 178)
+
+
+Started POST "/decode" for 127.0.0.1 at 2023-07-16 18:16:10 +0300
+Processing by LinksController#decode as JSON
+  Parameters: {"short_link"=>"http://127.0.0.1:3000/4gwh9"}
+Completed 200 OK in 3ms (Views: 0.2ms | Allocations: 291)
+
+
+Started POST "/encode" for 127.0.0.1 at 2023-07-16 18:16:11 +0300
+Processing by LinksController#encode as JSON
+  Parameters: {"long_link"=>" ttps://www.example.com////l"}
+Completed 500 Internal Server Error in 3ms (Allocations: 1143)
+
+
+  
+NoMethodError (undefined method `downcase' for #<URI::HTTP http://127.0.0.1:3000/encode>):
+  
+app/controllers/links_controller.rb:16:in `sanitize'
+app/controllers/links_controller.rb:25:in `encode'
+Started POST "/encode" for 127.0.0.1 at 2023-07-16 18:17:03 +0300
+Processing by LinksController#encode as JSON
+  Parameters: {"long_link"=>" ttps://www.example.com////l"}
+Completed 500 Internal Server Error in 3ms (Allocations: 1156)
+
+
+  
+NoMethodError (undefined method `downcase' for #<URI::HTTP http://127.0.0.1:3000/encode>):
+  
+app/controllers/links_controller.rb:16:in `sanitize'
+app/controllers/links_controller.rb:25:in `encode'
+Started POST "/encode" for 127.0.0.1 at 2023-07-16 18:17:45 +0300
+Processing by LinksController#encode as JSON
+  Parameters: {"long_link"=>" ttps://www.example.com////l"}
+Completed 200 OK in 3ms (Views: 0.3ms | Allocations: 349)
+
+
+Started POST "/encode" for 127.0.0.1 at 2023-07-16 18:19:01 +0300
+Processing by LinksController#encode as JSON
+  Parameters: {"long_link"=>" ttps://www.example.com////l"}
+Completed 200 OK in 3ms (Views: 0.2ms | Allocations: 362)
+
+
+Started POST "/decode" for 127.0.0.1 at 2023-07-16 18:19:12 +0300
+Processing by LinksController#decode as JSON
+  Parameters: {"short_link"=>"http://127.0.0.1:3000/?1???"}
+Completed 200 OK in 2ms (Views: 0.1ms | Allocations: 177)
+
+
+Started POST "/decode" for 127.0.0.1 at 2023-07-16 18:19:23 +0300
+Processing by LinksController#decode as JSON
+  Parameters: {"short_link"=>"http://127.0.0.1:3000/v1rqv"}
+Completed 200 OK in 2ms (Views: 0.1ms | Allocations: 179)
+
+
+Started POST "/encode" for 127.0.0.1 at 2023-07-16 18:20:06 +0300
+Processing by LinksController#encode as JSON
+  Parameters: {"long_link"=>"https://example.com////l"}
+Completed 200 OK in 2ms (Views: 0.1ms | Allocations: 230)
+
+
+Started POST "/decode" for 127.0.0.1 at 2023-07-16 18:20:17 +0300
+Processing by LinksController#decode as JSON
+  Parameters: {"short_link"=>"http://127.0.0.1:3000/wcy10"}
+Completed 200 OK in 2ms (Views: 0.2ms | Allocations: 177)
+
+
+Started POST "/decode" for 127.0.0.1 at 2023-07-16 18:20:25 +0300
+Processing by LinksController#decode as JSON
+  Parameters: {"short_link"=>"http://127.0.0.1:3000/wcyl0"}
+Completed 200 OK in 2ms (Views: 0.1ms | Allocations: 178)
+
+
+Started POST "/encode" for 127.0.0.1 at 2023-07-16 18:20:40 +0300
+Processing by LinksController#encode as JSON
+  Parameters: {"long_link"=>"https://www.example.com////l"}
+Completed 200 OK in 2ms (Views: 0.1ms | Allocations: 230)
+
+
+Started POST "/decode" for 127.0.0.1 at 2023-07-16 18:20:50 +0300
+Processing by LinksController#decode as JSON
+  Parameters: {"short_link"=>"http://127.0.0.1:3000/enkud"}
+Completed 200 OK in 2ms (Views: 0.1ms | Allocations: 178)
+
+
+Started POST "/encode" for 127.0.0.1 at 2023-07-16 19:29:25 +0300
+Processing by LinksController#encode as JSON
+  Parameters: {"long_link"=>"https://www.example.com////l"}
+Completed 200 OK in 3ms (Views: 0.3ms | Allocations: 360)
+
+
+Started POST "/decode" for 127.0.0.1 at 2023-07-16 19:29:39 +0300
+Processing by LinksController#decode as JSON
+  Parameters: {"short_link"=>"http://127.0.0.1:3000/6q74u"}
+Completed 200 OK in 2ms (Views: 0.1ms | Allocations: 177)
+
+
+Started POST "/encode" for 127.0.0.1 at 2023-07-16 20:51:24 +0300
+Processing by LinksController#encode as JSON
+  Parameters: {"long_link"=>"https://www.example.com/slink"}
+Completed 200 OK in 3ms (Views: 0.2ms | Allocations: 229)
+
+
+Started POST "/decode" for 127.0.0.1 at 2023-07-16 20:51:36 +0300
+Processing by LinksController#decode as JSON
+  Parameters: {"short_link"=>"http://127.0.0.1:3000/e1gr4"}
+Completed 200 OK in 2ms (Views: 0.1ms | Allocations: 178)
+
+
+Started POST "/encode" for 127.0.0.1 at 2023-07-16 20:51:55 +0300
+Processing by LinksController#encode as JSON
+  Parameters: {"long_link"=>"https://www.example.com/slinkk"}
+Completed 200 OK in 2ms (Views: 0.1ms | Allocations: 229)
+
+
+Started POST "/decode" for 127.0.0.1 at 2023-07-16 20:51:58 +0300
+Processing by LinksController#decode as JSON
+  Parameters: {"short_link"=>"http://127.0.0.1:3000/e1gr4"}
+Completed 200 OK in 3ms (Views: 0.1ms | Allocations: 177)
+
+
+Started POST "/decode" for 127.0.0.1 at 2023-07-16 20:52:13 +0300
+Processing by LinksController#decode as JSON
+  Parameters: {"short_link"=>"http://127.0.0.1:3000/pjumh"}
+Completed 200 OK in 5ms (Views: 2.8ms | Allocations: 178)
+
+
