@@ -11,8 +11,14 @@ class LinksController < ApplicationController
     short_link_generate_five_symbol
   end
 
+  def sanitize(long_link)
+    long_link.strip!
+    sanitize_url = long_link.downcase.gsub(/(https?:\/\/)|(www\.)/,"")
+    "http://#{sanitize_url}"
+  end
+
   def encode
-    long_link = params[:long_link]
+    long_link = sanitize(params[:long_link])
     short_link = get_random_short_symbol
     @@links_hash[short_link] = {
       "long_link" => long_link,
@@ -22,11 +28,15 @@ class LinksController < ApplicationController
   end
 
   def decode 
-    short_link = params[:short_link] 
+    short_link = sanitize(params[:short_link])
     get_short_symbol_after_domain = short_link.split("/").last
       if @@links_hash.has_key?(get_short_symbol_after_domain)
-        @long_link_from_array = @@links_hash[get_short_symbol_after_domain]
-        render json: { decode_short_link_to_long: @long_link_from_array["long_link"] }
+        if (@@links_hash[get_short_symbol_after_domain]["short_link"].to_s == short_link.to_s)
+           @long_link_from_array = @@links_hash[get_short_symbol_after_domain]
+           render json: { decode_short_link_to_long:  @long_link_from_array["long_link"]}
+        else
+          render json: { decode_short_link_to_long: "Not Found" }
+        end
       else
         render json: { decode_short_link_to_long: "Not Found" }
       end
