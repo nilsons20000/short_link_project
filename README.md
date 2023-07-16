@@ -39,7 +39,7 @@ Display result in JSON format:
 **Decode**
 
 ```
-Invoke-RestMethod -Uri "http://127.0.0.1:3000/decode" -Method POST -Body 'short_link=http://127.0.0.1:3000/22e4v' -ContentType "application/x-www-form-urlencoded" -Headers @{ "Accept" = "application/json" } | ConvertTo-Json```
+Invoke-RestMethod -Uri "http://127.0.0.1:3000/decode" -Method POST -Body 'short_link=http://127.0.0.1:3000/22e4v' -ContentType "application/x-www-form-urlencoded" -Headers @{ "Accept" = "application/json" } | ConvertTo-Json
 ```
 Display result in JSON format:
 
