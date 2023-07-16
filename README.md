@@ -20,3 +20,9 @@ initialized the original existing host and reads the symbol string after the “
 4. Go to the _root_ folder of the project using the _cmd_ command line,
 5. When going to the root folder, start the rails server with the rails server command,
 6. Open _PowerShell_ and enter an _API_ request for link decoding and decoding, respectively, where the long_link parameter will be a long link and the short_link parameter will be a short link:
+
+```
+Invoke-RestMethod -Uri "http://127.0.0.1:3000/encode" -Method POST -Body 'long_link=https://example.com' -ContentType "application/x-www-form-urlencoded"       
+
+Invoke-RestMethod -Uri "http://127.0.0.1:3000/decode" -Method POST -Body 'short_link=http://127.0.0.1:3000/hqsqp' -ContentType "application/x-www-form-urlencoded"
+```
