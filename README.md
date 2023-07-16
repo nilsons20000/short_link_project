@@ -22,10 +22,13 @@ initialized the original existing host and reads the symbol string after the “
 6. Open _PowerShell_ and enter an _API_ request for link decoding and decoding, respectively, where the long_link parameter will be a long link and the short_link parameter will be a short link:
 
 **Encode**
+
 ```
-Invoke-RestMethod -Uri "http://127.0.0.1:3000/encode" -Method POST -Body 'long_link=https://example.com' -ContentType "application/x-www-form-urlencoded" -Headers @{ "Accept" = "application/json" } | ConvertTo-Json```
+Invoke-RestMethod -Uri "http://127.0.0.1:3000/encode" -Method POST -Body 'long_link=https://example.com' -ContentType "application/x-www-form-urlencoded" -Headers @{ "Accept" = "application/json" } | ConvertTo-Json
+```
 
 Display result in JSON format:
+
 
 ```
 {
