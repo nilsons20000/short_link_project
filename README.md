@@ -19,7 +19,7 @@ initialized the original existing host and reads the symbol string after the “
 3. Clone the repository with the project in the _root_ project folder from the git repository with the command ```git clone https://github.com/nilsons20000/short_link_project.git``` ,
 4. Go to the _root_ folder of the project using the _cmd_ command line,
 5. When going to the root folder, start the rails server with the rails server command,
-6. Open _PowerShell_ and enter an _API_ request for link decoding and decoding, respectively, where the long_link parameter will be a long link and the short_link parameter will be a short link:
+6. Open _PowerShell_ and enter an _API_ request for link decoding and encoding, respectively, where the long_link parameter will be a long link and the short_link parameter will be a short link:
 
 **Encode**
 
