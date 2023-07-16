@@ -12,7 +12,7 @@ class LinksController < ApplicationController
   end
 
   def sanitize(long_link)
-    long_link.strip
+    long_link.strip!
     sanitize_url = long_link.downcase.gsub(/(https?:\/\/)|(www\.)/,"")
     "http://#{sanitize_url}"
   end
