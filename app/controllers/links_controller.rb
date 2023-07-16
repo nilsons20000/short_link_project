@@ -23,14 +23,13 @@ class LinksController < ApplicationController
 
   def decode 
     short_link = params[:short_link] 
-    link_merge = URI.parse(request.original_url) + short_link
-    get_short_symbol_after_domain = link_merge.request_uri.split("/").last
-      if @@links_hash.has_key?(get_short_symbol_after_domain)
+    get_short_symbol_after_domain = short_link.split("/").last
+       if @@links_hash.has_key?(get_short_symbol_after_domain)
         @long_link_from_array = @@links_hash[get_short_symbol_after_domain]
-        render json: { decode_short_link_to_long: @long_link_from_array["long_link"] }
-      else
-        render json: { decode_short_link_to_long: "Not Found" }
-      end
+         render json: { decode_short_link_to_long: @long_link_from_array["long_link"] }
+       else
+         render json: { decode_short_link_to_long: "Not Found" }
+       end
   end
 
 end
